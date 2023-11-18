@@ -1,0 +1,36 @@
+.containerFooter {
+  position: relative;
+}
+
+.imageFooter {
+  width: 100%;
+  height: auto;
+}
+
+.footerContent {
+  position: absolute;
+  top: 10px;
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+}
+
+.linkedinIconContainer {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  right: 50px;
+  text-align: center;
+}
+
+.emailContact {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  right: 50px;
+  font-size: 1.3rem;
+  text-align: center;
+  color:#fff;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}

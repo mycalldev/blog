@@ -1,95 +1,73 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 
-export default function Home() {
+import Image from "next/image";
+import Link from "next/link";
+import styles from "./page.module.css";
+
+function Home() {
+ 
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
+    <main className={styles.container}>
+
+      <div>
+        {/* HERO SECTION */}
         <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+            <Image src={"/image_hero.jpeg"} className={styles.imageHero} width={1456} height={816} alt="hero image" quality={100} />
         </div>
-      </div>
+            
+        {/* SECTION 2 */}
+        <h2 className={styles.welcomeTitle}>WELCOME TO THE LATEST TECH PODCAST</h2>
+        <div className={styles.imageMicrophoneContainer}>
+            <Image src={"/home/microphone.jpg"} className={styles.imageMicrophone} width={1456} height={816} alt="hero image" quality={100} />
+        </div>
+        <h3 className={styles.enticeQuestion}>
+          DO YOU HAVE AN <span>INTEREST</span> IN LEARNING?
+        </h3>
+        <p className={styles.subjectsMain}>
+          Computer Programming, Networking,
+          Cyber Security, Artificial Intelligence, 
+          Electrical Engineering, Mathematics and Physics
+        </p>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <div>
+          <Image src={'/home/headphones.png'} className={styles.imageHeadphones} width={1456} height={816} alt="headphones image" quality={100} />
+        </div>
+        
+        <h4 className={styles.weCover}>WE COVER A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+        <div className={styles.imageLearningContainer}>
+            <Image src={"/home/learning_episode1.png"} className={styles.imageLearning} width={1024} height={677} alt="Episode 1 Learning Image" quality={100} />
+            <div>
+              <Link href={'/learnTolearn'} className={styles.linkBTN} prefetch={true}>
+                  <div className={styles.listenBTN}>
+                    TUNE IN....
+                  </div>
+              </Link>
+            </div>
+            
+        </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        <div className={styles.containerPodcastContent}>
+          <div className={styles.contentPodContainer}>
+            <div className={styles.titlePod}>Title:</div>
+            <div className={styles.titleOfPodcast}>Learn how to Learn</div>
+          </div>
+          <div className={styles.contentPodContainer}>
+            <div className={styles.titlePodDescription}>Description:</div>
+            <div className={styles.podDescription}>
+              Our Latest Episode Reveals the 7 Step Formula....
+            </div>
+          </div>
+          <div className={styles.contentPodContainers}>
+            <div className={styles.duration}>Duration:</div>
+            <div className={styles.durationTime}>22 Minutes</div>
+          </div>
+        </div>
+  
       </div>
     </main>
-  )
+  );
 }
+
+export default Home;
+
