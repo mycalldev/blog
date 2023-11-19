@@ -1,10 +1,11 @@
-
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
 
-function Home() {
- 
+
+export default function Home() {
+  
+
   return (
     <main className={styles.container}>
 
@@ -29,21 +30,24 @@ function Home() {
         </p>
 
         <div>
-          <Image src={'/home/headphones.png'} className={styles.imageHeadphones} width={1456} height={816} alt="headphones image" quality={100} />
+          <Image src={'/headphones_flash.png'} className={styles.imageHeadphones} width={1024} height={1024} alt="headphones image" quality={100} />
         </div>
         
         <h4 className={styles.weCover}>WE COVER A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
 
 
         <div className={styles.imageLearningContainer}>
+          <div className={styles.latestEpisodeContainer}>
+            <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
+              <div className={styles.latestBTN}>
+                OUR LATEST EPISODE
+              </div>
             <Image src={"/home/learning_episode1.png"} className={styles.imageLearning} width={1024} height={677} alt="Episode 1 Learning Image" quality={100} />
-            <div>
-              <Link href={'/learnTolearn'} className={styles.linkBTN} prefetch={true}>
-                  <div className={styles.listenBTN}>
-                    TUNE IN....
-                  </div>
-              </Link>
-            </div>
+                <div className={styles.listenBTN}>
+                  TUNE IN....
+                </div>
+            </Link>
+          </div>
             
         </div>
 
@@ -63,11 +67,20 @@ function Home() {
             <div className={styles.durationTime}>22 Minutes</div>
           </div>
         </div>
+
+        <div className={styles.imageGuidesContainer}>
+            <Image src={"/guides_cogs_cropped.png"} className={styles.imageGuides} width={1454} height={452} alt="guides image banner" quality={100} />
+            <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
+              <div className={styles.guidesBTN}>
+              CHECK OUT OUR GUIDES
+              </div>
+            </Link>
+        </div>
   
       </div>
+      
     </main>
   );
 }
 
-export default Home;
 
