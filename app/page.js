@@ -38,7 +38,7 @@ export default function Home() {
 
         <div className={styles.imageLearningContainer}>
           <div className={styles.latestEpisodeContainer}>
-            <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
+            <Link href={'/blogs/learn-to-learn'} className={styles.linkBTN} prefetch={true}>
               <div className={styles.latestBTN}>
                 OUR LATEST EPISODE
               </div>
