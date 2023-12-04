@@ -8,7 +8,7 @@ export default function Discover() {
   return (
     <div>
         <Head>
-        <title>MYCALL DEV</title>
+        <title>MYCALLDEV</title>
         <meta name="MYCALL DEV" content="Discover The Unknown" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Mycall Dev" />
