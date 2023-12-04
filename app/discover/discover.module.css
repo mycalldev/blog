@@ -1,0 +1,60 @@
+  
+.heroContainer {
+    width: 100%;
+    height: auto;
+}
+.titleMain {
+    margin: 30px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.contentMain {
+    width: 80%;
+    margin: 20px auto 30px auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.subTitle {
+    margin: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contentDescription {
+    width: 80%;
+    margin: 20px auto;
+    text-align: start;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.contentDescription span {
+    font-weight: 700;
+}
+
+.brainTeaser {
+    margin: 40px 40px 20px 40px;
+    font-size: 1.3rem;
+}
+
+.unorderedList {
+    margin: 40px;
+}
+
+.listItem {
+    margin: 5px;
+}
+
+.listItem span {
+    font-weight: 700;
+} 
+
+.question {
+    margin: 40px 40px 20px 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
