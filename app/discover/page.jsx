@@ -7,19 +7,6 @@ import Footer from "../components/Footer";
 export default function Discover() {
   return (
     <div>
-        <Head>
-        <title>MYCALLDEV</title>
-        <meta name="MYCALL DEV" content="Discover The Unknown" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Mycall Dev" />
-        <meta property="og:description" content="Discover The Unknown" />
-        <meta property="og:url" content="https://www.mycalldev.com/" />
-        <meta property="og:site_name" content="MYCALL DEV" />
-        {/* <meta property="og:image" content="https://www.mycalldev.com/keyboard.jpg" /> */}
-        {/* <meta property="og:image:width" content="728" />
-        <meta property="og:image:height" content="408" /> */}
-        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=0" />
-      </Head>
 
       {/* HERO SECTION */}
       <h1 className={styles.titleMain}>Discover the Unknown</h1>

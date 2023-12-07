@@ -10,9 +10,14 @@ export default function Home() {
     <main className={styles.container}>
 
       <div>
-        {/* HERO SECTION */}
-        <div>
-            <Image src={"/image_hero.jpeg"} className={styles.imageHero} width={1456} height={816} alt="hero image" quality={100} />
+        {/* HERO SECTION MOBILE*/}
+        <div className={styles.heroContainerMobile}>
+            <Image src={"/hero_waves.jpeg"} width={1920} height={1080} className={styles.imageHeroMobile} alt='hero image Mobile' quality={100} />
+        </div>
+
+        {/* HERO SECTION DESKTOP*/}
+        <div className={styles.heroContainerDesktop}>
+            <Image src={"/hero_waves_cropped.jpeg"} width={1920} height={831} className={styles.imageHeroDesktop} alt='hero image Desktop' quality={100}/>
         </div>
             
         {/* SECTION 2 */}

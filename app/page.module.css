@@ -8,9 +8,17 @@
 }
 
 /* IMAGES */
-.imageHero{
+.heroContainerMobile {
+  display: block;
+}
+
+.imageHeroMobile {
   width: 100%;
   height: auto;
+}
+
+.heroContainerDesktop {
+  display: none;
 }
 
 .imageMicrophoneContainer {
@@ -190,6 +198,20 @@
   font-size: 1.3rem;
 } 
 
+@media(min-width: 768px) {
+  .heroContainerMobile {
+    display: none;
+    }
+
+  .heroContainerDesktop {
+    display: block;
+  }
+ 
+  .imageHeroDesktop {
+    width: 100%;
+    margin: auto;
+  }
+}
 
 
 
