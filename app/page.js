@@ -40,7 +40,7 @@ export default function Home() {
         </p>
 
         <div>
-          <Image src={'/headphones_flash.png'} className={styles.imageHeadphones} width={1024} height={1024} alt="headphones image" quality={100} />
+          <Image src={'/computer_blue.png'} className={styles.imageHeadphones} width={1456} height={816} alt="computer image" quality={100} />
         </div>
         
         <h4 className={styles.weCover}>WE COVER A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
