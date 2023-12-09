@@ -10,16 +10,21 @@ export default function Home() {
     <main className={styles.container}>
 
       <div>
-        {/* HERO SECTION MOBILE*/}
+
+        {/* <div className={styles.iframeContainer} >
+            <iframe className={styles.iframe} allowFullScreen allow='autoplay' title='example' src={"https://player.vimeo.com/video/891895178"}>
+            </iframe>
+        </div> */}
+        {/* HERO SECTION MOBILE */}
         <div className={styles.heroContainerMobile}>
             <Image src={"/hero_waves.jpeg"} width={1920} height={1080} className={styles.imageHeroMobile} alt='hero image Mobile' quality={100} />
         </div>
 
-        {/* HERO SECTION DESKTOP*/}
+        {/* HERO SECTION DESKTOP */}
         <div className={styles.heroContainerDesktop}>
             <Image src={"/hero_waves_cropped.jpeg"} width={1920} height={831} className={styles.imageHeroDesktop} alt='hero image Desktop' quality={100}/>
         </div>
-            
+             
         {/* SECTION 2 */}
         <h2 className={styles.welcomeTitle}>WELCOME TO THE LATEST TECH PODCAST</h2>
         <div className={styles.imageMicrophoneContainer}>

@@ -1,0 +1,200 @@
+/* BUTTONS */
+.letsGoBTN {
+    padding: 20px 20px;
+    margin: 40px 40px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 11px;
+    background: #2f7c68;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* IMAGES */
+.imageConstructorLabsContainer {
+    text-align: center;
+}
+
+.imageHero {
+    width: 100%;
+    height: auto;
+}
+
+.imageWhoami {
+    width: 100%;
+    margin: auto;
+}
+
+.imagePerformanceContainer {
+}
+
+.imagePerformance {
+    width: 100%;
+    margin: auto;
+}
+
+.microphoneImageContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.titleMain {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 40px 0 20px 0;
+    color: #2e2e2e;
+}
+
+.tagLine {
+    display: flex;
+    justify-content: center;
+    margin: 20px 30px;
+    text-align: start;
+    font-size: 1.5rem;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #000;
+}
+
+.enticeTag {
+    margin: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #717171;
+}
+
+.contentMain {
+    margin: 20px 30px;
+    line-height: 1.5;
+    color: #717171;
+    text-transform: uppercase;
+}
+
+.contentMain span {
+    color: #2e2e2e;
+}
+
+.contentMainThick {
+    margin: 20px 30px;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #414141;
+    text-transform: uppercase;
+}
+
+.contentMainAdditioanl {
+    margin: 20px 30px;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    color: #717171;
+}
+
+.contentMainAdditioanl span {
+    font-weight: 700;
+}
+
+.contentMainBold {
+    margin: 20px 30px;
+    line-height: 1.3;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #717171;
+
+}
+
+.titleSub {
+    margin: 40px 30px 10px 30px;
+    color: #212121;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.listItem {
+    margin: 15px;
+    font-size: 1.3rem;
+    color: #717171;
+}
+
+@media(min-width:768px) {
+
+    .performanceImageContainer {
+        width: 50%;
+        margin: 50px auto;
+    }
+    .tagLine {
+        max-width: 600px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .enticeTag {
+        width: 50%;
+        margin: 50px auto;
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.3rem;
+        color: #717171;
+        text-transform: uppercase;
+    }
+
+    .contentMain {
+        width: 50%;
+        margin: 40px auto;
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+
+    .contentMainAdditioanl {
+        width: 50%;
+        margin: 20px auto;
+
+        font-size: 1.3rem;
+        line-height: 1.5;
+        color: #717171;
+    }
+
+    .contentMainBold {
+        width: 50%;
+        margin: 20px auto;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #717171;
+    }
+
+    .titleSub {
+        width: 50%;
+        margin: 40px auto 20px auto;
+    }
+
+    .computerImage {
+        margin: 50px 300px;      
+    }
+
+    .ulContainer {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .listItem {
+        margin: 15px;
+        font-size: 1.3rem;
+    }
+
+    .letsGoBTN {
+        font-size: 1.7rem;
+        width: 50%;
+        margin: 40px auto;
+    }
+
+    .imageWhoami {
+        width: 50%;
+        margin: auto;
+    }
+}
