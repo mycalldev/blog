@@ -2,34 +2,48 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
 
-
 export default function Home() {
   
-
   return (
     <main className={styles.container}>
 
       <div>
-
-        {/* <div className={styles.iframeContainer} >
-            <iframe className={styles.iframe} allowFullScreen allow='autoplay' title='example' src={"https://player.vimeo.com/video/891895178"}>
-            </iframe>
-        </div> */}
         {/* HERO SECTION MOBILE */}
         <div className={styles.heroContainerMobile}>
-            <Image src={"/hero_waves.jpeg"} width={1920} height={1080} className={styles.imageHeroMobile} alt='hero image Mobile' quality={100} />
+            <Image 
+              src={"/hero_waves.jpeg"} 
+              width={1920} 
+              height={1080} 
+              className={styles.imageHeroMobile} 
+              alt='hero image Mobile' 
+              quality={100} 
+            />
         </div>
 
         {/* HERO SECTION DESKTOP */}
         <div className={styles.heroContainerDesktop}>
-            <Image src={"/hero_waves_cropped.jpeg"} width={1920} height={831} className={styles.imageHeroDesktop} alt='hero image Desktop' quality={100}/>
+            <Image src={"/hero_waves_cropped.jpeg"} 
+              width={1920} 
+              height={831} 
+              className={styles.imageHeroDesktop} 
+              alt='hero image Desktop' 
+              quality={100}
+            />
         </div>
              
         {/* SECTION 2 */}
         <h2 className={styles.welcomeTitle}>WELCOME TO THE LATEST TECH PODCAST</h2>
         <div className={styles.imageMicrophoneContainer}>
-            <Image src={"/home/microphone.jpg"} className={styles.imageMicrophone} width={1456} height={816} alt="hero image" quality={100} />
+            <Image 
+              src={"/home/microphone.jpg"} 
+              className={styles.imageMicrophone} 
+              width={1456} 
+              height={816} 
+              alt="hero image" 
+              quality={100} 
+            />
         </div>
+
         <h3 className={styles.enticeQuestion}>
           DO YOU HAVE AN <span>INTEREST</span> IN LEARNING?
         </h3>
@@ -40,10 +54,16 @@ export default function Home() {
         </p>
 
         <div>
-          <Image src={'/computer_blue.png'} className={styles.imageHeadphones} width={1456} height={816} alt="computer image" quality={100} />
+          <Image src={'/computer_blue.png'} 
+            className={styles.imageComputerBlue} 
+            width={1456} 
+            height={816} 
+            alt="computer image" 
+            quality={100} 
+          />
         </div>
         
-        <h4 className={styles.weCover}>WE COVER A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
+        <h4 className={styles.weCoverSubTitle}>WE COVER A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
 
 
         <div className={styles.imageLearningContainer}>
@@ -61,7 +81,7 @@ export default function Home() {
             
         </div>
 
-        <div className={styles.containerPodcastContent}>
+        <div className={styles.podcastContentContainer}>
           <div className={styles.contentPodContainer}>
             <div className={styles.titlePod}>Title:</div>
             <div className={styles.titleOfPodcast}>Learn how to Learn</div>
@@ -79,7 +99,15 @@ export default function Home() {
         </div>
 
         <div className={styles.imageGuidesContainer}>
-            <Image src={"/guides_cogs_cropped.png"} className={styles.imageGuides} width={1454} height={452} alt="guides image banner" quality={100} />
+            <Image 
+              src={"/guides_cogs_cropped.png"} 
+              className={styles.imageGuides} 
+              width={1454} 
+              height={452} 
+              alt="guides image banner" 
+              quality={100} 
+            />
+
             <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
               <div className={styles.guidesBTN}>
               CHECK OUT OUR GUIDES
@@ -94,3 +122,7 @@ export default function Home() {
 }
 
 
+{/* <div className={styles.iframeContainer} >
+            <iframe className={styles.iframe} allowFullScreen allow='autoplay' title='example' src={"https://player.vimeo.com/video/891895178"}>
+            </iframe>
+        </div> */}

@@ -1,0 +1,53 @@
+.displaNone {
+    display: none;
+}
+
+.imageRef2Container {
+    margin: 20px;
+}
+.titleMain {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.7;
+    font-weight: 600;
+}
+
+.tagCompletion {
+    margin: 0 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contentMain {
+    margin: 20px;
+}
+
+.tagCompletion {
+    margin-bottom: 40px;
+}
+
+.subTitle1 {
+    margin: 20px 20px 0 20px;
+    text-align: start;
+    font-size: 1.3rem;
+}
+
+.subTitle2 {
+    margin: 20px 20px 0 20px;
+    text-align: start;
+    font-size: 1.3rem;
+}
+
+.description1 {
+    margin: 10px 20px 20px 20px;
+    font-size: 1.3rem;
+    color: #575757;
+    line-height: 1.5;
+}
+
+.description2 {
+    margin: 10px 20px 20px 20px;
+    font-size: 1.3rem;
+    color: #575757;
+    line-height: 1.5;
+}
