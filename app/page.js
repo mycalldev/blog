@@ -122,13 +122,13 @@ export default function Home() {
                   <div>30 minutes</div>
               </div>
               <div className={styles.podTitle}>Learn How to Learn</div>
-              <div className={styles.podTeaser}>How well do you know your....</div>  
+              <div className={styles.podTeaser}>The 7 Step Formula</div>  
           </div>
           <Link href={`/#`} className={styles.linkBTN}>
               <div className={styles.readBTN}>Listen</div>
           </Link>
       </div>
-      <Link href={'/https://open.spotify.com/episode/1sCffVzrCj8mQQTAwNUKBY?si=1a1e7afb2cb24335'} >
+      <Link href={'/https://podcasters.spotify.com/pod/show/mycall-dev25'} >
         <div className={styles.imageSpotifyContainer}>
             <div className={styles.tagSpotify}>
               Listen On Spotify
