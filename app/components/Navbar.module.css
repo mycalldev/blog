@@ -18,10 +18,10 @@
 .containerGrid {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 90%;
   display: grid;
   grid-template-columns: 10% 70% 20%;
-  justify-content: space-around;
+  justify-items: space-around;
   align-items: center;
   background: #fff;
   padding: 20px;
@@ -43,6 +43,7 @@
   font-weight: 700;
   color: rgb(57, 57, 57);
   cursor: pointer;
+  margin-left: 30px;
 }
 
 .titleMainDesktop {
@@ -53,8 +54,8 @@
   text-decoration: none;
 }
 
-.contactIcon {
-  cursor: pointer;
+.logo {
+  text-align: end;
 }
 
 .navOpen {

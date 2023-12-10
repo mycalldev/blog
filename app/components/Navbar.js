@@ -17,7 +17,7 @@ export default function Navbar() {
     <main >
       <div className={styles.navContainer}>
         <div className={styles.containerGrid}>
-          
+          {/* HAMBURGER */}
           <Link href={`/#`} className={styles.linkBTN} onClick={() => handleToggle()}>
             <div>
               <Image
@@ -30,15 +30,14 @@ export default function Navbar() {
               />
             </div>
           </Link>
-          
+          {/* TITLE */}
           <div>
-            <Link href="/#" className={styles.undreline}>
+            <Link href="/#" className={styles.undreline} prefetch={true}>
               <div className={styles.titleMain}>MYCALL DEV</div>
             </Link>
           </div>
-
-          <div className={styles.contactIcon}>
-            <Link href="tel:07976753254">
+          {/* LOGO */}
+          <div className={styles.logo}>
               <Image
                 src={'/mycallDEV_logo.png'}
                 width={50}
@@ -46,7 +45,6 @@ export default function Navbar() {
                 alt={'contact button'}
                 quality={100}
               />
-            </Link>
           </div>
         </div>
       </div>
