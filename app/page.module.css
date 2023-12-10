@@ -16,6 +16,10 @@
    height: 100%;
 } */
 
+.mainContainer {
+  border: 1px solid #888888;
+  margin: 20px;
+}
 .displayNone {
   display: none;
 }
@@ -71,6 +75,12 @@
 .imageGuides {
   width: 100%;
   height: auto;
+}
+
+.imageSpotifyContainer {
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
 }
 
 /* BUTTONS */
@@ -147,8 +157,8 @@
 }
 
 .weCoverSubTitle {
-  margin: 30px;
-  padding-bottom: 30px;
+  margin: 30px 30px 10px 30px ;
+  padding-bottom: 10px;
   text-align: center;
   font-size: 1.3rem;
   line-height: 1.5;
@@ -161,50 +171,47 @@
   font-size: 1.1rem;
 }
 
-.podcastContentContainer {
-  margin: 30px 0px;
-  padding: 20px 0;
+
+.imageBlogContanier {
+  padding: 20px 20px 5px 20px;
 }
 
-.contentPodContainer {
-  margin: 10px 0;
+.flexReadTime {
+  display: flex;
+  justify-content: space-around;
 }
 
-.titlePod {
-  margin: 0 40px 0px 40px;
-  font-size: 1.3rem;
+.podTitle {
+  margin: 0 20px;
+  text-align: center;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
-.titleOfPodcast {
-  margin: 0px 40px 0px 40px;
+.podTeaser {
+  margin: 0 20px 20px 20px;
+  text-align: center;
   font-size: 1.3rem;
-  font-weight: 300;
 }
 
-.titlePodDescription {
-  margin: 0px 40px 0px 40px;
-  font-size: 1.3rem;
-  font-weight: 600;
+.readBTN {
+  width: 50%;
+padding: 15px 25px;
+margin: 40px auto 40px auto;
+font-size: 1.1rem;
+font-weight: 700;
+border-radius: 11px;
+background: #56a4ec;
+color: #fff;
+text-align: center;
+cursor: pointer;
 }
 
-.podDescription {
-  margin: 0px 40px 0px 40px;
-  font-size: 1.3rem;
-  font-weight: 300;
+.tagSpotify {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.1rem;
 }
-
-.duration {
-  margin: 0px 40px 0px 40px;
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
-.durationTime{
-  margin: 0px 40px 0px 40px;
-  font-weight: 300;
-  font-size: 1.3rem;
-} 
 
 @media(min-width: 768px) {
   .heroContainerMobile {
