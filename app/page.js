@@ -66,7 +66,7 @@ export default function Home() {
         <h4 className={styles.weCoverSubTitle}>WE COVER A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
 
 
-        <div className={styles.imageLearningContainer}>
+        {/* <div className={styles.imageLearningContainer}>
           <div className={styles.latestEpisodeContainer}>
             <Link href={'/blogs/learn-to-learn'} className={styles.linkBTN} prefetch={true}>
               <div className={styles.latestBTN}>
@@ -96,7 +96,47 @@ export default function Home() {
             <div className={styles.duration}>Duration:</div>
             <div className={styles.durationTime}>22 Minutes</div>
           </div>
+        </div> */}
+        <div className={styles.mainContainer}>
+          <div className={styles.imageThumbnailContainer}>
+              <Link href={'/#'} prefetch={true} >
+                  <div className={styles.imageBlogContanier}>
+                      <Image 
+                          src={`/home/learning_episode1.png`} 
+                          width={1024} 
+                          height={677} 
+                          style={{
+                              width: '100%',
+                              height: 'auto',
+                            }}
+                          alt='thumbnail of blog image' 
+                          quality={100} 
+                      />  
+                  </div>
+              </Link>
+          </div>
+
+          <div className={styles.contentContainer}>
+              <div className={styles.flexReadTime}>
+                  <div className={styles.readTime}>Duration:</div> 
+                  <div>30 minutes</div>
+              </div>
+              <div className={styles.podTitle}>Learn How to Learn</div>
+              <div className={styles.podTeaser}>The 7 Step Formula</div>  
+          </div>
+          <Link href={`/#`} className={styles.linkBTN}>
+              <div className={styles.readBTN}>Listen</div>
+          </Link>
+      </div>
+      <Link href={'/https://podcasters.spotify.com/pod/show/mycall-dev25'} >
+        <div className={styles.imageSpotifyContainer}>
+            <div className={styles.tagSpotify}>
+              Listen On Spotify
+            </div>
+            <Image src={'/spotify1.png'} width={64} height={64} alt='spotify image' quality={100} />
         </div>
+      </Link>
+       
 
         <div className={styles.imageGuidesContainer}>
             <Image 
@@ -110,7 +150,7 @@ export default function Home() {
 
             <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
               <div className={styles.guidesBTN}>
-              CHECK OUT OUR GUIDES
+              CHECK OUT OUR BLOGS
               </div>
             </Link>
         </div>
