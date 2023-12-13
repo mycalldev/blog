@@ -57,11 +57,11 @@ export default function Navbar() {
                     <li className={styles.listItem}>Podcasts</li>
                   </div>
                 </Link>
-                <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
+                {/* <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>Guides</li>
                   </div>
-                </Link>
+                </Link> */}
                 <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>Blogs</li>
@@ -72,11 +72,11 @@ export default function Navbar() {
                     <li className={styles.listItem}>WHOAMI</li>
                   </div>
                 </Link>
-                <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
+                {/* <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>Support</li>
                   </div>
-                </Link>
+                </Link> */}
                 <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>Contact</li>
@@ -111,7 +111,7 @@ export default function Navbar() {
                       <li className={styles.listItem}>Blogs</li>
                     </div>
                   </Link>
-                  <Link href={'/'} className={styles.linkBTN}>
+                  <Link href={'/WHOAMI'} className={styles.linkBTN}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>WHOAMI</li>
                     </div>

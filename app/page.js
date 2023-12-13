@@ -63,7 +63,7 @@ export default function Home() {
           />
         </div>
         
-        <h4 className={styles.weCoverSubTitle}>WE COVER A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
+        <h4 className={styles.weCoverSubTitle}>COVERING A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
 
         <div className={styles.mainContainer}>
           <div className={styles.imageThumbnailContainer}>
@@ -116,7 +116,7 @@ export default function Home() {
 
             <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
               <div className={styles.guidesBTN}>
-              CHECK OUT OUR BLOGS
+              LATEST BLOGS
               </div>
             </Link>
         </div>
