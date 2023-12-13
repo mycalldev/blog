@@ -36,7 +36,7 @@ export default async function Blogs() {
                         <Link href={`/blogs/${blog._id}`} prefetch={true} >
                             <div className={styles.imageBlogContanier}>
                                 <Image 
-                                    src={`/blogs/${blog.imageRef1}.JPG`} 
+                                    src={`/blogs/${blog.imageThumbnail}.JPG`} 
                                     width={1456} 
                                     height={816} 
                                     style={{

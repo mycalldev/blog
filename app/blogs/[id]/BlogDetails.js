@@ -9,11 +9,27 @@ export default function BlogDetails( { blogDetails } ) {
 
   return (
     <main>
-        <div className={styles.imageBlogContanier}>
+      {/* HERO MOBILE */}
+        <div className={styles.imageHeroMobileContainer}>
           <Image 
-              src={`/blogs/${blogDetails.imageRef1}.JPG`} 
-              width={1456} 
-              height={816} 
+              src={`/blogs/${blogDetails.imageHeroMobile}.JPG`} 
+              width={blogDetails.imageWidthMobile} 
+              height={blogDetails.imageHeightMobile} 
+              style={{
+                  width: '100%',
+                  height: 'auto',
+                }}
+              alt='thumbnail of blog image' 
+              quality={100} 
+          />  
+        </div>
+
+        {/* HERO DESKTOP */}
+        <div className={styles.imageHeroDesktopContainer}>
+          <Image 
+              src={`/blogs/${blogDetails.imageHeroDesktop}.JPG`} 
+              width={blogDetails.imageWidthDesktop} 
+              height={blogDetails.imageHeightDesktop} 
               style={{
                   width: '100%',
                   height: 'auto',
@@ -49,28 +65,22 @@ export default function BlogDetails( { blogDetails } ) {
           <div className={blogDetails.subTitle2 ? styles.subTitle2 : styles.displayNone}>
             {blogDetails.subTitle2}
           </div>
-{/* IMAGEREF 2 */}
-          <div className={styles.imageRef2Container}>
-           <Image 
-              src={`/blogs/${blogDetails.imageRef2}.JPG`} 
-              width={1456} 
-              height={816} 
-              style={{
-                  width: '100%',
-                  height: 'auto',
-                }}
-              alt='thumbnail of blog image' 
-              quality={100} 
-            />  
+{/* IMAGEREF 1 */}
+           {blogDetails.imageRef1 && <div className={styles.imageRef1Container}>
+            <Image 
+                src={`/blogs/${blogDetails.imageRef1}.JPG`} 
+                width={1456} 
+                height={816} 
+                style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
+                alt='image of ref 1' 
+                quality={100} 
+              />  
+           </div>}
+            
           </div>
-         
-
-          
-          <div>{blogDetails.subTitle3}</div>
-          <div>{blogDetails.subTitle4}</div>
-
-
-        </div>
     </main>
   )
 }

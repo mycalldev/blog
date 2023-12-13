@@ -2,7 +2,11 @@
     display: none;
 }
 
-.imageRef2Container {
+.imageHeroDesktopContainer {
+    display: none;
+}
+
+.imageHeroMobile {
     margin: 20px;
 }
 .titleMain {
@@ -50,4 +54,18 @@
     font-size: 1.3rem;
     color: #575757;
     line-height: 1.5;
+}
+
+.imageRef1Container {
+    padding: 20px;
+}
+
+@media(min-width: 768px) {
+    .imageHeroDesktopContainer {
+        display: block;
+    }
+
+    .imageHeroMobileContainer {
+        display: none;
+    }
 }
