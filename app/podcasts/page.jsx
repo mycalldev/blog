@@ -18,7 +18,6 @@ async function getPodcasts() {
 export default async function Podcasts() {
   
     const podcasts = await getPodcasts()
-    console.log(podcasts)
 
     return (
         <main>

@@ -126,9 +126,3 @@ export default function Home() {
     </main>
   );
 }
-
-
-{/* <div className={styles.iframeContainer} >
-            <iframe className={styles.iframe} allowFullScreen allow='autoplay' title='example' src={"https://player.vimeo.com/video/891895178"}>
-            </iframe>
-        </div> */}
