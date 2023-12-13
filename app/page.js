@@ -96,14 +96,14 @@ export default function Home() {
               <div className={styles.readBTN}>Listen</div>
           </Link>
       </div>
-      <Link href={'/https://podcasters.spotify.com/pod/show/mycall-dev25'} >
+      
         <div className={styles.imageSpotifyContainer}>
             <div className={styles.tagSpotify}>
               Listen On Spotify
             </div>
             <Image src={'/spotify1.png'} width={64} height={64} alt='spotify image' quality={100} />
         </div>
-      </Link>
+      
        
 
         <div className={styles.imageGuidesContainer}>
