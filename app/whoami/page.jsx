@@ -14,7 +14,7 @@ export default function Whoami() {
                 width: '100%',
                 height: 'auto',
               }}
-            alt='image of linux parrot for website' 
+            alt='image of linux parrot for website mobile' 
             quality={100} />
         </div>
         <div className={styles.imageHeroContainerDesktop}>
@@ -25,7 +25,7 @@ export default function Whoami() {
                 width: '100%',
                 height: 'auto',
               }}
-            alt='image of linux parrot for website' 
+            alt='image of linux parrot for website desktop' 
             quality={100} />
         </div>
 
@@ -42,7 +42,7 @@ export default function Whoami() {
         <div className={styles.contentMain}>Welcome tech enthusiasts! I go by the alias <span>Mycall Dev</span> and I'm excited to share my journey as a computer programmer with you today. With over <span>7</span> years in the field, I've had the opportunity to delve into various facets of technology, gaining expertise in Networking, Cyber Security, Linux, and Full Stack Development.</div>
       <div className={styles.titleSub}>Technologies</div>
       <div>
-        <ul className={styles.ulContainer}>
+        <ul>
           <li className={styles.listItem}>Vanilla JavaScript</li>
           <li className={styles.listItem}>React JS</li>
           <li className={styles.listItem}>Next JS 13</li>
@@ -55,12 +55,11 @@ export default function Whoami() {
           <li className={styles.listItem}>Linux Parrot Security OS</li>
           <li className={styles.listItem}>AI - gptChat/Midjourney</li>
           <li className={styles.listItem}>Music Technology</li>
-
         </ul>
       </div>
 
       <div className={styles.titleSub}>Hobbies</div>
-      <ul className={styles.ulContainer}>
+      <ul>
           <li className={styles.listItem}>Sport</li>
           <li className={styles.listItem}>Running</li>
           <li className={styles.listItem}>Electrical Engineering</li>
@@ -137,7 +136,7 @@ export default function Whoami() {
       <div className={styles.titleSub}>Moving Forward</div>
      
       <div className={styles.contentMain}>I picked up from where I left off in my early adolescence; first re engaging with HTML and CSS. Thereafter, I studied python for a brief period and then made a progressive move to join a very unique Bootcamp:</div> 
-      <div className={styles.contentMain}> (Construstor Labs - https://constructorlabs.com/)</div> 
+      <div className={styles.contentMain}> Construstor Labs - https://constructorlabs.com/</div> 
       <div className={styles.imageConstructorLabsContainer}>
         <Image src={'/constructor.png'} 
           width={399} 
@@ -165,9 +164,9 @@ export default function Whoami() {
 
       <div className={styles.enticeTag}>Check out the formula for learning in my 'Learn Why and How To Learn' Article</div>
       
-      <Link href={'/#'} className={styles.linkBTN}>
+      {/* <Link href={'/#'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>
-      </Link>
+      </Link> */}
     </main>
   )
 }
