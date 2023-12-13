@@ -65,38 +65,6 @@ export default function Home() {
         
         <h4 className={styles.weCoverSubTitle}>WE COVER A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
 
-
-        {/* <div className={styles.imageLearningContainer}>
-          <div className={styles.latestEpisodeContainer}>
-            <Link href={'/blogs/learn-to-learn'} className={styles.linkBTN} prefetch={true}>
-              <div className={styles.latestBTN}>
-                OUR LATEST EPISODE
-              </div>
-            <Image src={"/home/learning_episode1.png"} className={styles.imageLearning} width={1024} height={677} alt="Episode 1 Learning Image" quality={100} />
-                <div className={styles.listenBTN}>
-                  TUNE IN....
-                </div>
-            </Link>
-          </div>
-            
-        </div>
-
-        <div className={styles.podcastContentContainer}>
-          <div className={styles.contentPodContainer}>
-            <div className={styles.titlePod}>Title:</div>
-            <div className={styles.titleOfPodcast}>Learn how to Learn</div>
-          </div>
-          <div className={styles.contentPodContainer}>
-            <div className={styles.titlePodDescription}>Description:</div>
-            <div className={styles.podDescription}>
-              Our Latest Episode Reveals the 7 Step Formula....
-            </div>
-          </div>
-          <div className={styles.contentPodContainers}>
-            <div className={styles.duration}>Duration:</div>
-            <div className={styles.durationTime}>22 Minutes</div>
-          </div>
-        </div> */}
         <div className={styles.mainContainer}>
           <div className={styles.imageThumbnailContainer}>
               <Link href={'/#'} prefetch={true} >
@@ -148,7 +116,7 @@ export default function Home() {
               quality={100} 
             />
 
-            <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
+            <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
               <div className={styles.guidesBTN}>
               CHECK OUT OUR BLOGS
               </div>
