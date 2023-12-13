@@ -29,7 +29,7 @@ export default function Whoami() {
             quality={100} />
         </div>
 
-        <div className={styles.titleMain}>WHOAMI</div>
+        {/* <div className={styles.titleMain}>WHOAMI</div>
         <div className={styles.titleTag}>My Journey As a Computer Programmer: 7+ Years of Building Digital Worlds</div>
       
         <div className={styles.contentMain}>Welcome tech enthusiasts! I go by the alias Mycall Dev and 
@@ -162,7 +162,7 @@ export default function Whoami() {
       <div className={styles.contentMain}>In respect to all of the technologies I have learned along my journey, I focus a significant amount of time on learning how to learn efficiently. My past experiences have taught me the importance of learning efficiently; especially in todays world of an ever exponential rate of change….</div>
 
 
-      <div className={styles.enticeTag}>Check out the formula for learning in my 'Learn Why and How To Learn' Article</div>
+      <div className={styles.enticeTag}>Check out the formula for learning in my 'Learn Why and How To Learn' Article</div> */}
       
       {/* <Link href={'/#'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>
