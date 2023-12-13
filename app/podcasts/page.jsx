@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './podcasts.module.css';
-import PodcastDetails from './[id]/PodcastDetails';
 
 async function getPodcasts() {
     
