@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from'./whoami.module.css';
 
 
-export default function WHOAMI() {
+export default function Whoami() {
   return (
     <main>
         <div className={styles.imageHeroContainerMobile}>
