@@ -95,7 +95,7 @@ export default function Home() {
           <Link href={`/#`} className={styles.linkBTN}>
               <div className={styles.readBTN}>Listen</div>
           </Link>
-      </div>
+        </div>
       
         <div className={styles.imageSpotifyContainer}>
             <div className={styles.tagSpotify}>
@@ -103,8 +103,6 @@ export default function Home() {
             </div>
             <Image src={'/spotify1.png'} width={64} height={64} alt='spotify image' quality={100} />
         </div>
-      
-       
 
         <div className={styles.imageGuidesContainer}>
             <Image 

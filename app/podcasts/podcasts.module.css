@@ -1,0 +1,71 @@
+.iframeContainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+   
+ }
+ 
+ .iframe {
+     overflow: hidden;
+     border: 0;
+     align-self: center;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+     height: 100%;
+ }
+
+.linkBTN {
+    text-decoration: none;
+    color: #fff;
+  }
+
+.mainContainer {
+    border: 1px solid #888888;
+    margin: 20px;
+}
+
+/* .imageHero {
+    margin-top: 20px;
+} */
+
+.titleMain {
+    text-align: center;
+}
+
+.imageBlogContanier {
+    padding: 20px 20px 5px 20px;
+}
+
+.flexReadTime {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.podcastTitle {
+    margin: 0 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.podcastSubTitle1 {
+    margin: 0 20px 20px 20px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.readBTN {
+    width: 50%;
+  padding: 15px 25px;
+  margin: 40px auto 40px auto;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 11px;
+  background: #56a4ec;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}

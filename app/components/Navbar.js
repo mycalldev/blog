@@ -37,13 +37,14 @@ export default function Navbar() {
             </Link>
           </div>
           {/* LOGO */}
-          <div className={styles.logo}>
+          <div>
               <Image
                 src={'/mycallDEV_logo.png'}
                 width={50}
                 height={50}
                 alt={'contact button'}
                 quality={100}
+                className={styles.logo}
               />
           </div>
         </div>
@@ -51,7 +52,7 @@ export default function Navbar() {
       {toggle ? 
             <nav className={styles.navOpen}>
               <ul className={styles.unorderedList}>
-                <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/podcasts'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>Podcasts</li>
                   </div>
@@ -95,7 +96,7 @@ export default function Navbar() {
           </Link>
             <nav className={styles.navContainerGrid}>
               <ul className={styles.navDesktopGrid}>
-                <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/podcasts'} className={styles.linkBTN} prefetch={true}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>Podcasts</li>
                     </div>

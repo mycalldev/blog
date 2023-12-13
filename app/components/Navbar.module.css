@@ -21,14 +21,16 @@
   width: 90%;
   display: grid;
   grid-template-columns: 10% 70% 20%;
-  justify-items: space-around;
-  align-items: center;
+  justify-content: space-around;
+  align-content: center;
   background: #fff;
-  padding: 20px;
+  padding: 20px 20px 0 20px; 
+  margin-bottom: 10px;
 }
 
 .imageBurger {
   margin-left: 10px;
+  margin-top: 7px;
   cursor: pointer;
 }
 
@@ -44,6 +46,7 @@
   color: rgb(57, 57, 57);
   cursor: pointer;
   margin-left: 30px;
+  margin-top: 10px;
 }
 
 .titleMainDesktop {
