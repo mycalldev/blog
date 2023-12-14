@@ -212,7 +212,7 @@ export default function Whoami() {
       <div className={styles.contentMain}>
         It&apos;s fair to say that I excelled at my position 
         with Fidel API, although unbeknown to me ill health was waiting around 
-        the corner of my life's journey. My hand was forced and it was with a heavy heart 
+        the corner of my life&apos;s journey. My hand was forced and it was with a heavy heart 
         that I had to resign. To this day I am in contact with the CEO (Dev Subrata) 
         and he has achieved unbelievable success with the company. I am not surprised 
         because he was very astute combined with great insight and business acumen.
