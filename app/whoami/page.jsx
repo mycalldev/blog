@@ -42,7 +42,7 @@ export default function Whoami() {
 
       <div className={styles.titleSub}>Technologies</div>
       
-        <ul>
+       {/* <ul>
           <li className={styles.listItem}>Vanilla JavaScript</li>
           <li className={styles.listItem}>React JS</li>
           <li className={styles.listItem}>Next JS 13</li>
@@ -58,7 +58,7 @@ export default function Whoami() {
         </ul>
       
 
-      {/*<div className={styles.titleSub}>Hobbies</div>
+      <div className={styles.titleSub}>Hobbies</div>
       <ul>
           <li className={styles.listItem}>Sport</li>
           <li className={styles.listItem}>Running</li>
