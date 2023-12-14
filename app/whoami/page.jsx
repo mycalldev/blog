@@ -83,7 +83,7 @@ export default function Whoami() {
             quality={100} />
         </div>
 
-        <div className={styles.contentMain}>Alongside the Technologies (mentioned above), The greatest skill set I posses is the ability to fastrack my develpmont and the understanding of a construct or concept I am otherwise unfamiliar with....</div>
+        {/* <div className={styles.contentMain}>Alongside the Technologies (mentioned above), The greatest skill set I posses is the ability to fastrack my develpmont and the understanding of a construct or concept I am otherwise unfamiliar with....</div>
       <div className={styles.contentMainBold}>For Example:</div>
       <div className={styles.contentMain}> <span>A new programming launguage....</span></div> 
       <div className={styles.contentMain}>I carry this out utilising the resources of today&apos;s modern world (internet, books, podcasts, AI) and a formula for learing I have developed (see link at the bottom of the page).</div>
@@ -161,7 +161,7 @@ export default function Whoami() {
       <div className={styles.contentMain}>In respect to all of the technologies I have learned along my journey, I focus a significant amount of time on learning how to learn efficiently. My past experiences have taught me the importance of learning efficiently; especially in todays world of an ever exponential rate of change….</div>
 
 
-      <div className={styles.enticeTag}>Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article</div>
+      <div className={styles.enticeTag}>Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article</div> */}
       
       {/* <Link href={'/#'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>
