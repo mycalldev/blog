@@ -114,9 +114,29 @@ export default function Whoami() {
               quality={100} />
         </div>
       
-        {/* <div className={styles.contentMain}>At the age of 16 I was selected for a Football Academy that required training 3 times a week and College twice a week. I choose Mucic Technology as my subject and carried on with musical performances at the college and several other theaters. During my College days a friend of mine and myself started to promote events at particualr nightclubs. This opened my eyes up to the Marketing world (before Social Media). Designing billboard posters, promotional flyers, tickets.... etc. The promotional events were a success, having carried out the first event at the age of 17 - and the event having an age policy of being over 18s only.... lol.... </div>
-        <div className={styles.contentMain}>For several reasons I decided to pick up a Trade and became a builder. Eventually, all my time was allocated to the building work and the Technological side of my mind took a back seat. I started a successful business in the building trade and worked up until my 30s. However, something just didn't feel right and my attention to detail and fastidious nature, along with that voice in your head, kept telling me to return to Technology.</div>
-        <div className={styles.contentMainBold}>So.... I made the transition! Closed the building business and put all my eggs into the computational basket. </div> */}
+        <div className={styles.contentMain}>At the age of 16 I was selected for a Football Academy
+         that required training 3 times a week and College twice a week.
+         I choose Mucic Technology as my subject and carried on with 
+         musical performances at the college and 
+         several other theaters. During my College days a friend of mine 
+         and myself started to promote events at particualr nightclubs. 
+         This opened my eyes up to the Marketing world (before Social Media). 
+         Designing billboard posters, promotional flyers, tickets.... etc. 
+         The promotional events were a success, having carried out the first event 
+         at the age of 17 - and the event having an age policy of being over 18s only.... lol.... 
+        </div>
+        <div className={styles.contentMain}>
+          For several reasons I decided to pick up a Trade and became a builder. 
+          Eventually, all my time was allocated to the building work and the 
+          Technological side of my mind took a back seat. 
+          I started a successful business in the building trade and worked up until my 30s. 
+          However, something just didn&apos;t feel right and my attention to detail and 
+           nature, along with that voice in your head, 
+           kept telling me to return to Technology.</div>
+        <div className={styles.contentMainBold}>So.... I made the transition! 
+          Closed the building business and put all my eggs 
+          into the computational basket. 
+        </div>
       
       
         <div className={styles.imageDolphinContainer}>
