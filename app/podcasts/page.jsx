@@ -37,23 +37,35 @@ export default async function Podcasts() {
             {podcasts.map((podcast) => (
                 <div key={podcast._id} className={styles.mainContainer}>
                     <div className={styles.imageThumbnailContainer}>
-                     <div className={styles.iframeContainer} >
-                        <iframe className={styles.iframe} allowFullScreen allow='autoplay' title='example' src={podcast.imageRef1}>
-                        </iframe>
-                     </div>
+                    <Link href={`/podcasts/${podcast._id}`} prefetch={true} >
+                            <div className={styles.imageBlogContanier}>
+                                <Image 
+                                    src={`/podcasts/${podcast.imageThumbnail}.JPG`} 
+                                    width={1456} 
+                                    height={816} 
+                                    style={{
+                                        width: '100%',
+                                        height: 'auto',
+                                      }}
+                                    alt='thumbnail of podcast image' 
+                                    quality={100} 
+                                />  
+                            </div>
+                        </Link>
+                      
                     </div>
 
                     <div className={styles.contentContainer}>
                         <div className={styles.flexReadTime}>
-                            <div className={styles.readTime}>Read Time:</div> 
+                            <div className={styles.readTime}>Duration:</div> 
                             <div>{podcast.minuteRead} minutes</div>
                         </div>
                         <div className={styles.podcastTitle}>{podcast.podcastTitle}</div>
                         <div className={styles.podcastSubTitle1}>{podcast.tagTeaser}</div>  
                     </div>
-                    {/* <Link href={`/podcasts/${podcast._id}`} className={styles.linkBTN}>
+                    <Link href={`/podcasts/${podcast._id}`} className={styles.linkBTN}>
                         <div className={styles.readBTN}>Listen</div>
-                    </Link> */}
+                    </Link>
                 </div>
             ))}
             

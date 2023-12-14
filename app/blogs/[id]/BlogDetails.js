@@ -50,15 +50,15 @@ export default function BlogDetails( { blogDetails } ) {
             {blogDetails.subTitle1}
           </div>
 {/* DESCRIPTION 1 */}
-            <div className={blogDetails.description1 ? styles.description1 : styles.displayNone}>
+            <div className={blogDetails.description1 ? styles.description : styles.displayNone}>
               {blogDetails.description1}
             </div>
 {/* DESCRIPTION 2 */}
-          <div className={blogDetails.description2 ? styles.description2 : styles.displayNone}>
+          <div className={blogDetails.description2 ? styles.description : styles.displayNone}>
             {blogDetails.description2}
           </div>
 {/* DESCRIPTION 3 */}
-          <div className={blogDetails.description3 ? styles.description3 : styles.displayNone}>
+          <div className={blogDetails.description3 ? styles.description : styles.displayNone}>
             {blogDetails.description3}
           </div>
 {/* SUBTITLE 2 */}
@@ -79,6 +79,15 @@ export default function BlogDetails( { blogDetails } ) {
                 quality={100} 
               />  
            </div>}
+
+{/* DESCRIPTION 4 */}
+          <div className={blogDetails.description4 ? styles.description : styles.displayNone}>
+            {blogDetails.description4}
+          </div>
+{/* DESCRIPTION 5 */}
+<div className={blogDetails.description5 ? styles.description : styles.displayNone}>
+            {blogDetails.description5}
+          </div>
             
           </div>
     </main>
