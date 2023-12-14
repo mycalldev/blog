@@ -69,7 +69,7 @@ export default function Whoami() {
 
       
       <div className={styles.titleSub}>How I Work</div>
-      <div className={styles.contentMain}>I enjoy Learning and Teaching and thereby Learning.... With all my Projects, I initiate a <span>'Performance First Approach'.</span> </div>
+      <div className={styles.contentMain}>I enjoy Learning and Teaching and thereby Learning.... With all my Projects, I initiate a <span>&apos;Performance First Approach&apos;.</span> </div>
 
         <div className={styles.imagePerformanceContainer}> 
             <Image src={'/performance_whoami.jpg'}  
@@ -86,8 +86,8 @@ export default function Whoami() {
         <div className={styles.contentMain}>Alongside the Technologies (mentioned above), The greatest skill set I posses is the ability to fastrack my develpmont and the understanding of a construct or concept I am otherwise unfamiliar with....</div>
       <div className={styles.contentMainBold}>For Example:</div>
       <div className={styles.contentMain}> <span>A new programming launguage....</span></div> 
-      <div className={styles.contentMain}>I carry this out utilising the resources of today's modern world (internet, books, podcasts, AI) and a formula for learing I have developed (see link at the bottom of the page).</div>
-      <div className={styles.contentMain}>In other words, I can reach Point 'A' to Point 'B' expeditiously and with accuracy. I firmly believe this is owed to the nature of me being self taught (in part) and learning to be comfortable with the uncomfortable i.e being calculatd in the state of not knowing and having the experience over the years of understanding that all that is unknown is there to be discovered.</div>
+      <div className={styles.contentMain}>I carry this out utilising the resources of today&apos;s modern world (internet, books, podcasts, AI) and a formula for learing I have developed (see link at the bottom of the page).</div>
+      <div className={styles.contentMain}>In other words, I can reach Point &apos;A&apos; to Point &apos;B&apos; expeditiously and with accuracy. I firmly believe this is owed to the nature of me being self taught (in part) and learning to be comfortable with the uncomfortable i.e being calculatd in the state of not knowing and having the experience over the years of understanding that all that is unknown is there to be discovered.</div>
       
       <div className={styles.titleSub}>My Journey</div>
      
@@ -99,7 +99,7 @@ export default function Whoami() {
           <li className={styles.listItem}>Logic</li>
         </ul>
         
-      <div className={styles.contentMain}>Created a few tracks and Mastered a few Dub-Plates by the age of 15. At the same time I was an MC (Microphone Controller/Rapper) on several pirate radio staions and performing at night clubs with an age restriction of over 18 whilst only being 16 years old.  </div>
+      <div className={styles.contentMain}>Created a few tracks and Mastered a few Dub-Plates by the age of 15. At the same time I was an MC (Microphone Controller/Rapper) on several pirate radio staions and performing at night clubs with an age restriction of over 18 whilst only being 16 years old.</div>
       <div className={styles.contentMain}>Prior to this - during my school era - I was center stage performing (rapping) with the Royal Philharmonic Orchestra in front of a full capacity audience at the Royal Festival Hall. I was well accustomed by now to perform in front of big crowds and went on to rap at several large venues.</div>
       
       <div className={styles.imageMicrophoneContainer}>
@@ -148,7 +148,7 @@ export default function Whoami() {
           alt={'constructor labs logo'} 
         />
       </div>
-      <div className={styles.contentMain}> I say unique because it was set out differently from all of the other mainstream Bootcamps. The sole intention of Constructor Labs and the head of Teaching (Dmitri Brabov) was to teach Javascript (vanilla), React, Redux, Node, PostgreSQL and Git/Github all in the space of 12 weeks. And this was a near insurmountable task. Although, hats off to Dmitri; he pulled it off, and his teaching style was with very little hand holding. </div>
+      <div className={styles.contentMain}> I say unique because it was set out differently from all of the other mainstream Bootcamps. The sole intention of Constructor Labs and the head of Teaching (Dmitri Brabov) was to teach Javascript (vanilla), React, Redux, Node, PostgreSQL and Git/Github all in the space of 12 weeks. And this was a near insurmountable task. Although, hats off to Dmitri; he pulled it off, and his teaching style was with very little hand holding.</div>
       <div className={styles.contentMain}>With the benefit of hindsight I can now see that Dmitri was no time waster and his teaching style was such that if you were meant to be a computer programmer then you needed to work things out for yourself.</div> 
       <div className={styles.contentMainBold}>It was here that I learned a very valuable lesson….  Google (the art of working things out for yourself).</div>
       <div className={styles.contentMain}>Sleeves rolled up and ready for action, 18 students proceeded into the 12 week, full-time 10 hours a day Bootcamp.</div>  
@@ -161,7 +161,7 @@ export default function Whoami() {
       <div className={styles.contentMain}>In respect to all of the technologies I have learned along my journey, I focus a significant amount of time on learning how to learn efficiently. My past experiences have taught me the importance of learning efficiently; especially in todays world of an ever exponential rate of change….</div>
 
 
-      <div className={styles.enticeTag}>Check out the formula for learning in my 'Learn Why and How To Learn' Article</div>
+      <div className={styles.enticeTag}>Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article</div>
       
       {/* <Link href={'/#'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>
