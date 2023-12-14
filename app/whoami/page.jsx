@@ -83,13 +83,13 @@ export default function Whoami() {
             quality={100} />
         </div>
 
-        {/* <div className={styles.contentMain}>Alongside the Technologies (mentioned above), The greatest skill set I posses is the ability to fastrack my develpmont and the understanding of a construct or concept I am otherwise unfamiliar with....</div>
-      <div className={styles.contentMainBold}>For Example:</div>
-      <div className={styles.contentMain}> <span>A new programming launguage....</span></div> 
-      <div className={styles.contentMain}>I carry this out utilising the resources of today&apos;s modern world (internet, books, podcasts, AI) and a formula for learing I have developed (see link at the bottom of the page).</div>
-      <div className={styles.contentMain}>In other words, I can reach Point &apos;A&apos; to Point &apos;B&apos; expeditiously and with accuracy. I firmly believe this is owed to the nature of me being self taught (in part) and learning to be comfortable with the uncomfortable i.e being calculatd in the state of not knowing and having the experience over the years of understanding that all that is unknown is there to be discovered.</div>
+        <div className={styles.contentMain}>Alongside the Technologies (mentioned above), The greatest skill set I posses is the ability to fastrack my develpmont and the understanding of a construct or concept I am otherwise unfamiliar with....</div>
+        <div className={styles.contentMainBold}>For Example:</div>
+        <div className={styles.contentMain}> <span>A new programming launguage....</span></div> 
+        <div className={styles.contentMain}>I carry this out utilising the resources of today&apos;s modern world (internet, books, podcasts, AI) and a formula for learing I have developed (see link at the bottom of the page).</div>
+        <div className={styles.contentMain}>In other words, I can reach Point &apos;A&apos; to Point &apos;B&apos; expeditiously and with accuracy. I firmly believe this is owed to the nature of me being self taught (in part) and learning to be comfortable with the uncomfortable i.e being calculatd in the state of not knowing and having the experience over the years of understanding that all that is unknown is there to be discovered.</div>
       
-      <div className={styles.titleSub}>My Journey</div>
+     {/*  <div className={styles.titleSub}>My Journey</div>
      
       <div className={styles.contentMain}>I started off with a Windows 95 PC at the age of 11 (with the old skool dial up modems and AOL). By 12 years old I began studying HTML, a little CCS and a cracked version of Photoshop. After a year of messing around in chat rooms and learning how the internet worked I moved on to creating music via programmes such as: </div>
       <ul className={styles.ulContainer}>
