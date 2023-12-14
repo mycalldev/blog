@@ -102,36 +102,36 @@ export default function Whoami() {
         <div className={styles.contentMain}>Created a few tracks and Mastered a few Dub-Plates by the age of 15. At the same time I was an MC (Microphone Controller/Rapper) on several pirate radio staions and performing at night clubs with an age restriction of over 18 whilst only being 16 years old.</div>
         <div className={styles.contentMain}>Prior to this - during my school era - I was center stage performing (rapping) with the Royal Philharmonic Orchestra in front of a full capacity audience at the Royal Festival Hall. I was well accustomed by now to perform in front of big crowds and went on to rap at several large venues.</div>
       
-     {/*  <div className={styles.imageMicrophoneContainer}>
-            <Image src={'/microphone.jpg'}  
-            width={500} 
-            height={500} 
-            style={{
-                width: '100%',
-                height: 'auto',
-              }}
-            alt='image of a podcast microphone' 
-            quality={100} />
-      </div>
+        <div className={styles.imageMicrophoneContainer}>
+              <Image src={'/microphone.jpg'}  
+              width={500} 
+              height={500} 
+              style={{
+                  width: '100%',
+                  height: 'auto',
+                }}
+              alt='image of a podcast microphone' 
+              quality={100} />
+        </div>
       
-      <div className={styles.contentMain}>At the age of 16 I was selected for a Football Academy that required training 3 times a week and College twice a week. I choose Mucic Technology as my subject and carried on with musical performances at the college and several other theaters. During my College days a friend of mine and myself started to promote events at particualr nightclubs. This opened my eyes up to the Marketing world (before Social Media). Designing billboard posters, promotional flyers, tickets.... etc. The promotional events were a success, having carried out the first event at the age of 17 - and the event having an age policy of being over 18s only.... lol.... </div>
-      <div className={styles.contentMain}>For several reasons I decided to pick up a Trade and became a builder. Eventually, all my time was allocated to the building work and the Technological side of my mind took a back seat. I started a successful business in the building trade and worked up until my 30s. However, something just didn't feel right and my attention to detail and fastidious nature, along with that voice in your head, kept telling me to return to Technology.</div>
-      <div className={styles.contentMainBold}>So.... I made the transition! Closed the building business and put all my eggs into the computational basket. </div>
+        <div className={styles.contentMain}>At the age of 16 I was selected for a Football Academy that required training 3 times a week and College twice a week. I choose Mucic Technology as my subject and carried on with musical performances at the college and several other theaters. During my College days a friend of mine and myself started to promote events at particualr nightclubs. This opened my eyes up to the Marketing world (before Social Media). Designing billboard posters, promotional flyers, tickets.... etc. The promotional events were a success, having carried out the first event at the age of 17 - and the event having an age policy of being over 18s only.... lol.... </div>
+        <div className={styles.contentMain}>For several reasons I decided to pick up a Trade and became a builder. Eventually, all my time was allocated to the building work and the Technological side of my mind took a back seat. I started a successful business in the building trade and worked up until my 30s. However, something just didn't feel right and my attention to detail and fastidious nature, along with that voice in your head, kept telling me to return to Technology.</div>
+        <div className={styles.contentMainBold}>So.... I made the transition! Closed the building business and put all my eggs into the computational basket. </div>
       
       
-      <div className={styles.imageDolphinContainer}>
-            <Image src={'/dolphin.png'}  
-            width={1024} 
-            height={1024} 
-            style={{
-                width: '100%',
-                height: 'auto',
-              }}
-            alt='image of a dolphin witha computer' 
-            quality={100} />
-      </div>
+        <div className={styles.imageDolphinContainer}>
+              <Image src={'/dolphin.png'}  
+              width={1024} 
+              height={1024} 
+              style={{
+                  width: '100%',
+                  height: 'auto',
+                }}
+              alt='image of a dolphin witha computer' 
+              quality={100} />
+        </div>
 
-      <div className={styles.contentMain}>The journey from here on out was not smooth to say the least. Although, through discipline, tenacity, and a great support network - in terms of colleagues and family - I have been privileged to follow my passion.</div>
+      {/* <div className={styles.contentMain}>The journey from here on out was not smooth to say the least. Although, through discipline, tenacity, and a great support network - in terms of colleagues and family - I have been privileged to follow my passion.</div>
       <div className={styles.titleSub}>Moving Forward</div>
      
       <div className={styles.contentMain}>I picked up from where I left off in my early adolescence; first re engaging with HTML and CSS. Thereafter, I studied python for a brief period and then made a progressive move to join a very unique Bootcamp:</div> 
