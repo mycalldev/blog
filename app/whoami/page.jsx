@@ -183,9 +183,15 @@ export default function Whoami() {
         and his teaching style was such that if you were meant to be a computer programmer 
         then you needed to work things out for yourself.
       </div> 
-      {/* <div className={styles.contentMainBold}>It was here that I learned a very valuable lesson….  Google (the art of working things out for yourself).</div>
-      <div className={styles.contentMain}>Sleeves rolled up and ready for action, 18 students proceeded into the 12 week, full-time 10 hours a day Bootcamp.</div>  
-      <div className={styles.contentMainBold}>And I am forever owing to this opportunity. </div>
+      <div className={styles.contentMainBold}>
+        It was here that I learned a very valuable lesson….  
+        Google (the art of working things out for yourself).
+      </div>
+      <div className={styles.contentMain}>
+        Sleeves rolled up and ready for action, 18 students proceeded into the 12 week, 
+        full-time 10 hours a day Bootcamp.
+      </div>  
+      {/* <div className={styles.contentMainBold}>And I am forever owing to this opportunity. </div>
       <div className={styles.contentMain}>After a couple months of assimilating all of what was previously digested, I attained the position of a backend engineer at Fidel API (A fintech company focused on handling sensitive PCI 1 compliant data). Fidel API is a B to B startup, and I was afforded the opportunity to work freely on what was most productive for the company. This tested my iniative and instilled an unwavering desire to achieve from my own merit. It was known as 'ownership'.... coupled with a sigh of relief once the CEO and CTO realised a colleagues potential (lol....).</div>
       <div className={styles.contentMain}> The backend Tech Stack was <span>AWS</span> and <span>Node JS</span>. I predominantly worked on building out the endpoints for the API and progressed and enjoyed the environment of collaborating with my technological counterparts.</div>
       <div className={styles.contentMain}>Its fair to say that I excelled at my position with Fidel API, although unbeknown to me ill health was waiting around the corner of my life's journey. My hand was forced and it was with a heavy heart that I had to resign. To this day I am in contact with the CEO (Dev Subrata) and he has achieved unbelievable success with the company. I am not surprised because he was very astute combined with great insight and business acumen.</div>
@@ -194,8 +200,8 @@ export default function Whoami() {
       <div className={styles.contentMain}>In respect to all of the technologies I have learned along my journey, I focus a significant amount of time on learning how to learn efficiently. My past experiences have taught me the importance of learning efficiently; especially in todays world of an ever exponential rate of change….</div>
 
 
-      <div className={styles.enticeTag}>Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article</div>
-       */}
+      <div className={styles.enticeTag}>Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article</div>  */}
+      
       {/* <Link href={'/#'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>
       </Link> */}
