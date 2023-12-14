@@ -168,7 +168,7 @@ export default function Whoami() {
           alt={'constructor labs logo'} 
         />
       </div>
-      <div className={styles.contentMain}> I say unique because it was set out differently from all of the other mainstream Bootcamps. The sole intention of Constructor Labs and the head of Teaching (Dmitri Brabov) was to teach Javascript (vanilla), React, Redux, Node, PostgreSQL and Git/Github all in the space of 12 weeks. And this was a near insurmountable task. Although, hats off to Dmitri; he pulled it off, and his teaching style was with very little hand holding.</div>
+      {/* <div className={styles.contentMain}> I say unique because it was set out differently from all of the other mainstream Bootcamps. The sole intention of Constructor Labs and the head of Teaching (Dmitri Brabov) was to teach Javascript (vanilla), React, Redux, Node, PostgreSQL and Git/Github all in the space of 12 weeks. And this was a near insurmountable task. Although, hats off to Dmitri; he pulled it off, and his teaching style was with very little hand holding.</div>
       <div className={styles.contentMain}>With the benefit of hindsight I can now see that Dmitri was no time waster and his teaching style was such that if you were meant to be a computer programmer then you needed to work things out for yourself.</div> 
       <div className={styles.contentMainBold}>It was here that I learned a very valuable lesson….  Google (the art of working things out for yourself).</div>
       <div className={styles.contentMain}>Sleeves rolled up and ready for action, 18 students proceeded into the 12 week, full-time 10 hours a day Bootcamp.</div>  
@@ -181,7 +181,7 @@ export default function Whoami() {
       <div className={styles.contentMain}>In respect to all of the technologies I have learned along my journey, I focus a significant amount of time on learning how to learn efficiently. My past experiences have taught me the importance of learning efficiently; especially in todays world of an ever exponential rate of change….</div>
 
 
-      <div className={styles.enticeTag}>Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article</div>
+      <div className={styles.enticeTag}>Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article</div> */}
       
       {/* <Link href={'/#'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>
