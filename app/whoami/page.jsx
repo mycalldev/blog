@@ -151,7 +151,7 @@ export default function Whoami() {
               quality={100} />
         </div>
 
-      {/* <div className={styles.contentMain}>The journey from here on out was not smooth to say the least. Although, through discipline, tenacity, and a great support network - in terms of colleagues and family - I have been privileged to follow my passion.</div>
+      <div className={styles.contentMain}>The journey from here on out was not smooth to say the least. Although, through discipline, tenacity, and a great support network - in terms of colleagues and family - I have been privileged to follow my passion.</div>
       <div className={styles.titleSub}>Moving Forward</div>
      
       <div className={styles.contentMain}>I picked up from where I left off in my early adolescence; first re engaging with HTML and CSS. Thereafter, I studied python for a brief period and then made a progressive move to join a very unique Bootcamp:</div> 
@@ -181,7 +181,7 @@ export default function Whoami() {
       <div className={styles.contentMain}>In respect to all of the technologies I have learned along my journey, I focus a significant amount of time on learning how to learn efficiently. My past experiences have taught me the importance of learning efficiently; especially in todays world of an ever exponential rate of change….</div>
 
 
-      <div className={styles.enticeTag}>Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article</div> */}
+      <div className={styles.enticeTag}>Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article</div>
       
       {/* <Link href={'/#'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>
