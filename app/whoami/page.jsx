@@ -34,7 +34,7 @@ export default function Whoami() {
         <div className={styles.contentMain}>
           Welcome Tech enthusiasts! I go by the alias Mycall Dev and 
           I&pos;m excited to share my journey as a computer programmer with you today. 
-          With over 7 years in the field, Ive had the opportunity to delve into various 
+          With over 7 years in the field, I&apos;ve had the opportunity to delve into various 
           facets of technology, gaining expertise in Networking, Cyber Security, Linux, 
           and Full Stack Development.
         </div>
@@ -57,7 +57,7 @@ export default function Whoami() {
         </ul>
       
 
-     {/* <div className={styles.titleSub}>Hobbies</div>
+     <div className={styles.titleSub}>Hobbies</div>
       <ul>
           <li className={styles.listItem}>Sport</li>
           <li className={styles.listItem}>Running</li>
@@ -161,7 +161,7 @@ export default function Whoami() {
       <div className={styles.contentMain}>In respect to all of the technologies I have learned along my journey, I focus a significant amount of time on learning how to learn efficiently. My past experiences have taught me the importance of learning efficiently; especially in todays world of an ever exponential rate of change….</div>
 
 
-      <div className={styles.enticeTag}>Check out the formula for learning in my 'Learn Why and How To Learn' Article</div> */}
+      <div className={styles.enticeTag}>Check out the formula for learning in my 'Learn Why and How To Learn' Article</div>
       
       {/* <Link href={'/#'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>
