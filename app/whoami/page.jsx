@@ -191,9 +191,20 @@ export default function Whoami() {
         Sleeves rolled up and ready for action, 18 students proceeded into the 12 week, 
         full-time 10 hours a day Bootcamp.
       </div>  
-      {/* <div className={styles.contentMainBold}>And I am forever owing to this opportunity. </div>
-      <div className={styles.contentMain}>After a couple months of assimilating all of what was previously digested, I attained the position of a backend engineer at Fidel API (A fintech company focused on handling sensitive PCI 1 compliant data). Fidel API is a B to B startup, and I was afforded the opportunity to work freely on what was most productive for the company. This tested my iniative and instilled an unwavering desire to achieve from my own merit. It was known as 'ownership'.... coupled with a sigh of relief once the CEO and CTO realised a colleagues potential (lol....).</div>
-      <div className={styles.contentMain}> The backend Tech Stack was <span>AWS</span> and <span>Node JS</span>. I predominantly worked on building out the endpoints for the API and progressed and enjoyed the environment of collaborating with my technological counterparts.</div>
+      <div className={styles.contentMainBold}>
+        And I am forever owing to this opportunity.
+      </div>
+      <div className={styles.contentMain}>
+        After a couple months of assimilating all of what was previously digested, 
+        I attained the position of a backend engineer at &apos;Fidel API&apos; 
+        (A fintech company focused on handling sensitive PCI 1 compliant data). 
+        Fidel API is a &apos;B&apos; to &apos;B&apos; startup, 
+        and I was afforded the opportunity to work freely on what was most productive 
+        for the company. This tested my iniative and instilled an unwavering desire to achieve 
+        from my own merit. It was known as &apos;ownership&apos;.... coupled with a sigh of relief 
+        once the CEO and CTO realised a colleagues potential (lol....).
+      </div>
+      {/* <div className={styles.contentMain}> The backend Tech Stack was <span>AWS</span> and <span>Node JS</span>. I predominantly worked on building out the endpoints for the API and progressed and enjoyed the environment of collaborating with my technological counterparts.</div>
       <div className={styles.contentMain}>Its fair to say that I excelled at my position with Fidel API, although unbeknown to me ill health was waiting around the corner of my life's journey. My hand was forced and it was with a heavy heart that I had to resign. To this day I am in contact with the CEO (Dev Subrata) and he has achieved unbelievable success with the company. I am not surprised because he was very astute combined with great insight and business acumen.</div>
       <div className={styles.contentMain}>Working at Fidel API is where everything fell into place  (programmatically speaking).... The penny had finally dropped. I witnessed and contributed to a variety of collaborative tasks, in and out of programming, which in turn built my confidence and skillset. It was now apparent to me that I could be classified as a computer programmer in the year of 2018/19. </div>
       <div className={styles.contentMain}>From here on out I have been working full/part-time as a freelancer. I enjoy the granularity of programming and prefer to use as few dependencies as can be. I thrive at fixing bugs and dive deep into the language or framework I am using. I always want to know why and how something works and am never satisfied with copy and paste. In my experience, if there is a line of code that you do not fully understand, it is always that line that returns to bite you on the gluteus maximus. </div>
