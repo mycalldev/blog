@@ -89,20 +89,20 @@ export default function Whoami() {
         <div className={styles.contentMain}>I carry this out utilising the resources of today&apos;s modern world (internet, books, podcasts, AI) and a formula for learing I have developed (see link at the bottom of the page).</div>
         <div className={styles.contentMain}>In other words, I can reach Point &apos;A&apos; to Point &apos;B&apos; expeditiously and with accuracy. I firmly believe this is owed to the nature of me being self taught (in part) and learning to be comfortable with the uncomfortable i.e being calculatd in the state of not knowing and having the experience over the years of understanding that all that is unknown is there to be discovered.</div>
       
-     {/*  <div className={styles.titleSub}>My Journey</div>
-     
-      <div className={styles.contentMain}>I started off with a Windows 95 PC at the age of 11 (with the old skool dial up modems and AOL). By 12 years old I began studying HTML, a little CCS and a cracked version of Photoshop. After a year of messing around in chat rooms and learning how the internet worked I moved on to creating music via programmes such as: </div>
-      <ul className={styles.ulContainer}>
-          <li className={styles.listItem}>Fruity Loops</li>
-          <li className={styles.listItem}>Cubase</li>
-          <li className={styles.listItem}>Reason</li>
-          <li className={styles.listItem}>Logic</li>
-        </ul>
-        
-      <div className={styles.contentMain}>Created a few tracks and Mastered a few Dub-Plates by the age of 15. At the same time I was an MC (Microphone Controller/Rapper) on several pirate radio staions and performing at night clubs with an age restriction of over 18 whilst only being 16 years old.</div>
-      <div className={styles.contentMain}>Prior to this - during my school era - I was center stage performing (rapping) with the Royal Philharmonic Orchestra in front of a full capacity audience at the Royal Festival Hall. I was well accustomed by now to perform in front of big crowds and went on to rap at several large venues.</div>
+        <div className={styles.titleSub}>My Journey</div>
       
-      <div className={styles.imageMicrophoneContainer}>
+        <div className={styles.contentMain}>I started off with a Windows 95 PC at the age of 11 (with the old skool dial up modems and AOL). By 12 years old I began studying HTML, a little CCS and a cracked version of Photoshop. After a year of messing around in chat rooms and learning how the internet worked I moved on to creating music via programmes such as:</div>
+        <ul className={styles.ulContainer}>
+            <li className={styles.listItem}>Fruity Loops</li>
+            <li className={styles.listItem}>Cubase</li>
+            <li className={styles.listItem}>Reason</li>
+            <li className={styles.listItem}>Logic</li>
+          </ul>
+          
+        <div className={styles.contentMain}>Created a few tracks and Mastered a few Dub-Plates by the age of 15. At the same time I was an MC (Microphone Controller/Rapper) on several pirate radio staions and performing at night clubs with an age restriction of over 18 whilst only being 16 years old.</div>
+        <div className={styles.contentMain}>Prior to this - during my school era - I was center stage performing (rapping) with the Royal Philharmonic Orchestra in front of a full capacity audience at the Royal Festival Hall. I was well accustomed by now to perform in front of big crowds and went on to rap at several large venues.</div>
+      
+     {/*  <div className={styles.imageMicrophoneContainer}>
             <Image src={'/microphone.jpg'}  
             width={500} 
             height={500} 
