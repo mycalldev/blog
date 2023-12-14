@@ -31,10 +31,10 @@ export default function Whoami() {
 
         <div className={styles.titleMain}>WHOAMI</div>
         <div className={styles.titleTag}>My Journey As a Computer Programmer: 7+ Years of Building Digital Worlds</div>
-      
-        <div className={styles.contentMain}>Welcome tech enthusiasts! I go by the alias Mycall Dev and 
+      <div>hello</div>
+        {/*<div className={styles.contentMain}>Welcome tech enthusiasts! I go by the alias Mycall Dev and 
           Im excited to share my journey as a computer programmer with you today. 
-          With over 7 years in the field, I've had the opportunity to delve into various 
+          With over 7 years in the field, Ive had the opportunity to delve into various 
           facets of technology, gaining expertise in Networking, Cyber Security, Linux, 
           and Full Stack Development.
         </div>
@@ -42,7 +42,7 @@ export default function Whoami() {
 
       <div className={styles.titleSub}>Technologies</div>
       
-       {/* <ul>
+        <ul>
           <li className={styles.listItem}>Vanilla JavaScript</li>
           <li className={styles.listItem}>React JS</li>
           <li className={styles.listItem}>Next JS 13</li>
