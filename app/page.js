@@ -71,7 +71,7 @@ export default function Home() {
               <Link href={'/#'} prefetch={true} >
                   <div className={styles.imageBlogContanier}>
                       <Image 
-                          src={`/home/learning.jpg`} 
+                          src={`/learning.jpg`} 
                           width={1024} 
                           height={677} 
                           style={{
@@ -120,6 +120,30 @@ export default function Home() {
               LATEST BLOGS
               </div>
             </Link>
+        </div>
+
+        <div className={styles.imageCogsContainer}>
+          <Image 
+            src={"/home/thinking_cogs.jpg"} 
+            width={1024} 
+            height={779} 
+            className={styles.imageCogs} 
+            alt="thinking cogs"
+            quality={100}
+          />
+          <div className={styles.techStackTitle}>TECH STACK FOR MYCALL DEV </div>
+        </div>
+
+        <div className={styles.listItemsContainer}>
+          <ul className={styles.unorderedList}>
+            <li className={styles.listItem}>Django for the Backend</li>
+            <li className={styles.listItem}>Next JS for the Frontend</li>
+            <li className={styles.listItem}>Vanilla CSS for Design</li>
+            <li className={styles.listItem}>Virtual Private Server for Speed</li>
+            <li className={styles.listItem}>Postgresql for the Database</li>
+            <li className={styles.listItem}>AI generated Images</li>
+
+          </ul>
         </div>
   
       </div>
