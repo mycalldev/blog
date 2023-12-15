@@ -68,7 +68,7 @@ export default function LearnTolearn() {
         <div className={styles.mainContent}>&apos;We would not tie our shoelaces before putting our shoes on. That would seem an entirely impractical method to accomplish the task of wearing our shoes.&apos;</div>
         <div className={styles.mainContent}>In the same way, although comparative to concepts and constructs, we are being shown an example of how to do something before we have been given or shown the explanation. Further to this point, and as I encounter far too often, we are without the relevance of the subject matter that we are endaevouring to learn.</div> 
         <div className={styles.mainContent}> e.g. there is a plethora of videos on <span>&apos;how &apos;....</span> all the while my mind is thinking of the <span>&apos;why to&apos;</span>. </div>
-        <div className={styles.mainContent}>The 'Why To' or in other words: why am I learning 'How To' is the relevance and provides context.</div>
+        <div className={styles.mainContent}>The &apos;Why To&apos; or in other words: why am I learning &apos;How To&apos; is the relevance and provides context.</div>
         <div className={styles.mainContent}>In our mind, the &apos;Why&apos; always precedes the &apos;How&apos;, and this sequential order is a fundamental principle of how we operate and carry out tasks in our everyday lives.</div> 
 
 
