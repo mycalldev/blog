@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
+
   
   return (
     <main className={styles.container}>
@@ -11,7 +12,7 @@ export default function Home() {
         {/* HERO SECTION MOBILE */}
         <div className={styles.heroContainerMobile}>
             <Image 
-              src={"podcasts/hero_waves.JPG"} 
+              src={"/podcasts/hero_waves.JPG"} 
               width={1920} 
               height={1080} 
               className={styles.imageHeroMobile} 
@@ -70,7 +71,7 @@ export default function Home() {
               <Link href={'/#'} prefetch={true} >
                   <div className={styles.imageBlogContanier}>
                       <Image 
-                          src={`/home/learning_episode1.png`} 
+                          src={`/home/learning.jpg`} 
                           width={1024} 
                           height={677} 
                           style={{

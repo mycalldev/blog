@@ -49,9 +49,15 @@
     line-height: 1.5;
 }
 
-
 .imageRef1Container {
     padding: 20px;
+}
+
+.orderedList {
+    margin: 10px;
+    font-size: 1.3rem;
+    color: #575757;
+    line-height: 1.5;
 }
 
 @media(min-width: 768px) {

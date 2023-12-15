@@ -7,6 +7,18 @@ import styles from './BlogDetails.module.css';
 
 export default function BlogDetails( { blogDetails } ) {
 
+  let orderedList1 = []
+  if (blogDetails.orderList1 !== null) {
+    orderedList1 = blogDetails.orderList1.split(',')
+  }
+
+  let orderedList2 = []
+  if (blogDetails.orderList2 !== null) {
+    orderedList2 = blogDetails.orderList2.split(',')
+  }
+  
+  
+
   return (
     <main>
       {/* HERO MOBILE */}
@@ -56,6 +68,14 @@ export default function BlogDetails( { blogDetails } ) {
 {/* DESCRIPTION 2 */}
           <div className={blogDetails.description2 ? styles.description : styles.displayNone}>
             {blogDetails.description2}
+          </div>
+{/* ORDERLIST1 */}
+          <div className={blogDetails.orderList1 ? styles.orderedList : styles.displayNone}>
+            <ul>
+            {orderedList1.map((item, index) => (
+              <div key={index}>{item}</div>
+            ))}
+            </ul>
           </div>
 {/* DESCRIPTION 3 */}
           <div className={blogDetails.description3 ? styles.description : styles.displayNone}>
