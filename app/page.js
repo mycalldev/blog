@@ -54,7 +54,7 @@ export default function Home() {
           Electrical Engineering, Mathematics and Physics
         </p>
 
-        <div>
+        <div className={styles.imageComputerBlueContainer}>
           <Image src={'/computer_blue.png'} 
             className={styles.imageComputerBlue} 
             width={1456} 
@@ -78,14 +78,12 @@ export default function Home() {
                               width: '100%',
                               height: 'auto',
                             }}
-                          alt='thumbnail of blog image' 
+                          alt='thumbnail of Learn to Learn podcast image' 
                           quality={100} 
                       />  
                   </div>
               </Link>
-          </div>
-
-          <div className={styles.contentContainer}>
+              <div className={styles.contentContainer}>
               <div className={styles.flexReadTime}>
                   <div className={styles.readTime}>Duration:</div> 
                   <div>30 minutes</div>
@@ -97,10 +95,42 @@ export default function Home() {
               <div className={styles.readBTN}>Listen</div>
           </Link>
         </div>
+
+        <div className={styles.imageThumbnailContainerDesktop}>
+              <Link href={'/#'} prefetch={true} >
+                  <div className={styles.imageBlogContanier}>
+                      <Image 
+                          src={`/linux_parrot_home.jpg`} 
+                          width={1024} 
+                          height={677} 
+                          style={{
+                              width: '100%',
+                              height: 'auto',
+                            }}
+                          alt='thumbnail of Whoami podcast image' 
+                          quality={100} 
+                      />  
+                  </div>
+              </Link>
+              <div className={styles.contentContainer}>
+              <div className={styles.flexReadTime}>
+                  <div className={styles.readTime}>Duration:</div> 
+                  <div>15 minutes</div>
+              </div>
+              <div className={styles.podTitle}>WHOAMI</div>
+              <div className={styles.podTeaser}>My Unconventioanl Journey to Tech</div>  
+          </div>
+          <Link href={`/#`} className={styles.linkBTN}>
+              <div className={styles.readBTN}>Listen</div>
+          </Link>
+        </div>
+        </div>
+
+          
       
         <div className={styles.imageSpotifyContainer}>
             <div className={styles.tagSpotify}>
-              Listen On Spotify
+              Check us out On Spotify
             </div>
             <Image src={'/spotify1.png'} width={64} height={64} alt='spotify image' quality={100} />
         </div>
@@ -116,9 +146,12 @@ export default function Home() {
             />
 
             <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
-              <div className={styles.guidesBTN}>
-              LATEST BLOGS
+              <div className={styles.guidesBTNContainer}>
+                <div className={styles.guidesBTN}>
+                 LATEST BLOGS
+                </div>
               </div>
+             
             </Link>
         </div>
 

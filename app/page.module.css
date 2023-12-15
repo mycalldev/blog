@@ -27,6 +27,10 @@
   display: none;
 }
 
+.imageThumbnailContainerDesktop {
+  display: none;
+}
+
 .imageMicrophoneContainer {
   width: 50%;
   margin: auto;
@@ -244,13 +248,91 @@ cursor: pointer;
   .heroContainerDesktop {
     display: block;
   }
+
+  .imageThumbnailContainerDesktop {
+    display: block;
+  }
  
   .imageHeroDesktop {
     width: 100%;
     margin: auto;
+  }
+
+  .imageComputerBlueContainer {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .imageMicrophoneContainer {
+    width: 40%;
+    margin: auto;
+  }
+
+  .enticeQuestion {
+    font-size: 2rem;
+  } 
+
+  .subjectsMain {
+    width: 50%;
+    margin: 0 auto 40px auto;
+    font-size: 1.7rem;
+  }
+
+  .welcomeTitle {
+    font-size: 2rem;
+  }
+
+  .weCoverSubTitle {
+    font-size: 2rem;
+  }
+
+  .mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+  }
+
+  .flexReadTime {
+    font-size: 1.5rem;
+  }
+
+  .podTitle {
+    font-size: 1.7rem;
+  }
+
+  .readBTN {
+    font-size: 1.7rem;
+  }
+
+  .tagSpotify {
+    font-size: 1.7rem;
+  }
+
+  .guidesBTNContainer {
+    width: 50%;
+    margin: 20px auto 80px auto;
+  }
+
+  .guidesBTN {
+    font-size: 1.7rem;
+  }
+
+  .imageCogsContainer {
+    width: 70%;
+    margin: auto;
+  }
+
+  .techStackTitle {
+    font-size:2rem;
+  }
+
+  .listItem {
+    font-size: 1.7rem;
   }
 }
 
 
 
 
+ 
