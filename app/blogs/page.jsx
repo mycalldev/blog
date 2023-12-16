@@ -23,6 +23,10 @@ export default async function Blogs() {
             <Image src={'/category_banner/computer_library_cropped.png'} 
             width={1456} 
             height={267} 
+            style={{
+                width: '100%',
+                height: 'auto',
+              }}
             className={styles.imageHero} 
             alt='hero image for blogs categroy' 
             quality={100} />
@@ -36,7 +40,7 @@ export default async function Blogs() {
                         <Link href={`/blogs/${blog._id}`} prefetch={true} >
                             <div className={styles.imageBlogContanier}>
                                 <Image 
-                                    src={`/blogs/${blog.imageThumbnail}.JPG`} 
+                                    src={`/A-THUMBNAIL_IMAGES/${blog.imageThumbnail}.jpg`} 
                                     width={1456} 
                                     height={816} 
                                     style={{

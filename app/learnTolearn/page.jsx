@@ -241,7 +241,7 @@ export default function LearnTolearn() {
         
         <div className={styles.greenComputer}>
           <Image 
-            src={'/blogs/learn_to_learn/green_computer.png'} 
+            src={'/blogs/learn_to_learn/green_computer.jpg'} 
             width={512} 
             height={512} 
             style={{

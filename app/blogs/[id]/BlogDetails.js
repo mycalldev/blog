@@ -24,7 +24,7 @@ export default function BlogDetails( { blogDetails } ) {
       {/* HERO MOBILE */}
         <div className={styles.imageHeroMobileContainer}>
           <Image 
-              src={`/blogs/${blogDetails.imageHeroMobile}.JPG`} 
+              src={`/blogs/${blogDetails.imageThumbnail}/${blogDetails.imageHeroMobile}.jpg`} 
               width={blogDetails.imageWidthMobile} 
               height={blogDetails.imageHeightMobile} 
               style={{
@@ -39,7 +39,7 @@ export default function BlogDetails( { blogDetails } ) {
         {/* HERO DESKTOP */}
         <div className={styles.imageHeroDesktopContainer}>
           <Image 
-              src={`/blogs/${blogDetails.imageHeroDesktop}.JPG`} 
+              src={`/blogs/${blogDetails.imageThumbnail}/${blogDetails.imageHeroDesktop}.jpg`} 
               width={blogDetails.imageWidthDesktop} 
               height={blogDetails.imageHeightDesktop} 
               style={{
@@ -88,7 +88,7 @@ export default function BlogDetails( { blogDetails } ) {
 {/* IMAGEREF 1 */}
            {blogDetails.imageRef1 && <div className={styles.imageRef1Container}>
             <Image 
-                src={`/blogs/${blogDetails.imageRef1}.JPG`} 
+                src={`/blogs/${blogDetails.imageThumbnail}/${blogDetails.imageRef1}.jpg`} 
                 width={1456} 
                 height={816} 
                 style={{

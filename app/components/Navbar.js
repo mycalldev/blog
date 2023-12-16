@@ -7,7 +7,7 @@ import styles from './Navbar.module.css'
 
 export default function Navbar() {
 
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
       setToggle(!toggle)
@@ -18,8 +18,8 @@ export default function Navbar() {
       <div className={styles.navContainer}>
         <div className={styles.containerGrid}>
           {/* HAMBURGER */}
-          <Link href={`/#`} className={styles.linkBTN} onClick={() => handleToggle()}>
-            <div>
+          
+            <div onClick={() => handleToggle()}>
               <Image
                 src={'/hamburger.png'}
                 width={32}
@@ -29,7 +29,7 @@ export default function Navbar() {
                 quality={100}
               />
             </div>
-          </Link>
+
           {/* TITLE */}
           <div>
             <Link href="/#" className={styles.undreline} prefetch={true}>
