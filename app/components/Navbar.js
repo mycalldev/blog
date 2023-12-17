@@ -14,7 +14,9 @@ export default function Navbar() {
   }
 
   return (
-    <main >
+    <main>
+      <p className={styles.impactVerification}>Impact-Site-Verification: b0f511c0-2730-49eb-9fce-830f1e443a30</p>
+
       <div className={styles.navContainer}>
         <div className={styles.containerGrid}>
           {/* HAMBURGER */}

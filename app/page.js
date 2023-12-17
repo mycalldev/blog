@@ -1,12 +1,18 @@
+import Head from "next/head";
+import { metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
 
-export default function Home() {
+const name = 'impact-site-verification'
 
+
+
+export default function Home() {
   
   return (
     <main className={styles.container}>
+      
 
       <div>
         {/* HERO SECTION MOBILE */}
