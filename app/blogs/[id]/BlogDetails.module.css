@@ -2,6 +2,15 @@
     display: none;
 }
 
+.linkBTN {
+    text-decoration: none;
+    color: #000;
+}
+
+.backBTN {
+    margin: 20px;
+}
+
 .imageHeroDesktopContainer {
     display: none;
 }
@@ -29,22 +38,21 @@
 .tagCompletion {
     margin-bottom: 40px;
 }
-
-.subTitle1 {
-    margin: 20px 20px 0 20px;
-    text-align: start;
+.caption1 {
+    margin: 20px;
+    text-align: center;
     font-size: 1.3rem;
 }
-
-.subTitle2 {
+.subTitle {
     margin: 20px 20px 0 20px;
     text-align: start;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
+
 
 .description {
     margin: 10px 20px 20px 20px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #575757;
     line-height: 1.5;
 }

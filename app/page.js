@@ -55,7 +55,7 @@ export default function Home() {
         </p>
 
         <div className={styles.imageComputerBlueContainer}>
-          <Image src={'/computer_blue.png'} 
+          <Image src={'/home/computer_blue.jpg'} 
             className={styles.imageComputerBlue} 
             width={1456} 
             height={816} 
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
         
         <h4 className={styles.weCoverSubTitle}>COVERING A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
-
+{/* MOBILE VERSION */}
         <div className={styles.mainContainer}>
           <div className={styles.imageThumbnailContainer}>
               <Link href={'/#'} prefetch={true} >
@@ -85,17 +85,18 @@ export default function Home() {
               </Link>
               <div className={styles.contentContainer}>
               <div className={styles.flexReadTime}>
-                  <div className={styles.readTime}>Duration:</div> 
-                  <div>30 minutes</div>
+                  <div className={styles.readTime}>Read Time:</div> 
+                  <div>9 minutes</div>
               </div>
               <div className={styles.podTitle}>Learn How to Learn</div>
               <div className={styles.podTeaser}>The 7 Step Formula</div>  
           </div>
-          <Link href={`/#`} className={styles.linkBTN}>
-              <div className={styles.readBTN}>Listen</div>
+          <Link href={`/learnTolearn`} className={styles.linkBTN}>
+              <div className={styles.readBTN}>Read More</div>
           </Link>
         </div>
 
+{/* DESKTOP VERSION */}
         <div className={styles.imageThumbnailContainerDesktop}>
               <Link href={'/#'} prefetch={true} >
                   <div className={styles.imageBlogContanier}>
@@ -114,14 +115,14 @@ export default function Home() {
               </Link>
               <div className={styles.contentContainer}>
               <div className={styles.flexReadTime}>
-                  <div className={styles.readTime}>Duration:</div> 
-                  <div>15 minutes</div>
+                  <div className={styles.readTime}>Read Time:</div> 
+                  <div>7 minutes</div>
               </div>
               <div className={styles.podTitle}>WHOAMI</div>
               <div className={styles.podTeaser}>My Unconventioanl Journey to Tech</div>  
           </div>
           <Link href={`/#`} className={styles.linkBTN}>
-              <div className={styles.readBTN}>Listen</div>
+              <div className={styles.readBTN}>Read More</div>
           </Link>
         </div>
         </div>
@@ -157,11 +158,11 @@ export default function Home() {
 
         <div className={styles.imageCogsContainer}>
           <Image 
-            src={"/home/thinking_cogs.jpg"} 
+            src={"/home/tech_stack.jpg"} 
             width={1024} 
             height={779} 
             className={styles.imageCogs} 
-            alt="thinking cogs"
+            alt="Tech Stack for Mycall Dev"
             quality={100}
           />
           <div className={styles.techStackTitle}>TECH STACK FOR MYCALL DEV </div>
