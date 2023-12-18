@@ -38,12 +38,9 @@
   margin-left: 10px;
   margin-top: 7px;
   cursor: pointer;
-  outline: none;
-}
-
-.imageBurger :focus {
   outline: none !important;
 }
+
 
 .undreline {
   text-decoration: none;
