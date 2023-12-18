@@ -41,6 +41,10 @@
   outline: none;
 }
 
+.imageBurger :focus {
+  outline: none !important;
+}
+
 .undreline {
   text-decoration: none;
 }
