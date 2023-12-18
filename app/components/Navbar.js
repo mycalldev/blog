@@ -20,8 +20,8 @@ export default function Navbar() {
       <div className={styles.navContainer}>
         <div className={styles.containerGrid}>
           {/* HAMBURGER */}
-          
-            <div onClick={() => handleToggle()}>
+          <Link href={''} onClick={() => handleToggle()}>
+            <div>
               <Image
                 src={'/hamburger.png'}
                 width={32}
@@ -31,6 +31,7 @@ export default function Navbar() {
                 quality={100}
               />
             </div>
+          </Link>
 
           {/* TITLE */}
           <div>
@@ -69,7 +70,7 @@ export default function Navbar() {
                     <li className={styles.listItem}>Blogs</li>
                   </div>
                 </Link>
-                <Link href={'/WHOAMI'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/whoami'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>WHOAMI</li>
                   </div>
