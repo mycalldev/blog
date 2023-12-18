@@ -34,11 +34,14 @@
   margin-bottom: 10px;
 }
 
+.imageBurgerContainer {
+  outline: none !important;
+}
+
 .imageBurger {
   margin-left: 10px;
   margin-top: 7px;
   cursor: pointer;
-  outline: none !important;
 }
 
 

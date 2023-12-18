@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className={styles.containerGrid}>
           {/* HAMBURGER */}
           <Link href={''} onClick={() => handleToggle()}>
-            <div>
+            <div className={styles.imageBurgerContainer}>
               <Image
                 src={'/hamburger.png'}
                 width={32}
