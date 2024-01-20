@@ -104,7 +104,7 @@ export default function Home() {
 
 {/* DESKTOP VERSION */}
         <div className={styles.imageThumbnailContainerDesktop}>
-              <Link href={'/#'} prefetch={true} >
+              <Link href={'/whoami'} prefetch={true} >
                   <div className={styles.imageBlogContanier}>
                       <Image 
                           src={`/linux_parrot_home.jpg`} 
@@ -127,7 +127,7 @@ export default function Home() {
               <div className={styles.podTitle}>WHOAMI</div>
               <div className={styles.podTeaser}>My Unconventioanl Journey to Tech</div>  
           </div>
-          <Link href={`/#`} className={styles.linkBTN}>
+          <Link href={`/whoami`} className={styles.linkBTN}>
               <div className={styles.readBTN}>Read More</div>
           </Link>
         </div>

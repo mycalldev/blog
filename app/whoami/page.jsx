@@ -44,7 +44,7 @@ export default function Whoami() {
         <ul>
           <li className={styles.listItem}>Vanilla JavaScript</li>
           <li className={styles.listItem}>React JS</li>
-          <li className={styles.listItem}>Next JS 13</li>
+          <li className={styles.listItem}>Next JS 14</li>
           <li className={styles.listItem}>HTML & CSS</li>
           <li className={styles.listItem}>Django/Python</li>
           <li className={styles.listItem}>Git Version Control</li>
@@ -84,7 +84,7 @@ export default function Whoami() {
         </div>
 
         <div className={styles.contentMain}>Alongside the Technologies (mentioned above), The greatest skill set I posses is the ability to fastrack my develpmont and the understanding of a construct or concept I am otherwise unfamiliar with....</div>
-        <div className={styles.contentMainBold}>For Example:</div>
+        <div className={styles.titleSub}>For Example:</div>
         <div className={styles.contentMain}> <span>A new programming launguage....</span></div> 
         <div className={styles.contentMain}>I carry this out utilising the resources of today&apos;s modern world (internet, books, podcasts, AI) and a formula for learing I have developed (see link at the bottom of the page).</div>
         <div className={styles.contentMain}>In other words, I can reach Point &apos;A&apos; to Point &apos;B&apos; expeditiously and with accuracy. I firmly believe this is owed to the nature of me being self taught (in part) and learning to be comfortable with the uncomfortable i.e being calculatd in the state of not knowing and having the experience over the years of understanding that all that is unknown is there to be discovered.</div>
@@ -133,7 +133,7 @@ export default function Whoami() {
           However, something just didn&apos;t feel right and my attention to detail and 
            nature, along with that voice in your head, 
            kept telling me to return to Technology.</div>
-        <div className={styles.contentMainBold}>So.... I made the transition! 
+        <div className={styles.contentMain}>So.... I made the transition! 
           Closed the building business and put all my eggs 
           into the computational basket. 
         </div>
@@ -183,7 +183,7 @@ export default function Whoami() {
         and his teaching style was such that if you were meant to be a computer programmer 
         then you needed to work things out for yourself.
       </div> 
-      <div className={styles.contentMainBold}>
+      <div className={styles.contentMain}>
         It was here that I learned a very valuable lesson….  
         Google (the art of working things out for yourself).
       </div>
@@ -191,7 +191,7 @@ export default function Whoami() {
         Sleeves rolled up and ready for action, 18 students proceeded into the 12 week, 
         full-time 10 hours a day Bootcamp.
       </div>  
-      <div className={styles.contentMainBold}>
+      <div className={styles.contentMain}>
         And I am forever owing to this opportunity.
       </div>
       <div className={styles.contentMain}>
@@ -242,9 +242,9 @@ export default function Whoami() {
       </div>
 
 
-      <div className={styles.enticeTag}>
+      {/* <div className={styles.enticeTag}>
         Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article
-      </div> 
+      </div>  */}
       
       {/* <Link href={'/#'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>

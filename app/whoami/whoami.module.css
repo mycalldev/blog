@@ -4,10 +4,12 @@
   }
 
 .contentMain {
-    margin: 30px;
+    margin: 20px 30px;
+    line-height: 1.7;
     font-size: 1.1rem;
-    line-height: 1.5;
+    color: #575757;
 }
+
 
 .guidesBTN {
     width: 50%;
@@ -47,18 +49,10 @@
     text-transform: uppercase;
 }
 
-.contentMainBold {
-    margin: 20px 30px;
-    line-height: 1.3;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #575757;
-
-}
 
 .listItem {
-    margin: 10px;
-    font-size: 1.3rem;
+    margin: 10px 50px;
+    font-size: 1.1rem;
     color: #575757;
 }
 
@@ -80,9 +74,25 @@
     }
 
     .contentMain {
-        width: 70%;
-        margin: 30px auto 30px auto;
-        font-size: 1.5rem;
+        width: 50%;
+        margin: 40px auto;
+        font-size: 1.3rem;
+        line-height: 2;
+    }
+
+    .titleSub {
+        width: 50%;
+        margin: 40px auto;
+        color: #212121;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+    
+    .listItem {
+        width: 50%; 
+        margin: auto;
+        font-size: 1.3rem;
+        line-height: 2;
     }
 
     .imagePerformanceContainer {
