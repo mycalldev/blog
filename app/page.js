@@ -74,7 +74,7 @@ export default function Home() {
 {/* MOBILE VERSION */}
         <div className={styles.mainContainer}>
           <div className={styles.imageThumbnailContainer}>
-              <Link href={'/#'} prefetch={true} >
+              <Link href={'/learnTolearn'} prefetch={true} >
                   <div className={styles.imageBlogContanier}>
                       <Image 
                           src={`/learning.jpg`} 

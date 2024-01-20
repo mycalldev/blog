@@ -230,14 +230,12 @@
     }
 
     .learningGirl {
-        display: flex;
-        justify-content: center;
-        margin: 50px auto;
+        width: 50%;
+        margin: 20px auto;
     } 
 
     .greenComputer {
-        display: flex;
-        justify-content: center;
+        width: 50%;
         margin: 20px auto;
     }
 

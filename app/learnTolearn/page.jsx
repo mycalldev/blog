@@ -13,7 +13,7 @@ export default function LearnTolearn() {
         {/* HERO SECTION */}
         <div className={styles.heroContainer}>
             <Image 
-                src={"/blogs/learn_to_learn/learning.jpg"} 
+                src={"/learning.jpg"} 
                 width={1024} 
                 height={1024}
                 style={{
