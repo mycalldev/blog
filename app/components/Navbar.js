@@ -116,14 +116,10 @@ export default function Navbar() {
                   </Link>
                   <Link href={'/Whoami'} className={styles.linkBTN}>
                     <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>WHOAMI</li>
+                      <li className={styles.listItem}>Whoami</li>
                     </div>
                   </Link>
-                  <Link href={'/#'} className={styles.linkBTN}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Support</li>
-                    </div>
-                  </Link>
+                  
                   {/* <Link href={'/#'} className={styles.linkBTN}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>Contact</li>
