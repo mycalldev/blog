@@ -104,17 +104,17 @@ export default function Navbar() {
                       <li className={styles.listItem}>Podcasts</li>
                     </div>
                 </Link>
-                <Link href={'/#'} className={styles.linkBTN}>
+                {/* <Link href={'/#'} className={styles.linkBTN}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>Guides</li>
                     </div>
-                  </Link>
+                  </Link> */}
                   <Link href={'/blogs'} className={styles.linkBTN}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>Blogs</li>
                     </div>
                   </Link>
-                  <Link href={'/Whoami'} className={styles.linkBTN}>
+                  <Link href={'/whoami'} className={styles.linkBTN}>
                     <div className={styles.listItemContainer}>
                       <li className={styles.listItem}>Whoami</li>
                     </div>

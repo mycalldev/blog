@@ -33,7 +33,7 @@ export default function Whoami() {
         <div className={styles.titleTag}>My Journey As a Computer Programmer: 7+ Years of Building Digital Worlds</div>
         <div className={styles.contentMain}>
           Welcome Tech enthusiasts! I go by the alias Mycall Dev and 
-          I&pos;m excited to share my journey as a computer programmer with you today. 
+          I&apos;m excited to share my journey as a computer programmer with you today. 
           With over 7 years in the field, I&apos;ve had the opportunity to delve into various 
           facets of technology, gaining expertise in Networking, Cyber Security, Linux, 
           and Full Stack Development.
@@ -91,7 +91,7 @@ export default function Whoami() {
       
         <div className={styles.titleSub}>My Journey</div>
       
-        <div className={styles.contentMain}>I started off with a Windows 95 PC at the age of 11 (with the old skool dial up modems and AOL). By 12 years old I began studying HTML, a little CCS and a cracked version of Photoshop. After a year of messing around in chat rooms and learning how the internet worked I moved on to creating music via programmes such as:</div>
+        <div className={styles.contentMain}>I started off with a Windows 95 PC at the age of 11 (with the old skool dial up modems and AOL). I began studying HTML, a little CSS and a cracked version of Photoshop. After a year of messing around in chat rooms and learning how the internet worked I moved on to creating music via programmes such as:</div>
         <ul className={styles.ulContainer}>
             <li className={styles.listItem}>Fruity Loops</li>
             <li className={styles.listItem}>Cubase</li>
@@ -171,7 +171,7 @@ export default function Whoami() {
 
       <div className={styles.contentMain}>
         I say unique because it was set out differently from all of the other mainstream Bootcamps. 
-        The sole intention of Constructor Labs and the head of Teaching (Dmitri Brabov) 
+        The sole intention of Constructor Labs and the head of Teaching (Dmitri Grabov) 
         was to teach Javascript (vanilla), React, Redux, Node, PostgreSQL and Git/Github 
         all in the space of 12 weeks. 
         And this was a near insurmountable task. 
@@ -242,13 +242,13 @@ export default function Whoami() {
       </div>
 
 
-      {/* <div className={styles.enticeTag}>
+      <div className={styles.enticeTag}>
         Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article
-      </div>  */}
+      </div> 
       
-      {/* <Link href={'/#'} className={styles.linkBTN}>
+      <Link href={'/#'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>
-      </Link> */}
+      </Link>
     </main>
   )
 }
