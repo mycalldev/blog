@@ -26,7 +26,7 @@
   top: 0;
   width: 90%;
   display: grid;
-  grid-template-columns: 30% 50% 20%;
+  grid-template-columns: 20% 65% 15%;
   justify-content: space-around;
   align-content: center;
   background: #fff;
@@ -34,9 +34,6 @@
   margin-bottom: 10px;
 }
 
-.imageBurgerContainer :focus {
-  outline: none !important;
-}
 
 .imageBurger {
   margin-left: 10px;
@@ -56,7 +53,6 @@
   font-weight: 700;
   color: rgb(57, 57, 57);
   cursor: pointer;
-  margin-right: 30px;
   margin-top: 10px;
 }
 
@@ -68,8 +64,9 @@
   text-decoration: none;
 }
 
+
 .logo {
-  text-align: end;
+  text-align: start;
 }
 
 .navOpen {

@@ -18,8 +18,8 @@ export default function Navbar() {
       <p className={styles.impactVerification}>Impact-Site-Verification: b0f511c0-2730-49eb-9fce-830f1e443a30</p>
 
       <div className={styles.navContainer}>
-        <div className={styles.containerGrid}>
           {/* HAMBURGER */}
+        <div className={styles.containerGrid}>
           <Link href={''} onClick={() => handleToggle()}>
             <div className={styles.imageBurgerContainer}>
               <Image
@@ -40,7 +40,7 @@ export default function Navbar() {
             </Link>
           </div>
           {/* LOGO */}
-          <div>
+          <div className={styles.containerLogo}>
               <Image
                 src={'/mycallDEV_logo.png'}
                 width={50}
