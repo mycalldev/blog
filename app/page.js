@@ -1,11 +1,7 @@
-import Head from "next/head";
-import { metadata } from "next";
+
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
-
-const name = 'impact-site-verification'
-
 
 
 export default function Home() {
@@ -97,14 +93,14 @@ export default function Home() {
               <div className={styles.podTitle}>Learn How to Learn</div>
               <div className={styles.podTeaser}>The 7 Step Formula</div>  
           </div>
-          <Link href={`/learnTolearn`} className={styles.linkBTN}>
+          <Link href={`/blogs/learnTolearn`} className={styles.linkBTN} prefetch={true}>
               <div className={styles.readBTN}>Read More</div>
           </Link>
         </div>
 
 {/* DESKTOP VERSION */}
         <div className={styles.imageThumbnailContainerDesktop}>
-              <Link href={'/whoami'} prefetch={true} >
+              <Link href={'/blogs/whoami'} prefetch={true} >
                   <div className={styles.imageBlogContanier}>
                       <Image 
                           src={`/linux_parrot_home.jpg`} 
@@ -127,7 +123,7 @@ export default function Home() {
               <div className={styles.podTitle}>WHOAMI</div>
               <div className={styles.podTeaser}>My Unconventioanl Journey to Tech</div>  
           </div>
-          <Link href={`/whoami`} className={styles.linkBTN}>
+          <Link href={`/blogs/whoami`} className={styles.linkBTN}>
               <div className={styles.readBTN}>Read More</div>
           </Link>
         </div>

@@ -60,31 +60,17 @@ export default function Navbar() {
                     <li className={styles.listItem}>Podcasts</li>
                   </div>
                 </Link>
-                 <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
-                  <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>Brain Teasers</li>
-                  </div>
-                </Link>
                 <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                     <li className={styles.listItem}>Blogs</li>
                   </div>
                 </Link>
-                <Link href={'/whoami'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/blogs/whoami'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>WHOAMI</li>
+                    <li className={styles.listItem}>Whoami</li>
                   </div>
                 </Link>
-                {/* <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
-                  <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>Support</li>
-                  </div>
-                </Link> */}
-                {/* <Link href={'/#'} className={styles.linkBTN} prefetch={true}>
-                  <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>Contact</li>
-                  </div>
-                </Link> */}
+               
               </ul>
             <div className={styles.closeMenu} onClick={() => handleToggle()}>Close Menu</div>
           </nav> 
@@ -94,7 +80,7 @@ export default function Navbar() {
 
 
           {/* DESKTOP NAV */}
-          <Link href="/#" className={styles.undreline}>
+          <Link href="/#" className={styles.undreline} prefetch={true}>
             <div className={styles.titleMainDesktop}>MYCALL DEV</div>
           </Link>
             <nav className={styles.navContainerGrid}>
@@ -104,27 +90,18 @@ export default function Navbar() {
                       <li className={styles.listItem}>Podcasts</li>
                     </div>
                 </Link>
-                {/* <Link href={'/#'} className={styles.linkBTN}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Guides</li>
-                    </div>
-                  </Link> */}
-                  <Link href={'/blogs'} className={styles.linkBTN}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Blogs</li>
-                    </div>
-                  </Link>
-                  <Link href={'/whoami'} className={styles.linkBTN}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Whoami</li>
-                    </div>
-                  </Link>
+                <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
+                  <div className={styles.listItemContainer}>
+                    <li className={styles.listItem}>Blogs</li>
+                  </div>
+                </Link>
+                <Link href={'/blogs/whoami'} className={styles.linkBTN} prefetch={true}>
+                  <div className={styles.listItemContainer}>
+                    <li className={styles.listItem}>Whoami</li>
+                  </div>
+                </Link>
                   
-                  {/* <Link href={'/#'} className={styles.linkBTN}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Contact</li>
-                    </div>
-                  </Link> */}
+
               </ul>
             </nav>
       

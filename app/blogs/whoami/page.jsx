@@ -246,7 +246,7 @@ export default function Whoami() {
         Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article
       </div> 
       
-      <Link href={'/#'} className={styles.linkBTN}>
+      <Link href={'/blogs/learnTolearn'} className={styles.linkBTN}>
             <div className={styles.guidesBTN}>Learn To Learn</div>
       </Link>
     </main>
