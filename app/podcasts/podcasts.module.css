@@ -5,8 +5,12 @@
   }
 
 .mainContainer {
-    border: 1px solid #888888;
     margin: 20px;
+}
+
+.imageThumbnailContainer {
+    border: 1px solid #888888;
+
 }
 
 .titleMain {
@@ -49,4 +53,15 @@
   color: #fff;
   text-align: center;
   cursor: pointer;
+}
+
+@media(min-width: 768px) {
+   .mainContainer {
+    width: 60%;
+    margin: 20px auto;
+   }
+
+   .titleMain {
+    font-size: 1.7rem;
+   }
 }

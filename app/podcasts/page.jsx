@@ -40,7 +40,7 @@ export default async function Podcasts() {
                     <Link href={`/podcasts/${podcast._id}`} prefetch={true} >
                             <div className={styles.imageBlogContanier}>
                                 <Image 
-                                    src={`/podcasts/${podcast.imageThumbnail}.JPG`} 
+                                    src={`/podcasts/${podcast.imageThumbnail}.jpg`} 
                                     width={1456} 
                                     height={816} 
                                     style={{
@@ -52,10 +52,7 @@ export default async function Podcasts() {
                                 />  
                             </div>
                         </Link>
-                      
-                    </div>
-
-                    <div className={styles.contentContainer}>
+                        <div className={styles.contentContainer}>
                         <div className={styles.flexReadTime}>
                             <div className={styles.readTime}>Duration:</div> 
                             <div>{podcast.minuteRead} minutes</div>
@@ -66,6 +63,9 @@ export default async function Podcasts() {
                     <Link href={`/podcasts/${podcast._id}`} className={styles.linkBTN}>
                         <div className={styles.readBTN}>Listen</div>
                     </Link>
+                    </div>
+
+                    
                 </div>
             ))}
             
