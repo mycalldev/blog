@@ -16,54 +16,56 @@ async function getBlogs() {
 
 export default async function Blogs() {
   
-    const blogs = await getBlogs()
+    const Blogs = await getBlogs()
 
     return (
         <main>
             <Image src={'/category_banner/computer_library_cropped.png'} 
-            width={1456} 
-            height={267} 
-            style={{
-                width: '100%',
-                height: 'auto',
-              }}
-            className={styles.imageHero} 
-            alt='hero image for blogs categroy' 
-            quality={100} />
+                width={1456} 
+                height={816} 
+                style={{
+                    width: '100%',
+                    height: 'auto',
+                }}
+                className={styles.imageHero} 
+                alt='hero image for blogs categroy' 
+                quality={100} 
+            />
 
             <h1 className={styles.titleMain}>BLOGS COLLECTION</h1>
 
             
-            {blogs.map((blog) => (
+            {Blogs.map((blog) => (
                 <div key={blog._id} className={styles.mainContainer}>
                     <div className={styles.imageThumbnailContainer}>
-                        <Link href={`/blogs/${blog._id}`} prefetch={true} >
+                    <Link href={`/blogs/${blog._id}`} prefetch={true} >
                             <div className={styles.imageBlogContanier}>
                                 <Image 
-                                    src={`/A-THUMBNAIL_IMAGES/${blog.imageThumbnail}.jpg`} 
+                                    src={`/A-THUMBNAIL-IMAGES/${blog.imageThumbnail}.jpg`} 
                                     width={1456} 
                                     height={816} 
                                     style={{
                                         width: '100%',
                                         height: 'auto',
                                       }}
-                                    alt='thumbnail of blog image' 
+                                    alt='thumbnail of podcast image' 
                                     quality={100} 
                                 />  
                             </div>
                         </Link>
+                      
                     </div>
 
                     <div className={styles.contentContainer}>
                         <div className={styles.flexReadTime}>
-                            <div className={styles.readTime}>Read Time:</div> 
+                            <div className={styles.readTime}>Duration:</div> 
                             <div>{blog.minuteRead} minutes</div>
                         </div>
-                        <div className={styles.blogTitle}>{blog.blogTitle}</div>
+                        <div className={styles.blogTitle}>{blog.blogTitleFrontend}</div>
                         <div className={styles.blogSubTitle1}>{blog.tagTeaser}</div>  
                     </div>
-                    <Link href={`/blogs/${blog._id}`} className={styles.linkBTN}>
-                        <div className={styles.readBTN}>Read More</div>
+                    <Link href={`/blogs/${blog.blogTitleBackend}`} className={styles.linkBTN}>
+                        <div className={styles.readBTN}>Take a Peek</div>
                     </Link>
                 </div>
             ))}
@@ -71,3 +73,4 @@ export default async function Blogs() {
         </main>
     )
 }
+ 

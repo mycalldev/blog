@@ -1,0 +1,52 @@
+
+.linkBTN {
+    text-decoration: none;
+    color: #fff;
+  }
+
+.mainContainer {
+    border: 1px solid #888888;
+    margin: 20px;
+}
+
+.titleMain {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.imageBlogContanier {
+    padding: 20px 20px 5px 20px;
+}
+
+.flexReadTime {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blogTitle {
+    margin: 0 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.blogSubTitle1 {
+    margin: 0 20px 20px 20px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.readBTN {
+    width: 50%;
+  padding: 15px 25px;
+  margin: 40px auto 40px auto;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 11px;
+  background: #56a4ec;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
