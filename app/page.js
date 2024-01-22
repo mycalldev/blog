@@ -14,7 +14,7 @@ export default function Home() {
         {/* HERO SECTION MOBILE */}
         <div className={styles.heroContainerMobile}>
             <Image 
-              src={"/podcasts/hero_waves.JPG"} 
+              src={"/podcasts/hero_waves.jpg"} 
               width={1920} 
               height={1080} 
               className={styles.imageHeroMobile} 
