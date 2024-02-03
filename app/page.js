@@ -50,7 +50,7 @@ export default function Home() {
             />
         </div>
 
-        <h4 className={styles.divingIn}>I&apos;M DIVING DEEP INTO:</h4>
+        <h4 className={styles.divingIn}>I&apos;M DIVING DEEP INTO THE WORLD OF:</h4>
         <p className={styles.subjectsMain}>
           Computer Programming, Networking,
           Cyber Security, Artificial Intelligence, 
@@ -67,6 +67,14 @@ export default function Home() {
           />
         </div>
         
+        <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
+              <div className={styles.guidesBTNContainer}>
+                <div className={styles.guidesBTN}>
+                 LATEST BLOGS
+                </div>
+              </div>
+             
+        </Link>
       
         <div className={styles.mainContainer}>
 {/* MOBILE VERSION */}
@@ -130,7 +138,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div className={styles.imageGuidesContainer}>
+        {/* <div className={styles.imageGuidesContainer}>
             <Image 
               src={"/guides_cogs_cropped.png"} 
               className={styles.imageGuides} 
@@ -139,16 +147,7 @@ export default function Home() {
               alt="guides image banner" 
               quality={100} 
             />
-
-            <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
-              <div className={styles.guidesBTNContainer}>
-                <div className={styles.guidesBTN}>
-                 LATEST BLOGS
-                </div>
-              </div>
-             
-            </Link>
-        </div>
+        </div> */}
 
         <div className={styles.imageCogsContainer}>
           <Image 
