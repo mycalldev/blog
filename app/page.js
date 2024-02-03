@@ -25,9 +25,9 @@ export default function Home() {
 
         {/* HERO SECTION DESKTOP */}
         <div className={styles.heroContainerDesktop}>
-            <Image src={"/hero_waves_cropped.jpeg"} 
+            <Image src={"/hero_waves_recropped.jpeg"} 
               width={1920} 
-              height={831} 
+              height={436} 
               className={styles.imageHeroDesktop} 
               alt='hero image Desktop' 
               quality={100}
@@ -35,22 +35,21 @@ export default function Home() {
         </div>
              
         {/* SECTION 2 */}
-        <h2 className={styles.welcomeTitle}>WELCOME TO THE LATEST TECH GUIDE</h2>
-        <h3 className={styles.welcomeSubTitle}>A Library full of technological goodies in the form of Vlogs and Blogs....</h3>
+        <h2 className={styles.enticeQuestion}>
+          DO YOU HAVE AN <span>INTEREST</span> IN LEARNING?
+        </h2>
+        <h3 className={styles.subInfo}>A Library full of technological goodies in the form of Vlogs and Blogs....</h3>
         <div className={styles.imageMicrophoneContainer}>
             <Image 
               src={"/home/microphone.jpg"} 
               className={styles.imageMicrophone} 
-              width={1456} 
-              height={816} 
+              width={728} 
+              height={408} 
               alt="hero image" 
               quality={100} 
             />
         </div>
 
-        <h3 className={styles.enticeQuestion}>
-          DO YOU HAVE AN <span>INTEREST</span> IN LEARNING?
-        </h3>
         <h4 className={styles.divingIn}>I&apos;M DIVING DEEP INTO:</h4>
         <p className={styles.subjectsMain}>
           Computer Programming, Networking,
