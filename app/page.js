@@ -39,13 +39,13 @@ export default function Home() {
           DO YOU HAVE AN <span>INTEREST</span> IN LEARNING?
         </h2>
         <h3 className={styles.subInfo}>A Library full of technological goodies in the form of Vlogs and Blogs....</h3>
-        <div className={styles.imageMicrophoneContainer}>
+        <div className={styles.imageDolphinContainer}>
             <Image 
-              src={"/home/microphone.jpg"} 
-              className={styles.imageMicrophone} 
-              width={728} 
-              height={408} 
-              alt="hero image" 
+              src={"/dolphin.png"} 
+              className={styles.imageDolphin} 
+              width={400} 
+              height={400} 
+              alt="image of dolphin" 
               quality={100} 
             />
         </div>

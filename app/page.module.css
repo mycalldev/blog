@@ -31,12 +31,12 @@
   display: none;
 }
 
-.imageMicrophoneContainer {
+.imageDolphinContainer{
   width: 50%;
   margin: auto;
 }
 
-.imageMicrophone {
+.imageDolphin {
   width: 100%;
   height: auto;
 }
@@ -258,7 +258,7 @@
     margin: auto;
   }
   
-  .imageMicrophoneContainer {
+  .imageDolphinContainer {
     width: 40%;
     margin: auto;
   }
