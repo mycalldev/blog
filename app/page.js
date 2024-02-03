@@ -51,7 +51,7 @@ export default function Home() {
         <h3 className={styles.enticeQuestion}>
           DO YOU HAVE AN <span>INTEREST</span> IN LEARNING?
         </h3>
-        <h4 className={styles.divingIn}>I'M DIVING DEEP INTO:</h4>
+        <h4 className={styles.divingIn}>I&apos;M DIVING DEEP INTO:</h4>
         <p className={styles.subjectsMain}>
           Computer Programming, Networking,
           Cyber Security, Artificial Intelligence, 
