@@ -218,11 +218,6 @@
   cursor: pointer;
 }
 
-.tagSpotify {
-  margin: 10px;
-  text-align: center;
-  font-size: 1.1rem;
-}
 
 .techStackTitle {
   position: absolute;
@@ -285,6 +280,10 @@
   .enticeQuestion {
     font-size: 2rem;
   } 
+  
+  .divingIn {
+    font-size: 1.5rem;
+  }
 
   .subjectsMain {
     width: 50%;
@@ -296,6 +295,10 @@
     font-size: 2rem;
   }
 
+  .welcomeSubTitle {
+    font-size: 1.5rem;
+  }
+
   .weCoverSubTitle {
     font-size: 2rem;
   }
@@ -304,7 +307,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 70%;
-    margin: auto;
+    margin: 20px auto 40px auto;
   }
 
   .flexReadTime {

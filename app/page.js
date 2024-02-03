@@ -36,7 +36,7 @@ export default function Home() {
              
         {/* SECTION 2 */}
         <h2 className={styles.welcomeTitle}>WELCOME TO THE LATEST TECH GUIDE</h2>
-        <h3 className={styles.welcomeSubTitle}>A Library full of technological goodies in the form of vlogs and blogs....</h3>
+        <h3 className={styles.welcomeSubTitle}>A Library full of technological goodies in the form of Vlogs and Blogs....</h3>
         <div className={styles.imageMicrophoneContainer}>
             <Image 
               src={"/home/microphone.jpg"} 
@@ -69,75 +69,66 @@ export default function Home() {
         </div>
         
       
-{/* MOBILE VERSION */}
         <div className={styles.mainContainer}>
-          <div className={styles.imageThumbnailContainer}>
-              <Link href={'/learnTolearn'} prefetch={true} >
-                  <div className={styles.imageBlogContanier}>
-                      <Image 
-                          src={`/learning.jpg`} 
-                          width={1024} 
-                          height={677} 
-                          style={{
-                              width: '100%',
-                              height: 'auto',
-                            }}
-                          alt='thumbnail of Learn to Learn podcast image' 
-                          quality={100} 
-                      />  
-                  </div>
-              </Link>
-              <div className={styles.contentContainer}>
-              <div className={styles.flexReadTime}>
-                  <div className={styles.readTime}>Read Time:</div> 
-                  <div>9 minutes</div>
-              </div>
-              <div className={styles.podTitle}>Learn How to Learn</div>
-              <div className={styles.podTeaser}>The 7 Step Formula</div>  
+{/* MOBILE VERSION */}
+            <div className={styles.imageThumbnailContainer}>
+                <Link href={'/learnTolearn'} prefetch={true} >
+                    <div className={styles.imageBlogContanier}>
+                        <Image 
+                            src={`/learning.jpg`} 
+                            width={1024} 
+                            height={677} 
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                              }}
+                            alt='thumbnail of Learn to Learn blog image' 
+                            quality={100} 
+                        />  
+                    </div>
+                </Link>
+            <div className={styles.contentContainer}>
+                <div className={styles.flexReadTime}>
+                    <div className={styles.readTime}>Read Time:</div> 
+                    <div>9 minutes</div>
+                </div>
+                <div className={styles.podTitle}>Learn How to Learn</div>
+                <div className={styles.podTeaser}>The 7 Step Formula</div>  
+            </div>
+            <Link href={`/blogs/learnTolearn`} className={styles.linkBTN} prefetch={true}>
+                <div className={styles.readBTN}>Read More</div>
+            </Link>
           </div>
-          <Link href={`/blogs/learnTolearn`} className={styles.linkBTN} prefetch={true}>
-              <div className={styles.readBTN}>Read More</div>
-          </Link>
-        </div>
 
 {/* DESKTOP VERSION */}
-        <div className={styles.imageThumbnailContainerDesktop}>
-              <Link href={'/blogs/whoami'} prefetch={true} >
-                  <div className={styles.imageBlogContanier}>
-                      <Image 
-                          src={`/linux_parrot_home.jpg`} 
-                          width={1024} 
-                          height={677} 
-                          style={{
-                              width: '100%',
-                              height: 'auto',
-                            }}
-                          alt='thumbnail of Whoami podcast image' 
-                          quality={100} 
-                      />  
+            <div className={styles.imageThumbnailContainerDesktop}>
+                  <Link href={'/blogs/whoami'} prefetch={true} >
+                      <div className={styles.imageBlogContanier}>
+                          <Image 
+                              src={`/linux_parrot_home.jpg`} 
+                              width={1024} 
+                              height={677} 
+                              style={{
+                                  width: '100%',
+                                  height: 'auto',
+                                }}
+                              alt='thumbnail of Whoami blog image' 
+                              quality={100} 
+                          />  
+                      </div>
+                  </Link>
+                  <div className={styles.contentContainer}>
+                  <div className={styles.flexReadTime}>
+                      <div className={styles.readTime}>Read Time:</div> 
+                      <div>7 minutes</div>
                   </div>
-              </Link>
-              <div className={styles.contentContainer}>
-              <div className={styles.flexReadTime}>
-                  <div className={styles.readTime}>Read Time:</div> 
-                  <div>7 minutes</div>
+                  <div className={styles.podTitle}>WHOAMI</div>
+                  <div className={styles.podTeaser}>My Unconventioanl Journey to Tech</div>  
               </div>
-              <div className={styles.podTitle}>WHOAMI</div>
-              <div className={styles.podTeaser}>My Unconventioanl Journey to Tech</div>  
-          </div>
-          <Link href={`/blogs/whoami`} className={styles.linkBTN}>
-              <div className={styles.readBTN}>Read More</div>
-          </Link>
-        </div>
-        </div>
-
-          
-      
-        <div className={styles.imageSpotifyContainer}>
-            <div className={styles.tagSpotify}>
-              Check us out On Spotify
+              <Link href={`/blogs/whoami`} className={styles.linkBTN}>
+                  <div className={styles.readBTN}>Read More</div>
+              </Link>
             </div>
-            <Image src={'/spotify1.png'} width={64} height={64} alt='spotify image' quality={100} />
         </div>
 
         <div className={styles.imageGuidesContainer}>
