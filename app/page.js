@@ -35,7 +35,8 @@ export default function Home() {
         </div>
              
         {/* SECTION 2 */}
-        <h2 className={styles.welcomeTitle}>WELCOME TO THE LATEST TECH PODCAST</h2>
+        <h2 className={styles.welcomeTitle}>WELCOME TO THE LATEST TECH GUIDE</h2>
+        <h3 className={styles.welcomeSubTitle}>A Library full of technological goodies in the form of vlogs and blogs....</h3>
         <div className={styles.imageMicrophoneContainer}>
             <Image 
               src={"/home/microphone.jpg"} 
@@ -50,6 +51,7 @@ export default function Home() {
         <h3 className={styles.enticeQuestion}>
           DO YOU HAVE AN <span>INTEREST</span> IN LEARNING?
         </h3>
+        <h4 className={styles.divingIn}>I'M DIVING DEEP INTO:</h4>
         <p className={styles.subjectsMain}>
           Computer Programming, Networking,
           Cyber Security, Artificial Intelligence, 
@@ -66,7 +68,7 @@ export default function Home() {
           />
         </div>
         
-        <h4 className={styles.weCoverSubTitle}>COVERING A WIDE RANGE OF TOPICS IN SHORT SOUND BYTES</h4>
+      
 {/* MOBILE VERSION */}
         <div className={styles.mainContainer}>
           <div className={styles.imageThumbnailContainer}>
