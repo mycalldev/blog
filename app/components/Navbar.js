@@ -16,7 +16,6 @@ export default function Navbar() {
   return (
     <main>
     
-
       <div className={styles.navContainer}>
           {/* HAMBURGER */}
         <div className={styles.containerGrid}>
@@ -55,9 +54,9 @@ export default function Navbar() {
       {toggle ? 
             <nav className={styles.navOpen}>
               <ul className={styles.unorderedList}>
-                <Link href={'/podcasts'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/guides'} className={styles.linkBTN} prefetch={true}>
                   <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>Podcasts</li>
+                    <li className={styles.listItem}>Guides</li>
                   </div>
                 </Link>
                 <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
@@ -85,9 +84,9 @@ export default function Navbar() {
           </Link>
             <nav className={styles.navContainerGrid}>
               <ul className={styles.navDesktopGrid}>
-                <Link href={'/podcasts'} className={styles.linkBTN} prefetch={true}>
+                <Link href={'/guides'} className={styles.linkBTN} prefetch={true}>
                     <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Podcasts</li>
+                      <li className={styles.listItem}>Guides</li>
                     </div>
                 </Link>
                 <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
@@ -100,8 +99,6 @@ export default function Navbar() {
                     <li className={styles.listItem}>Whoami</li>
                   </div>
                 </Link>
-                  
-
               </ul>
             </nav>
       

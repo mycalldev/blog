@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from './podcasts.module.css';
+import styles from './guides.module.css';
 
-async function getPodcasts() {
+async function getGuides() {
     
     const res = await fetch('https://www.mycalldevcp.co.uk/api/podcasts', {
         next: {
@@ -14,13 +14,13 @@ async function getPodcasts() {
     return data
 }
 
-export default async function Podcasts() {
+export default async function Guides() {
   
-    const podcasts = await getPodcasts()
+    const guides = await getGuides()
 
     return (
         <main>
-            <Image src={'/podcasts/podcast_hero_mobile.jpg'} 
+            <Image src={'/guides/guide_hero_mobile.jpg'} 
             width={1456} 
             height={816} 
             style={{
@@ -28,26 +28,26 @@ export default async function Podcasts() {
                 height: 'auto',
               }}
             className={styles.imageHero} 
-            alt='hero image for blogs categroy' 
+            alt='hero image for guides categroy' 
             quality={100} />
 
-            <h1 className={styles.titleMain}>PODCAST COLLECTION</h1>
+            <h1 className={styles.titleMain}>GUIDES COLLECTION</h1>
 
             
-            {podcasts.map((podcast) => (
-                <div key={podcast._id} className={styles.mainContainer}>
+            {guides.map((guide) => (
+                <div key={guide._id} className={styles.mainContainer}>
                     <div className={styles.imageThumbnailContainer}>
-                    <Link href={`/podcasts/${podcast._id}`} prefetch={true} >
+                    <Link href={`/guides/${guide._id}`} prefetch={true} >
                             <div className={styles.imageBlogContanier}>
                                 <Image 
-                                    src={`/podcasts/${podcast.imageThumbnail}.jpg`} 
+                                    src={`/guides/${guide.imageThumbnail}.jpg`} 
                                     width={1456} 
                                     height={816} 
                                     style={{
                                         width: '100%',
                                         height: 'auto',
                                       }}
-                                    alt='thumbnail of podcast image' 
+                                    alt='thumbnail of guide image' 
                                     quality={100} 
                                 />  
                             </div>
@@ -55,12 +55,12 @@ export default async function Podcasts() {
                         <div className={styles.contentContainer}>
                         <div className={styles.flexReadTime}>
                             <div className={styles.readTime}>Duration:</div> 
-                            <div>{podcast.minuteRead} minutes</div>
+                            <div>{guide.minuteRead} minutes</div>
                         </div>
-                        <div className={styles.podcastTitle}>{podcast.podcastTitle}</div>
-                        <div className={styles.podcastSubTitle1}>{podcast.tagTeaser}</div>  
+                        <div className={styles.podcastTitle}>{guide.podcastTitle}</div>
+                        <div className={styles.podcastSubTitle1}>{guide.tagTeaser}</div>  
                     </div>
-                    <Link href={`/podcasts/${podcast._id}`} className={styles.linkBTN}>
+                    <Link href={`/guides/${guide._id}`} className={styles.linkBTN}>
                         <div className={styles.readBTN}>Listen</div>
                     </Link>
                     </div>

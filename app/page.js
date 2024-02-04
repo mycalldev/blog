@@ -14,7 +14,7 @@ export default function Home() {
         {/* HERO SECTION MOBILE */}
         <div className={styles.heroContainerMobile}>
             <Image 
-              src={"/podcasts/hero_waves.jpg"} 
+              src={"/guides/hero_waves.jpg"} 
               width={1920} 
               height={1080} 
               className={styles.imageHeroMobile} 
@@ -50,7 +50,7 @@ export default function Home() {
             />
         </div>
 
-        <h4 className={styles.divingIn}>I&apos;M DIVING DEEP INTO THE WORLD OF:</h4>
+        <h4 className={styles.divingIn}>DIVING DEEP INTO THE WORLD OF:</h4>
         <p className={styles.subjectsMain}>
           Computer Programming, Networking,
           Cyber Security, Artificial Intelligence, 

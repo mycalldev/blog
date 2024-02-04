@@ -10,7 +10,7 @@ export default function Footer() {
           <div className={styles.footerBG}>
           <div className={styles.footerCotentContainer}>
               <div className={styles.footerContent}>
-                THE LATEST PODCAST ON ALL THINGS TECH
+                THE LATEST INFO ON ALL THINGS TECH
               </div>         
               <div className={styles.mycalldevLogoContainer}>
                   <Image src={'/mycallDEV_logo_white.png'} width={125} height={125} className={styles.mycalldevLogo} alt='mycalldev logo' quality={100} />
