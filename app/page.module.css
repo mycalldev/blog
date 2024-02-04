@@ -175,7 +175,12 @@
 
 .flexReadTime {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.readTime {
+  margin: 0 10px;
+  color: #575757;
 }
 
 .podTitle {
@@ -291,6 +296,10 @@
 
   .flexReadTime {
     font-size: 1.5rem;
+  }
+
+  .readTime {
+    font-size: 1.3rem;
   }
 
   .podTitle {

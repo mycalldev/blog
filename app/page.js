@@ -95,15 +95,15 @@ export default function Home() {
                     </div>
                 </Link>
             <div className={styles.contentContainer}>
+                
+                <div className={styles.podTitle}>Learn How to Learn</div>
                 <div className={styles.flexReadTime}>
                     <div className={styles.readTime}>Read Time:</div> 
-                    <div>9 minutes</div>
-                </div>
-                <div className={styles.podTitle}>Learn How to Learn</div>
-                <div className={styles.podTeaser}>The 7 Step Formula</div>  
+                    <div className={styles.readTime}>9 minutes</div>
+                </div> 
             </div>
             <Link href={`/blogs/learnTolearn`} className={styles.linkBTN} prefetch={true}>
-                <div className={styles.readBTN}>Read More</div>
+                <div className={styles.readBTN}>Take a Peek</div>
             </Link>
           </div>
 
@@ -125,15 +125,15 @@ export default function Home() {
                       </div>
                   </Link>
                   <div className={styles.contentContainer}>
+                  
+                  <div className={styles.podTitle}>WHOAMI</div>
                   <div className={styles.flexReadTime}>
                       <div className={styles.readTime}>Read Time:</div> 
-                      <div>7 minutes</div>
-                  </div>
-                  <div className={styles.podTitle}>WHOAMI</div>
-                  <div className={styles.podTeaser}>My Unconventioanl Journey to Tech</div>  
+                      <div className={styles.readTime}>7 minutes</div>
+                  </div> 
               </div>
               <Link href={`/blogs/whoami`} className={styles.linkBTN}>
-                  <div className={styles.readBTN}>Read More</div>
+                  <div className={styles.readBTN}>Take a Peek</div>
               </Link>
             </div>
         </div>

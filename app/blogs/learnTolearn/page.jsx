@@ -25,6 +25,11 @@ export default function LearnTolearn() {
 
             />
         </div>
+        <div className={styles.linkBack}>
+          <Link href={'/blogs'} className={styles.linkBTN}>
+            {'< Blogs'}
+          </Link>
+        </div>
 
         {/* SECTION 2 */}
         <div className={styles.subTitle}>LEARN HOW TO LEARN</div>
