@@ -20,6 +20,7 @@ export default async function Blogs() {
 
     return (
         <main>
+            
             <Image src={'/category_banner/computer_library_cropped.png'} 
                 width={1456} 
                 height={816} 
@@ -48,7 +49,7 @@ export default async function Blogs() {
                                         width: '100%',
                                         height: 'auto',
                                       }}
-                                    alt='thumbnail of podcast image' 
+                                    alt='thumbnail of blog image' 
                                     quality={100} 
                                 />  
                             </div>
@@ -57,12 +58,12 @@ export default async function Blogs() {
                     </div>
 
                     <div className={styles.contentContainer}>
-                        <div className={styles.flexReadTime}>
-                            <div className={styles.readTime}>Duration:</div> 
-                            <div>{blog.minuteRead} minutes</div>
-                        </div>
+                        
                         <div className={styles.blogTitle}>{blog.blogTitleFrontend}</div>
-                        <div className={styles.blogSubTitle1}>{blog.tagTeaser}</div>  
+                        <div className={styles.flexReadTime}>
+                            <div className={styles.readTime}>Read Time:</div> 
+                            <div>{blog.minuteRead} minutes</div>
+                        </div> 
                     </div>
                     <Link href={`/blogs/${blog.blogTitleBackend}`} className={styles.linkBTN}>
                         <div className={styles.readBTN}>Take a Peek</div>

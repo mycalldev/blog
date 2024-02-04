@@ -1,7 +1,12 @@
 .linkBTN {
     text-decoration: none;
-    color: #fff;
-  }
+    color: #000;
+}
+
+.linkBack {
+    margin: 20px 30px;
+    font-size: 1.1rem;
+}
 
 .contentMain {
     margin: 20px 30px;

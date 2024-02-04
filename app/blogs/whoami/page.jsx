@@ -29,6 +29,12 @@ export default function Whoami() {
             quality={100} />
         </div>
 
+        <div className={styles.linkBack}>
+          <Link href={'/blogs'} className={styles.linkBTN}>
+            {'< Blogs'}
+          </Link>
+        </div>
+        
         <div className={styles.titleMain}>WHOAMI</div>
         <div className={styles.titleTag}>My Journey As a Computer Programmer: 7+ Years of Building Digital Worlds</div>
         <div className={styles.contentMain}>
