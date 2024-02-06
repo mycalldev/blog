@@ -14,23 +14,12 @@ export default function Home() {
         {/* HERO SECTION MOBILE */}
         <div className={styles.heroContainerMobile}>
             <Image 
-              src={"/guides/hero_waves.jpg"} 
-              width={1920} 
-              height={1080} 
+              src={"/home/waves_hero.jpg"} 
+              width={1534} 
+              height={666} 
               className={styles.imageHeroMobile} 
               alt='hero image Mobile' 
               quality={100} 
-            />
-        </div>
-
-        {/* HERO SECTION DESKTOP */}
-        <div className={styles.heroContainerDesktop}>
-            <Image src={"/hero_waves_recropped.jpeg"} 
-              width={1920} 
-              height={436} 
-              className={styles.imageHeroDesktop} 
-              alt='hero image Desktop' 
-              quality={100}
             />
         </div>
              
@@ -38,7 +27,7 @@ export default function Home() {
         <h2 className={styles.enticeQuestion}>
           DO YOU HAVE AN <span>INTEREST</span> IN LEARNING?
         </h2>
-        <h3 className={styles.subInfo}>A Library full of technological goodies in the form of Vlogs and Blogs....</h3>
+        <h3 className={styles.subInfo}>A Library full of technological goodies in the form of Tutorial Guides and Blogs....</h3>
         <div className={styles.imageDolphinContainer}>
             <Image 
               src={"/dolphin.png"} 
@@ -68,12 +57,9 @@ export default function Home() {
         </div>
         
         <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
-              <div className={styles.guidesBTNContainer}>
-                <div className={styles.guidesBTN}>
-                 LATEST BLOGS
-                </div>
-              </div>
-             
+            <div className={styles.buttonCTA}>
+              LATEST BLOGS
+            </div>
         </Link>
       
         <div className={styles.mainContainer}>
@@ -95,15 +81,12 @@ export default function Home() {
                     </div>
                 </Link>
             <div className={styles.contentContainer}>
-                
                 <div className={styles.podTitle}>Learn How to Learn</div>
-                <div className={styles.flexReadTime}>
-                    <div className={styles.readTime}>Read Time:</div> 
-                    <div className={styles.readTime}>9 minutes</div>
-                </div> 
+                <div className={styles.contentMeta}>Published: 6th February 2024</div>
+                <div className={styles.contentMeta}>Read Time: 5 Minutes</div>
             </div>
             <Link href={`/blogs/learnTolearn`} className={styles.linkBTN} prefetch={true}>
-                <div className={styles.readBTN}>Take a Peek</div>
+                <div className={styles.buttonCTA}>Take a Peek</div>
             </Link>
           </div>
 
@@ -127,13 +110,11 @@ export default function Home() {
                   <div className={styles.contentContainer}>
                   
                   <div className={styles.podTitle}>WHOAMI</div>
-                  <div className={styles.flexReadTime}>
-                      <div className={styles.readTime}>Read Time:</div> 
-                      <div className={styles.readTime}>7 minutes</div>
-                  </div> 
+                  <div className={styles.contentMeta}>Published: 6th February 2024</div>
+                  <div className={styles.contentMeta}>Read Time: 5 Minutes</div>
               </div>
               <Link href={`/blogs/whoami`} className={styles.linkBTN}>
-                  <div className={styles.readBTN}>Take a Peek</div>
+                  <div className={styles.buttonCTA}>Take a Peek</div>
               </Link>
             </div>
         </div>

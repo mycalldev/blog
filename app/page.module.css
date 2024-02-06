@@ -15,7 +15,8 @@
 
 /* IMAGES */
 .heroContainerMobile {
-  display: block;
+  width: 100%;
+  margin: auto;
 }
 
 .imageHeroMobile {
@@ -23,9 +24,6 @@
   height: auto;
 }
 
-.heroContainerDesktop {
-  display: none;
-}
 
 .imageThumbnailContainerDesktop {
   display: none;
@@ -51,6 +49,11 @@
   height: auto;
 }
 
+.imageGuides {
+  width: 100%;
+  height: auto;
+} 
+
 .imageLearningContainer {
   position: relative;
   padding: 20px;
@@ -58,11 +61,6 @@
 
 .imageEpisodeContainer {
   padding: 40px;
-} 
-
-.imageGuides {
-  width: 100%;
-  height: auto;
 } 
 
 .imageCogsContainer {
@@ -80,53 +78,10 @@
 }
 
 /* BUTTONS */
-.moreInfoBTN {
-  padding: 3px 20px;
-  margin: 5px;
-  border-radius: 5px;
-  background: #91c0dc;
-  color: #fff;
-  cursor: pointer;
-}
-
-.listenBTN {
-  position: absolute;
-  bottom: -26px;
-  left: 10px;
-  right: 10px;
-  padding: 15px 20px;
-  margin: 0 10px;
-  font-size: 1.1rem;
-  font-weight: 700;
-  border-radius: 0 0 11px 11px;
-  background: #56a4ec;
-  color: #fff;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
-} 
-
-.latestBTN {
-  position: absolute;
-  top: -26px;
-  left: 10px;
-  right: 10px;
-  padding: 15px 20px;
-  margin: 0 10px;
-  font-size: 1.1rem;
-  font-weight: 700;
-  border-radius: 11px 11px 0 0;
-  background: #56a4ec;
-  color: #fff;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
-}
-
-.guidesBTN {
+.buttonCTA {
   width: 50%;
-  padding: 15px 25px;
-  margin: 40px auto 40px auto;
+  padding: 14px 25px;
+  margin: 20px auto 40px auto;
   font-size: 1.1rem;
   font-weight: 700;
   border-radius: 11px;
@@ -173,13 +128,9 @@
   padding: 20px 20px 5px 20px;
 }
 
-.flexReadTime {
-  display: flex;
-  justify-content: center;
-}
-
-.readTime {
-  margin: 0 10px;
+.contentMeta {
+  text-align: center;
+  margin: 5px 10px;
   color: #575757;
 }
 
@@ -195,20 +146,6 @@
   text-align: center;
   font-size: 1.3rem;
 }
-
-.readBTN {
-  width: 50%;
-  padding: 15px 25px;
-  margin: 20px auto 40px auto;
-  font-size: 1.1rem;
-  font-weight: 700;
-  border-radius: 11px;
-  background: #56a4ec;
-  color: #fff;
-  text-align: center;
-  cursor: pointer;
-}
-
 
 .techStackTitle {
   position: absolute;
@@ -241,14 +178,7 @@
 }
 
 @media(min-width: 768px) {
-  .heroContainerMobile {
-    display: none;
-    }
-
-  .heroContainerDesktop {
-    display: block;
-  }
-
+  
   .imageThumbnailContainerDesktop {
     display: block;
   }
@@ -264,8 +194,9 @@
   }
   
   .imageDolphinContainer {
-    width: 40%;
+    width: 20%;
     margin: auto;
+    padding: 20px;
   }
 
   .enticeQuestion {
@@ -306,20 +237,13 @@
     font-size: 1.7rem;
   }
 
-  .readBTN {
-    font-size: 1.7rem;
+  .buttonCTA {
+    width: 30%;
+    margin: 40px auto;
+    font-size: 1.3rem;
   }
 
   .tagSpotify {
-    font-size: 1.7rem;
-  }
-
-  .guidesBTNContainer {
-    width: 50%;
-    margin: 20px auto 80px auto;
-  }
-
-  .guidesBTN {
     font-size: 1.7rem;
   }
 

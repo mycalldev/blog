@@ -117,7 +117,7 @@ export default function LearnTolearn() {
             The Protocol I have set out is structured into <span>7</span> orderly sections: 
         </div>
 
-        <ol className={styles.orderList}>
+        <ol>
             <li className={styles.listItem}>Relevance and/or context for why we are learning the particular subject</li>
             <li className={styles.listItem}>Explanation of the Subject</li>
             <li className={styles.listItem}>Analogy</li>
