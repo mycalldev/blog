@@ -94,7 +94,7 @@
     text-align: start;
     text-transform: uppercase;
     color: #575757;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .phrase {
@@ -151,7 +151,8 @@
     }
 
     .listItem {
-       margin: 20px auto;
+        margin: 20px auto;
+        font-size: 1.3rem;
     }
 
     .headerSub {
