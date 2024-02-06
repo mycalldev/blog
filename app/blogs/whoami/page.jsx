@@ -1,23 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from'./whoami.module.css';
+import styles from'../../styles/blogPage.module.css';
 
 
 export default function Whoami() {
   return (
     <main>
-        <div className={styles.imageHeroContainerMobile}>
-            <Image src={'/linux_parrot.jpg'}  
-            width={1024} 
-            height={1024} 
-            style={{
-                width: '100%',
-                height: 'auto',
-              }}
-            alt='image of linux parrot for website mobile' 
-            quality={100} />
-        </div>
-        <div className={styles.imageHeroContainerDesktop}>
+        <div className={styles.containerImageFullWidth}>
             <Image src={'/linux_parrot_desktop.jpg'}  
             width={2045} 
             height={786} 
@@ -28,15 +17,21 @@ export default function Whoami() {
             alt='image of linux parrot for website desktop' 
             quality={100} />
         </div>
-
+       
+      <div className={styles.container}>
         <div className={styles.linkBack}>
           <Link href={'/blogs'} className={styles.linkBTN}>
             {'< Blogs'}
           </Link>
         </div>
+
+        <div className={styles.contentMeta}>
+          <div>Updated: 6th February 2024</div>
+          <div>Read Time: 5 minutes</div>
+        </div>
         
-        <div className={styles.titleMain}>WHOAMI</div>
-        <div className={styles.titleTag}>My Journey As a Computer Programmer: 7+ Years of Building Digital Worlds</div>
+        <div className={styles.title}>WHOAMI</div>
+        <div className={styles.titleSub}>My Journey As a Computer Programmer: 7+ Years of Building Digital Worlds</div>
         <div className={styles.contentMain}>
           Welcome Tech enthusiasts! I go by the alias Mycall Dev and 
           I&apos;m excited to share my journey as a computer programmer with you today. 
@@ -45,7 +40,7 @@ export default function Whoami() {
           and Full Stack Development.
         </div>
         
-        <div className={styles.titleSub}>Technologies</div>
+        <div className={styles.headerSub}>Technologies</div>
       
         <ul>
           <li className={styles.listItem}>Vanilla JavaScript</li>
@@ -63,7 +58,7 @@ export default function Whoami() {
         </ul>
       
 
-     <div className={styles.titleSub}>Hobbies</div>
+     <div className={styles.headerSub}>Hobbies</div>
       <ul>
           <li className={styles.listItem}>Sport</li>
           <li className={styles.listItem}>Running</li>
@@ -74,10 +69,10 @@ export default function Whoami() {
       </ul>
 
       
-      <div className={styles.titleSub}>How I Work</div>
+      <div className={styles.headerSub}>How I Work</div>
       <div className={styles.contentMain}>I enjoy Learning and Teaching and thereby Learning.... With all my Projects, I initiate a <span>&apos;Performance First Approach&apos;.</span> </div>
 
-        <div className={styles.imagePerformanceContainer}> 
+        <div className={styles.containerImagePartWidth}> 
             <Image src={'/performance_whoami.jpg'}  
             width={1528} 
             height={891} 
@@ -90,25 +85,25 @@ export default function Whoami() {
         </div>
 
         <div className={styles.contentMain}>Alongside the Technologies (mentioned above), The greatest skill set I posses is the ability to fastrack my develpmont and the understanding of a construct or concept I am otherwise unfamiliar with....</div>
-        <div className={styles.titleSub}>For Example:</div>
+        <div className={styles.headerSub}>For Example:</div>
         <div className={styles.contentMain}> <span>A new programming launguage....</span></div> 
         <div className={styles.contentMain}>I carry this out utilising the resources of today&apos;s modern world (internet, books, podcasts, AI) and a formula for learing I have developed (see link at the bottom of the page).</div>
         <div className={styles.contentMain}>In other words, I can reach Point &apos;A&apos; to Point &apos;B&apos; expeditiously and with accuracy. I firmly believe this is owed to the nature of me being self taught (in part) and learning to be comfortable with the uncomfortable i.e being calculatd in the state of not knowing and having the experience over the years of understanding that all that is unknown is there to be discovered.</div>
       
-        <div className={styles.titleSub}>My Journey</div>
+        <div className={styles.headerSub}>My Journey</div>
       
         <div className={styles.contentMain}>I started off with a Windows 95 PC at the age of 11 (with the old skool dial up modems and AOL). I began studying HTML, a little CSS and a cracked version of Photoshop. After a year of messing around in chat rooms and learning how the internet worked I moved on to creating music via programmes such as:</div>
-        <ul className={styles.ulContainer}>
+        <ul>
             <li className={styles.listItem}>Fruity Loops</li>
             <li className={styles.listItem}>Cubase</li>
             <li className={styles.listItem}>Reason</li>
             <li className={styles.listItem}>Logic</li>
-          </ul>
+        </ul>
           
         <div className={styles.contentMain}>Created a few tracks and Mastered a few Dub-Plates by the age of 15. At the same time I was an MC (Microphone Controller/Rapper) on several pirate radio staions and performing at night clubs with an age restriction of over 18 whilst only being 16 years old.</div>
         <div className={styles.contentMain}>Prior to this - during my school era - I was center stage performing (rapping) with the Royal Philharmonic Orchestra in front of a full capacity audience at the Royal Festival Hall. I was well accustomed by now to perform in front of big crowds and went on to rap at several large venues.</div>
       
-        <div className={styles.imageMicrophoneContainer}>
+        <div className={styles.containerImagePartWidth}>
               <Image src={'/microphone.jpg'}  
               width={500} 
               height={500} 
@@ -145,7 +140,7 @@ export default function Whoami() {
         </div>
       
       
-        <div className={styles.imageDolphinContainer}>
+        <div className={styles.containerImagePartWidth}>
               <Image src={'/dolphin.png'}  
               width={1024} 
               height={1024} 
@@ -158,11 +153,11 @@ export default function Whoami() {
         </div>
 
       <div className={styles.contentMain}>The journey from here on out was not smooth to say the least. Although, through discipline, tenacity, and a great support network - in terms of colleagues and family - I have been privileged to follow my passion.</div>
-      <div className={styles.titleSub}>Moving Forward</div>
+      <div className={styles.headerSub}>Moving Forward</div>
      
       <div className={styles.contentMain}>I picked up from where I left off in my early adolescence; first re engaging with HTML and CSS. Thereafter, I studied python for a brief period and then made a progressive move to join a very unique Bootcamp:</div> 
       <div className={styles.contentMain}> Construstor Labs - https://constructorlabs.com/</div> 
-      <div className={styles.imageConstructorLabsContainer}>
+      <div className={styles.containerImagePartWidth}>
         <Image src={'/constructor.png'} 
           width={399} 
           height={366}
@@ -248,13 +243,14 @@ export default function Whoami() {
       </div>
 
 
-      <div className={styles.enticeTag}>
-        Check out the formula for learning in my &apos;Learn Why and How To Learn&apos; Article
+      <div className={styles.contentMainThick}>
+        Check out the formula in the blog: &apos;Learn How To Learn and Why&apos; Article
       </div> 
       
       <Link href={'/blogs/learnTolearn'} className={styles.linkBTN}>
-            <div className={styles.guidesBTN}>Learn To Learn</div>
+            <div className={styles.buttonCTA}>Take a Peek</div>
       </Link>
+      </div>
     </main>
   )
 }

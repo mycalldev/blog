@@ -1,0 +1,163 @@
+
+.containerImageFullWidth {
+    width: 100%;
+}
+
+.containerImagePartWidth {
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+.linkBTN {
+    text-decoration: none;
+    color: #000;
+}
+
+.linkBack {
+    margin: 20px auto; 
+}
+
+.buttonCTA {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 40px auto;
+    font-weight: 700;
+    border-radius: 11px;
+    background: #2f7c68;
+    color: #fff;
+    text-align: center;
+}
+
+.title {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #2e2e2e;
+}
+
+.titleSub {
+    margin: 20px auto 40px auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #474747;
+}
+
+.contentMeta {
+    margin: 5px auto 40px auto;
+    text-align: start;
+    line-height: 1.7;
+    font-size: 0.8rem;
+    color: #575757;
+}
+
+.contentMain {
+    margin: 20px auto;
+    text-align: start;
+    line-height: 1.7;
+    color: #575757;
+} 
+
+.contentMain span{
+    font-weight: 700;
+}
+
+.contentMain p{
+    text-align: center;
+    font-weight: 700;
+}
+
+.contentMainThick {
+    margin: 20px auto;
+    text-align: start;
+    line-height: 1.7;
+    color: #575757;
+    font-weight: 700;
+} 
+
+.headerSub {
+    text-align: start;
+    font-size: 1.1rem;
+    margin: 20px auto;
+    color: #2e2e2e;
+    text-transform: uppercase;
+}
+
+.listItem {
+    width: 90%;
+    margin: 10px auto;
+    text-align: start;
+    text-transform: uppercase;
+    color: #575757;
+    font-size: 1rem;
+}
+
+.phrase {
+    margin: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #717171;
+    font-weight: 700;
+}
+
+
+@media(min-width: 768px) {
+
+    .container {
+        width: 60%;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    .linkBack {
+        margin: 20px auto; 
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .titleSub {
+        font-size: 1.5rem;
+    }
+
+    .buttonCTA {
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+    
+    .containerImagePartWidth {
+        margin: 20px auto;
+        padding: 40px 200px;
+    }
+
+    .contentMeta {
+        margin-bottom: 40px;
+    }
+
+    .contentMain {
+        margin: 40px auto;
+        line-height: 2;
+    }
+
+    .contentMainThick {
+        margin: 40px auto;
+        line-height: 2;
+    }
+
+    .listItem {
+       margin: 20px auto;
+    }
+
+    .headerSub {
+        margin: 40px auto;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+
+}
