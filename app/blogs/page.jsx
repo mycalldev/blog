@@ -39,7 +39,7 @@ export default async function Blogs() {
             {Blogs.map((blog) => (
                 <div key={blog._id} className={styles.mainContainer}>
                     <div className={styles.imageThumbnailContainer}>
-                    <Link href={`/blogs/${blog._id}`} prefetch={true} >
+                    <Link href={`/blogs/${blog.blogTitleBackend}`} prefetch={true} >
                             <div className={styles.imageBlogContanier}>
                                 <Image 
                                     src={`/A-THUMBNAIL-IMAGES/${blog.imageThumbnail}.jpg`} 
