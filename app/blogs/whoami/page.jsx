@@ -10,10 +10,7 @@ export default function Whoami() {
             <Image src={'/linux_parrot_desktop.jpg'}  
             width={2045} 
             height={786} 
-            style={{
-                width: '100%',
-                height: 'auto',
-              }}
+            className={styles.image}
             alt='image of linux parrot for website desktop' 
             quality={100} />
         </div>
@@ -76,10 +73,7 @@ export default function Whoami() {
             <Image src={'/performance_whoami.jpg'}  
             width={1528} 
             height={891} 
-            style={{
-                width: '100%',
-                height: 'auto',
-              }}
+            className={styles.image}
             alt='image of performance rating for website' 
             quality={100} />
         </div>
@@ -107,10 +101,7 @@ export default function Whoami() {
               <Image src={'/microphone.jpg'}  
               width={500} 
               height={500} 
-              style={{
-                  width: '100%',
-                  height: 'auto',
-                }}
+              className={styles.image}
               alt='image of a podcast microphone' 
               quality={100} />
         </div>
@@ -144,10 +135,7 @@ export default function Whoami() {
               <Image src={'/dolphin.png'}  
               width={1024} 
               height={1024} 
-              style={{
-                  width: '100%',
-                  height: 'auto',
-                }}
+              className={styles.image}
               alt='image of a dolphin witha computer' 
               quality={100} />
         </div>
@@ -161,10 +149,7 @@ export default function Whoami() {
         <Image src={'/constructor.png'} 
           width={399} 
           height={366}
-          style={{
-            width: '100%',
-            height: 'auto',
-          }} 
+          className={styles.image}
           quality={100} 
           alt={'constructor labs logo'} 
         />

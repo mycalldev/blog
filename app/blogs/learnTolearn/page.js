@@ -14,10 +14,7 @@ export default function LearnTolearn() {
               src={"/learning.jpg"} 
               width={1024} 
               height={1024}
-              style={{
-                width: '100%',
-                height: 'auto',
-              }}
+              className={styles.image}
               alt='image hero' 
               quality={100} 
 
@@ -63,10 +60,7 @@ export default function LearnTolearn() {
                 src={'/blogs/learn_to_learn/learning_computer.jpg'} 
                 width={1456} 
                 height={816} 
-                style={{
-                    width: '100%',
-                    height: 'auto',
-                }}
+                className={styles.image}
                 alt='image of a learning computer' 
                 quality={100}
             />
@@ -104,10 +98,7 @@ export default function LearnTolearn() {
             src={'/blogs/learn_to_learn/learning_girl.jpg'} 
             width={512} 
             height={512} 
-            style={{
-                width: '100%',
-                height: 'auto',
-            }}
+            className={styles.image}
             alt='image learning girl' 
             quality={100}
           />
@@ -161,10 +152,7 @@ export default function LearnTolearn() {
             src={'/blogs/learn_to_learn/puzzle_pieces.jpg'} 
             width={1456} 
             height={816} 
-            style={{
-                width: '100%',
-                height: 'auto',
-            }}
+            className={styles.image}
             alt='image puzzle pieces' 
             quality={100}
           />
@@ -251,10 +239,7 @@ export default function LearnTolearn() {
             src={'/blogs/learn_to_learn/green_computer.jpg'} 
             width={512} 
             height={512} 
-            style={{
-                width: '100%',
-                height: 'auto',
-            }}
+            className={styles.image}
             alt='image green computer' 
             quality={100}
           />

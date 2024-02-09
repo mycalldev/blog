@@ -24,11 +24,7 @@ export default async function Blogs() {
             <Image src={'/category_banner/computer_library_cropped.png'} 
                 width={1456} 
                 height={816} 
-                style={{
-                    width: '100%',
-                    height: 'auto',
-                }}
-                className={styles.imageHero} 
+                className={styles.image} 
                 alt='hero image for blogs categroy' 
                 quality={100} 
             />
@@ -41,7 +37,7 @@ export default async function Blogs() {
             {Blogs.map((blog) => (
                 <div key={blog._id} className={styles.containerMain}>
                         <div className={styles.imageBlogContanier}>
-                          {/* <Link href={`/blogs/${blog.blogTitleBackend}`} prefetch={true}> */}
+                          <Link href={`/blogs/${blog.blogTitleBackend}`} prefetch={true}>
                             <Image 
                                 src={`/A-THUMBNAIL-IMAGES/${blog.imageThumbnail}.jpg`} 
                                 width={1456} 
@@ -50,7 +46,7 @@ export default async function Blogs() {
                                 alt='thumbnail of blog image' 
                                 quality={100} 
                             />  
-                          {/* </Link> */}
+                          </Link>
                         </div>
 
                          <div>

@@ -2,12 +2,6 @@
     text-decoration: none;
     color: #fff;
   }
-.grid {
-   
-}
-.containerMain {
-    
-}
 
 .titleMain {
     text-align: center;
@@ -22,7 +16,7 @@
 .image {
     width: 100%;
     height: auto;
-  }
+}
 
 .flexReadTime {
     margin-top: 10px;
