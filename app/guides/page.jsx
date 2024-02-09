@@ -58,7 +58,6 @@ export default async function Guides() {
                             <div>{guide.minuteRead} minutes</div>
                         </div>
                         <div className={styles.podcastTitle}>{guide.podcastTitle}</div>
-                        <div className={styles.podcastSubTitle1}>{guide.tagTeaser}</div>  
                     </div>
                     <Link href={`/guides/${guide._id}`} className={styles.linkBTN}>
                         <div className={styles.readBTN}>Listen</div>
