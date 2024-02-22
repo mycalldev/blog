@@ -127,8 +127,12 @@ export default function ssrf() {
             And it&apos;s only becoming more efficient by the second. 
         </div>
 
+        <div className={styles.contentMainThick}>
+            In a nutshell, Cyber Security is where it&apos;s at! 
+        </div>
+
         <div className={styles.contentMain}>
-            In a nutshell, Cyber Security is where it&apos;s at…. For so many reasons, 
+            For so many reasons, 
             everyone makes mistakes in secure coding which leads to hidden bugs and vulnerabilities 
             that exist in the wild. Threat Actors know this and are taking advantage of the insecure 
             infrastructure that props up our society. There is a lot that goes on behind closed doors 
