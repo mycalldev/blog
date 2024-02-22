@@ -84,9 +84,9 @@ export default function ssrf() {
         </div>
 
         <div className={styles.contentMain}>
-            With the advent of the internet and now AI, 
+            With the advent of the internet and AI, 
             coupled with the exponential rate of change in the world - it is now more imperative that 
-            you study the art of learning and true holistic development.   
+            you study the art of true holistic development.   
         </div>
 
         <div className={styles.contentMain}>
