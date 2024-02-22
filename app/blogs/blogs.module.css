@@ -55,20 +55,20 @@
         width: 50%;
         margin: auto;
     }
-    .containerMain {
-        
-    }
 
     .gridItem {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         border: 1px solid #888888;
-
     }
  
     .titleMain {
      font-size: 1.7rem;
+    }
+
+    .blogTitle {
+        margin-top: 20px;
     }
 
     .flexReadTime {
