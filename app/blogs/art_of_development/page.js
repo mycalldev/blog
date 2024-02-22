@@ -90,7 +90,7 @@ export default function ssrf() {
         </div>
 
         <div className={styles.contentMain}>
-            In the myriad of Job Applications I have read over the previous months, 
+            In the myriad of Job Applications I have read over in the previous months, 
             I am yet to see 1 (not even 1) that highlights the requirement for a candidate&apos;s 
             ability to grasp the understanding of a completely new concept. 
             A skill set that some candidates hold an aptitude for, and in other cases not so 
