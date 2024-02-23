@@ -9,10 +9,8 @@ const nunito = Nunito({ subsets: ['latin'] })
 
 
 export const metadata = {
-  title: 'Mycall Dev Podcast',
-  description: 'The Learning Pod',
-  // initialScale: 1,
-  // width: 'device-width',
+  title: 'Mycall Dev',
+  description: 'The Learning Journey',
 }
 
 export default function RootLayout({ children }) {

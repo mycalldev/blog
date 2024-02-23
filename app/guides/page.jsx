@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from './guides.module.css';
+import styles from './blogs.module.css';
 
 async function getGuides() {
     
-    const res = await fetch('https://www.mycalldevcp.co.uk/api/podcasts', {
+    const res = await fetch('https://www.mycalldevcp.co.uk/api/guides', {
         next: {
             revalidate: 30
         }
@@ -14,60 +14,57 @@ async function getGuides() {
     return data
 }
 
-export default async function Guides() {
+export default async function guides() {
   
-    const guides = await getGuides()
+    const Blogs = await getGuides()
 
     return (
         <main>
-            <Image src={'/guides/guide_hero_mobile.jpg'} 
-            width={1456} 
-            height={816} 
-            style={{
-                width: '100%',
-                height: 'auto',
-              }}
-            className={styles.imageHero} 
-            alt='hero image for guides categroy' 
-            quality={100} />
-
-            <h1 className={styles.titleMain}>GUIDES COLLECTION</h1>
-
             
-            {guides.map((guide) => (
-                <div key={guide._id} className={styles.mainContainer}>
-                    <div className={styles.imageThumbnailContainer}>
-                    <Link href={`/guides/${guide._id}`} prefetch={true} >
-                            <div className={styles.imageBlogContanier}>
-                                <Image 
-                                    src={`/guides/${guide.imageThumbnail}.jpg`} 
-                                    width={1456} 
-                                    height={816} 
-                                    style={{
-                                        width: '100%',
-                                        height: 'auto',
-                                      }}
-                                    alt='thumbnail of guide image' 
-                                    quality={100} 
-                                />  
-                            </div>
-                        </Link>
-                        <div className={styles.contentContainer}>
-                        <div className={styles.flexReadTime}>
-                            <div className={styles.readTime}>Duration:</div> 
-                            <div>{guide.minuteRead} minutes</div>
-                        </div>
-                        <div className={styles.podcastTitle}>{guide.podcastTitle}</div>
-                    </div>
-                    <Link href={`/guides/${guide._id}`} className={styles.linkBTN}>
-                        <div className={styles.readBTN}>Listen</div>
-                    </Link>
-                    </div>
+            <Image src={'/category_banner/computer_library_cropped.png'} 
+                width={1456} 
+                height={816} 
+                className={styles.image} 
+                alt='hero image for blogs categroy' 
+                quality={100} 
+            />
 
-                    
+            <h1 className={styles.titleMain}>BLOGS COLLECTION</h1>
+
+            <div className={styles.grid}>
+
+           
+            {Blogs.map((blog) => (
+                <div key={blog._id} className={styles.containerMain}>
+                        <div className={styles.imageBlogContanier}>
+                          <Link href={`/blogs/${blog.blogTitleBackend}`} prefetch={true}>
+                            <Image 
+                                src={`/A-THUMBNAIL-IMAGES/${blog.imageThumbnail}.jpg`} 
+                                width={1456} 
+                                height={816} 
+                                className={styles.image}
+                                alt='thumbnail of blog image' 
+                                quality={100} 
+                            />  
+                          </Link>
+                        </div>
+
+                         <div>
+                        <div className={styles.blogTitle}>{blog.blogTitleFrontend}</div>
+                        <div className={styles.flexReadTime}>
+                            <div className={styles.readTime}>Read Time:</div> 
+                            <div>{blog.minuteRead} minutes</div>
+                        </div>   
+                             <Link href={`/blogs/${blog.blogTitleBackend}`} className={styles.linkBTN}>
+                                <div className={styles.readBTN}>Take a Peek</div>
+                             </Link>
+                             </div>
+                              
+                
                 </div>
             ))}
-            
+             </div>
         </main>
     )
 }
+ 

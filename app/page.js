@@ -41,9 +41,8 @@ export default function Home() {
 
         <h4 className={styles.divingIn}>DIVING DEEP INTO THE WORLD OF:</h4>
         <p className={styles.subjectsMain}>
-          Computer Programming, Networking,
-          Cyber Security, Artificial Intelligence, 
-          Electrical Engineering, Mathematics and Physics
+            Cyber Security, Computer Programming, Networking,
+          
         </p>
 
         <div className={styles.imageComputerBlueContainer}>
