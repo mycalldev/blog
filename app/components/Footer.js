@@ -13,7 +13,7 @@ export default function Footer() {
                 Check out my Linkedin for Further Details
               </div>         
               <div className={styles.iconSocial}>
-                <Link href={'/https://uk.linkedin.com/in/mycall-dev-69aa08271'}>
+                <Link href={'https://www.linkedin.com/in/mycalldev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'}>
                   <Image src={'/linkedin_white.svg'} width={75} height={75} className={styles.linkedin} alt='linkedin social' quality={100} />
                 </Link>
               </div>
