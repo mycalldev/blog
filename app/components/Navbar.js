@@ -55,14 +55,10 @@ export default function Navbar() {
             
               <Link href={'/guides'} className={styles.link} prefetch={true}>
                 <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                  <li className={styles.listItem}>Blogs</li>
+                  <li className={styles.listItem}>Please feel free to help and assist me along my Journey, insofar as adding to and correcting content, via the email below. I will be creating an updating blogs and guides alog the way. Wish me....</li>
                 </div>
               </Link>
-              <Link href={'/blogs'} className={styles.link} prefetch={true}>
-                <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                  <li className={styles.listItem}>Guides</li>
-                </div>
-              </Link>
+              
               <div className={styles.closeMenu}>
                 <div onClick={() => handleToggle()}>Close Menu</div>
               </div>
