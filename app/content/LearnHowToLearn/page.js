@@ -11,7 +11,7 @@ export default function LearnHowTolearn() {
       {/* HERO SECTION */}
       <div className={styles.containerImageFullWidth}>
           <Image 
-              src={"/content/learnhowtolearn/learn.jpg"} 
+              src={"/content/learnhowtolearn/learnhowtolearn.jpg"} 
               width={1456} 
               height={816}
               className={styles.imageHero}

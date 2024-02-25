@@ -54,7 +54,7 @@ export default async function Home() {
                           <Link href={`/content/${content.contentTitleBackend}`} prefetch={true}>
                             <div className={styles.imageBlogContanier}>
                               <Image 
-                                  src={`/content/${content.imageThumbnail}.jpg`} 
+                                  src={`/content/${content.imageThumbnail}/${content.imageThumbnail}.jpg`} 
                                   width={1456} 
                                   height={816} 
                                   className={styles.image}
