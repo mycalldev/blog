@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "../../styles/contentPage.module.css";
 
 
-export default function ssrf() {
+export default function ArtOfTrueDevelopment() {
   return (
     <main>
 

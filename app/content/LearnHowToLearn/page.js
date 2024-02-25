@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/contentPage.module.css";
 
-export default function LearnTolearn() {
+export default function LearnHowTolearn() {
 
   return (
     <main>

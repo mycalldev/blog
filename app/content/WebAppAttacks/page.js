@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "../../styles/contentPage.module.css";
 
 
-export default function webappAttacks() {
+export default function WebAppAttacks() {
   return (
     <main>
 
