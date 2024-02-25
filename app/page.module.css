@@ -1,32 +1,35 @@
-
-
-.mainContainer {
-  border: 1px solid #888888;
-  margin: 20px;
+.container {
+  width: 100%;
+  margin: auto;
 }
+
 .displayNone {
   display: none;
+}
+
+.title {
+  width: 70%;
+  text-align: center;
+  margin: 5px auto;
+  font-size: 1.1rem;
+}
+
+.titleHeader {
+  width: 80%;
+  margin: 100px auto 10px auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.titleCategory {
+  margin: 60px auto 20px auto;
+  text-align: center;
 }
 
 .linkBTN {
   text-decoration: none;
   color: #fff;
-}
-
-/* IMAGES */
-.heroContainerMobile {
-  width: 100%;
-  margin: auto;
-}
-
-.imageHeroMobile {
-  width: 100%;
-  height: auto;
-}
-
-
-.imageThumbnailContainerDesktop {
-  display: none;
 }
 
 .imageDolphinContainer{
@@ -39,49 +42,13 @@
   height: auto;
 }
  
-.imageComputerBlue {
-  width: 100%;
-  height: auto;
-}
-
 .imageLearning {
   width: 100%;
   height: auto;
 }
 
-.imageGuides {
-  width: 100%;
-  height: auto;
-} 
-
-.imageLearningContainer {
-  position: relative;
-  padding: 20px;
-}
-
-.imageEpisodeContainer {
-  padding: 40px;
-} 
-
-.imageCogsContainer {
-  position: relative;
-}
-
-.imageCogs {
-  width: 100%;
-  height: auto;
-}
-
-.imageSpotifyContainer {
-  margin: 20px;
-  text-align: center;
-}
-
-/* BUTTONS */
-.buttonCTA {
-  width: 50%;
-  padding: 14px 25px;
-  margin: 20px auto 40px auto;
+.latestCTA {
+  padding: 14px 20px;
   font-size: 1.1rem;
   font-weight: 700;
   border-radius: 11px;
@@ -91,60 +58,41 @@
   cursor: pointer;
 }
 
-.enticeQuestion {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  margin: 30px 40px 10px 40px;
-  line-height: 1.5;
-  color: #111111;
-}
-
-.subInfo {
-  width: 70%;
-  margin: 20px auto;
-  text-align: center;
+.contentCTA {
+  width: 50%;
+  margin: auto;
+  padding: 12px 20px;
   font-size: 1.1rem;
-}
-
-.divingIn {
-  width: 60%;
+  font-weight: 500;
+  border-radius: 11px;
+  background: #209235;
+  color: #fff;
   text-align: center;
-  text-transform: uppercase;
-  font-size: 1.1rem;
-  margin: 20px auto;
-  line-height: 1.5;
-  color: #111111;
-}
-
-.subjectsMain {
-  width: 70%;
-  text-align: center;
-  margin: 20px auto 40px auto;
-  font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .imageBlogContanier {
-  padding: 20px 20px 5px 20px;
+  padding: 10px 0px 0px 0px;
+}
+
+.containerBlog {
+  margin: 30px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
 }
 
 .contentMeta {
   text-align: center;
-  margin: 5px 10px;
-  color: #575757;
+  margin: 0px 10px;
 }
 
-.podTitle {
-  margin: 0 20px;
+.titleBlog {
+  margin: 10px 20px;
   text-align: center;
-  font-size: 1.5rem;
   font-weight: 600;
-}
-
-.podTeaser {
-  margin: 0 20px 20px 20px;
-  text-align: center;
-  font-size: 1.3rem;
 }
 
 .techStackTitle {
@@ -179,67 +127,49 @@
 
 @media(min-width: 768px) {
   
-  .imageThumbnailContainerDesktop {
-    display: block;
-  }
- 
-  .imageHeroDesktop {
-    width: 100%;
-    margin: auto;
-  }
-
-  .imageComputerBlueContainer {
-    width: 70%;
-    margin: auto;
-  }
-  
   .imageDolphinContainer {
     width: 20%;
     margin: auto;
     padding: 20px;
   }
 
-  .enticeQuestion {
-    margin-top: 60px; 
+  .titleHeader{
+    margin-top: 100px; 
     font-size: 2rem;
+    font-weight: 500;
   } 
-  
-  .divingIn {
-    font-size: 1.5rem;
-  }
 
-  .subjectsMain {
+  .title {
     width: 50%;
-    margin: 0 auto 40px auto;
+    margin: 10px auto;
     font-size: 1.7rem;
   }
 
-  .subInfo {
-    font-size: 1.5rem;
-  }
-
-  .mainContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 70%;
-    margin: 20px auto 40px auto;
-  }
-
-  .flexReadTime {
-    font-size: 1.5rem;
-  }
-
-  .readTime {
+  .titleBlog {
     font-size: 1.3rem;
   }
 
-  .podTitle {
-    font-size: 1.7rem;
+  .contentMeta {
+    font-size: 1rem;
   }
 
-  .buttonCTA {
+  .latestCTA {
     width: 30%;
-    margin: 40px auto;
+    margin: 0 auto 30px auto;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 11px;
+    background: #56a4ec;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .contentCTA {
+    width: 50%;
+    padding: 10 30px;
+    margin: 20px auto;
     font-size: 1.3rem;
   }
 
@@ -259,6 +189,20 @@
   .listItem {
     font-size: 1.7rem;
   }
+}
+
+@media(min-width:768px) {
+  .containerBlogMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: 20px auto 40px auto;
+  }
+
+  .containerBlog {
+    margin: 20px;
+  }
+  
 }
 
 

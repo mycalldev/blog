@@ -1,155 +1,40 @@
-.impactVerification {
-  visibility: hidden;
-  height: 0;
-  width: 0;
-}
-
-.displayNone {
-  display: none;
-}
-
-.linkBTN {
-  text-decoration: none;
-  color: #fff;
-}
-
-.navDesktopGrid {
-  display: none;
-}
-
-.navContainer {
-  padding-bottom: 50px;
-}
-
-.containerGrid {
+.main {
+  background: #ededed;
   position: fixed;
   top: 0;
-  width: 90%;
+  width: 100%;
+}
+.containerGrid {
+  padding: 10px 0;
   display: grid;
-  grid-template-columns: 20% 65% 15%;
-  justify-content: space-around;
-  align-content: center;
-  background: #fff;
-  padding: 20px 20px 0 20px; 
-  margin-bottom: 10px;
-}
-
-
-.imageBurger {
-  margin-left: 10px;
-  margin-top: 7px;
-  cursor: pointer;
-}
-
-
-.undreline {
-  text-decoration: none;
+  grid-template-columns: 20% 60% 20%;
+  justify-items: center;
+  align-items: center;
 }
 
 .titleMain {
-  text-align: center;
+  font-size: 1.5rem;
+}
+
+.link {
   text-decoration: none;
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: rgb(57, 57, 57);
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.titleMainDesktop {
-  display: none;
-}
-
-.title {
-  text-decoration: none;
-}
-
-.logo {
-  text-align: start;
+  color: #575757;
 }
 
 .navOpen {
-  padding: 90px 20px 20px 0px;
-  width: 100vw;
-  background: #eee;
-}
-
-.unorderedList {
-  list-style-type: none;
-  width: 100%;
-  height: 100%;
-}
-
-.listItemContainer {
-  margin: 0px 20px;
-  cursor: pointer;
-}
-
-.listItem {
-  padding: 15px 10px 15px 10px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #323232;
+  background: #ededed;
 }
 
 .closeMenu {
-  margin: 40px auto 30px auto;
-  text-align: center;
-  font-size: 1.3rem;
+ text-align: center;
+ padding-bottom: 20px;
+ cursor: pointer;
+}
+
+.listItemContainer {
+  margin: 15px 30px;
+  list-style-type: none;
   font-weight: 600;
-  cursor: pointer;
+  font-size: 1.3rem;
 }
 
-@media(min-width: 768px) {
-
-  .navContainer {
-    padding: 0;
-  }
-
-  .titleMainDesktop {
-    display: block;
-    margin: 30px auto 30px auto;
-    font-size: 2rem;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 700;
-    color: rgb(57, 57, 57);
-    cursor: pointer;
-  }
-
-  .containerGrid {
-    display: none;
-  }
-
-  .navContainerGrid {
-    background: #eee;
-    display: grid;
-    justify-self: center;
-    
-  }
-
-  .navDesktopGrid {
-    margin: 0 10px;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-items: center;
-    align-items: center;
-  } 
-
-  .unordredListDesktop {
-    display: block;
-  }
-
-  .listItem {
-    margin: 11px 0 11px 0;
-    font-size: 1.1rem;
-    font-weight: 700;
-    list-style-type: none;
-  }
-}
-
-@media(min-width: 1024px) {
-  .listItem {
-    font-size: 1.3rem;
-  }
-}

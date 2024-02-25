@@ -10,10 +10,12 @@ export default function Footer() {
           <div className={styles.footerBG}>
           <div className={styles.footerCotentContainer}>
               <div className={styles.footerContent}>
-                THE LATEST INFO ON ALL THINGS TECH
+                Check out my Linkedin for Further Details
               </div>         
-              <div className={styles.mycalldevLogoContainer}>
-                  <Image src={'/mycallDEV_logo_white.png'} width={125} height={125} className={styles.mycalldevLogo} alt='mycalldev logo' quality={100} />
+              <div className={styles.iconSocial}>
+                <Link href={'/https://uk.linkedin.com/in/mycall-dev-69aa08271'}>
+                  <Image src={'/linkedin_white.svg'} width={75} height={75} className={styles.linkedin} alt='linkedin social' quality={100} />
+                </Link>
               </div>
               <div className={styles.emailContact}>info@mycalldev.com</div>
           </div>
@@ -23,9 +25,3 @@ export default function Footer() {
     </main>
   )
 }
-
-  {/* <div className={styles.linkedinIconContainer}>
-              <Link href={'https://uk.linkedin.com/in/mycall-dev-69aa08271'}>
-                <Image src={'/linkedin.png'} width={50} height={50} className={styles.linkedinIcon} alt='linked in image' quality={100} />
-              </Link>
-            </div> */}

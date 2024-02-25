@@ -14,13 +14,13 @@ export default function Navbar() {
   }
 
   return (
-    <main>
-    
-      <div className={styles.navContainer}>
-          {/* HAMBURGER */}
+    <main className={styles.main}>
+      
         <div className={styles.containerGrid}>
-          <Link href={''} onClick={() => handleToggle()}>
-            <div className={styles.imageBurgerContainer}>
+          
+          {/* HAMBURGER */}
+          <Link href={'#'}>
+            <div className={styles.imageBurgerContainer} onClick={() => handleToggle()}>
               <Image
                 src={'/hamburger.png'}
                 width={32}
@@ -33,15 +33,14 @@ export default function Navbar() {
           </Link>
 
           {/* TITLE */}
-          <div>
-            <Link href="/#" className={styles.undreline} prefetch={true}>
-              <div className={styles.titleMain}>MYCALL DEV</div>
-            </Link>
-          </div>
+          <Link href="/#" className={styles.link} prefetch={true}>
+            <h1 className={styles.titleMain}>MYCALL DEV</h1>
+          </Link>
+          
           {/* LOGO */}
           <div className={styles.containerLogo}>
               <Image
-                src={'/mycallDEV_logo.png'}
+                src={'/logo.png'}
                 width={50}
                 height={50}
                 alt={'contact button'}
@@ -50,58 +49,29 @@ export default function Navbar() {
               />
           </div>
         </div>
-      </div>
-      {toggle ? 
-            <nav className={styles.navOpen}>
-              <ul className={styles.unorderedList}>
-                <Link href={'/guides'} className={styles.linkBTN} prefetch={true}>
-                  <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>Guides</li>
-                  </div>
-                </Link>
-                <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
-                  <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>Blogs</li>
-                  </div>
-                </Link>
-                <Link href={'/blogs/whoami'} className={styles.linkBTN} prefetch={true}>
-                  <div className={styles.listItemContainer} onClick={() => handleToggle()}>
-                    <li className={styles.listItem}>Whoami</li>
-                  </div>
-                </Link>
-               
-              </ul>
-            <div className={styles.closeMenu} onClick={() => handleToggle()}>Close Menu</div>
+        
+        {toggle ? 
+          <nav className={styles.navOpen}>
+            
+              <Link href={'/guides'} className={styles.link} prefetch={true}>
+                <div className={styles.listItemContainer} onClick={() => handleToggle()}>
+                  <li className={styles.listItem}>Blogs</li>
+                </div>
+              </Link>
+              <Link href={'/blogs'} className={styles.link} prefetch={true}>
+                <div className={styles.listItemContainer} onClick={() => handleToggle()}>
+                  <li className={styles.listItem}>Guides</li>
+                </div>
+              </Link>
+              <div className={styles.closeMenu}>
+                <div onClick={() => handleToggle()}>Close Menu</div>
+              </div>
+          
           </nav> 
-            : 
+          :
           <div></div>
-          }
-
-
-          {/* DESKTOP NAV */}
-          <Link href="/#" className={styles.undreline} prefetch={true}>
-            <div className={styles.titleMainDesktop}>MYCALL DEV</div>
-          </Link>
-            <nav className={styles.navContainerGrid}>
-              <ul className={styles.navDesktopGrid}>
-                <Link href={'/guides'} className={styles.linkBTN} prefetch={true}>
-                    <div className={styles.listItemContainer}>
-                      <li className={styles.listItem}>Guides</li>
-                    </div>
-                </Link>
-                <Link href={'/blogs'} className={styles.linkBTN} prefetch={true}>
-                  <div className={styles.listItemContainer}>
-                    <li className={styles.listItem}>Blogs</li>
-                  </div>
-                </Link>
-                <Link href={'/blogs/whoami'} className={styles.linkBTN} prefetch={true}>
-                  <div className={styles.listItemContainer}>
-                    <li className={styles.listItem}>Whoami</li>
-                  </div>
-                </Link>
-              </ul>
-            </nav>
-      
+        }
+          
     </main>
   )
 }
