@@ -11,7 +11,7 @@ export default function WebAppAttacks() {
     {/* HERO SECTION */}
     <div className={styles.containerImageFullWidth}>
           <Image 
-              src={"/content/web_app_attacks/webapp_attacks.jpg"} 
+              src={"/content/Web_App_Attacks/Web_App_Attacks.jpg"} 
               width={1456} 
               height={816}
               className={styles.image}

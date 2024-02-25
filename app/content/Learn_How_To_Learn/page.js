@@ -11,7 +11,7 @@ export default function LearnHowTolearn() {
       {/* HERO SECTION */}
       <div className={styles.containerImageFullWidth}>
           <Image 
-              src={"/content/learnhowtolearn/learnhowtolearn.jpg"} 
+              src={"/content/Learn_How_To_Learn/Learn_How_To_Learn.jpg"} 
               width={1456} 
               height={816}
               className={styles.imageHero}
@@ -57,7 +57,7 @@ export default function LearnHowTolearn() {
 
         <div className={styles.containerImagePartWidth}>
             <Image 
-                src={'/content/learn_to_learn/learning_computer.jpg'} 
+                src={'/content/Learn_How_To_Learn/Learning_Computer.jpg'} 
                 width={1456} 
                 height={816} 
                 className={styles.image}
@@ -95,7 +95,7 @@ export default function LearnHowTolearn() {
         
         <div className={styles.containerImagePartWidth}>
           <Image 
-            src={'/content/learn_to_learn/learning_girl.jpg'} 
+            src={'/content/Learn_How_To_Learn/Learning_Girl.jpg'} 
             width={512} 
             height={512} 
             className={styles.image}
@@ -149,7 +149,7 @@ export default function LearnHowTolearn() {
 
         <div className={styles.containerImagePartWidth}>
           <Image 
-            src={'/content/learn_to_learn/puzzle_pieces.jpg'} 
+            src={'/content/Learn_How_To_Learn/Puzzle_Pieces.jpg'} 
             width={1456} 
             height={816} 
             className={styles.image}
@@ -236,7 +236,7 @@ export default function LearnHowTolearn() {
         
         <div className={styles.containerImagePartWidth}>
           <Image 
-            src={'/content/learn_to_learn/green_computer.jpg'} 
+            src={'/content/Learn_How_To_Learn/Green_Computer.jpg'} 
             width={512} 
             height={512} 
             className={styles.image}
@@ -262,14 +262,6 @@ export default function LearnHowTolearn() {
         When was the last time you recited the alphabet to yourself?
         Ever wondered how every human brain can remember the alphabet (26 characters) in perfect order notwithstanding the fact that the alphabet is collated in no orderly sequence. Try remembering 26 digits of Pi and then forget about it for years and see if you can recollect again. 
         </div>
-        
-        {/* <div className={styles.CTAtag}>Check out the WHOAMI article for a brief overview of my journey....</div>
-        <div className={styles.imageWhoami}>
-          <Image src={'/whoami_terminal.png'} width={890} height={200} alt="whoami image" quality={100} />
-        </div>
-        <Link href={'/whoami'}>
-            <div className={styles.letsGoBTN}>WHOAMI</div>
-        </Link> */}
 
        </div>
       </main>

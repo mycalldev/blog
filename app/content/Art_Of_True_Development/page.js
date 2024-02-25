@@ -11,7 +11,7 @@ export default function ArtOfTrueDevelopment() {
     {/* HERO SECTION */}
     <div className={styles.containerImageFullWidth}>
           <Image 
-              src={"/content/art_of_development/art_of_development.jpg"} 
+              src={"/content/Art_Of_True_Development/Art_Of_True_Development.jpg"} 
               width={1456} 
               height={816}
               className={styles.imageHero}
@@ -112,7 +112,7 @@ export default function ArtOfTrueDevelopment() {
 
         <div className={styles.containerImageFullWidth}>
           <Image 
-              src={"/content/art_of_development/cyber_padlock.jpg"} 
+              src={"/content/Art_Of_True_Development/Cyber_Padlock.jpg"} 
               width={1456} 
               height={816}
               className={styles.image}
@@ -200,7 +200,6 @@ export default function ArtOfTrueDevelopment() {
             To Be Continued.... 
         </div>
 
-   
     </div>
     </main>
   )

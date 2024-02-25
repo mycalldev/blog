@@ -11,7 +11,7 @@ export default function SSRF() {
     {/* HERO SECTION */}
     <div className={styles.containerImageFullWidth}>
           <Image 
-              src={"/content/ssrf_hero.jpg"} 
+              src={"/content/SSRF/SSRF.jpg"} 
               width={1456} 
               height={816}
               className={styles.image}
