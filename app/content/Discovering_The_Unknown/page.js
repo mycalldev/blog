@@ -204,7 +204,7 @@ export default function discoveringTheUnknown() {
 
         <div className={styles.contentMain}>
             Before I get into that, for the final time, imagine Tier 3 as a circle of unawareness. 
-            I propose that it's size is colosall with an infinite reach waiting to be tapped into. 
+            I propose that it&apos;s size is colosall with an infinite reach waiting to be tapped into. 
         </div>
 
         <div className={styles.headerSub}>
@@ -225,13 +225,13 @@ export default function discoveringTheUnknown() {
         </div>
 
         <div className={styles.contentMain}>
-            Immediately thereafter, Tier 2's circle
+            Immediately thereafter, Tier 2&apos;s circle
             is populated as a direct consequence of your discovery. You now become aware of something you were previously unaware of. 
         </div>
         <div className={styles.contentMain}>
-            By virtue, Tier 3's circle is empty in our minds for 99.99% recurring. 
+            By virtue, Tier 3&apos;s circle is empty in our minds for 99.99% recurring. 
             The moment the unaware becomes aware, 
-            it falls directly into Tier 2's circle.
+            it falls directly into Tier 2&apos;s circle.
         </div>
 
         <div className={styles.contentMainThick}>
@@ -256,7 +256,7 @@ export default function discoveringTheUnknown() {
         <div className={styles.contentMain}>
             To grow, develop and evolve we should spend a shared amount of time between Tier 1 and Teir 2.
             Spending time in Tier 1 is important for the practition and growth of what we know. 
-            If we don't use it we'll lose it!
+            If we don&apos;t use it we&apos;ll lose it!
         </div>
 
         <div className={styles.contentMain}>
