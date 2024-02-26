@@ -70,13 +70,15 @@ export default function ArtOfTrueDevelopment() {
 
         <div className={styles.contentMain}>
             Of course, If you are applying for a role in which a specific skill set is required 
-            then it&apos;s imperative to know such a skill set. Although, in today&apos;s world, 
+            then it&apos;s imperative to know suskich a ll set. Although, in today&apos;s world, 
             every Tech company is utilising a varying array of technologies (Tech Stack) that all 
-            compile to the same underlying principle…. &apos;Instructing the Computer&apos;
+            compile to the same underlying principle…. &apos;Instructing the Computer&apos;.
+            And if you&apos;ve been around the block a for a while, you could easily acquire the &apos;Need 
+            to Knows&apos; of a new technology within a few weeks.
         </div>
 
         <div className={styles.contentMain}>
-            Most things in life exist in the unknown and it&apos;s our compelling nature to bring 
+            Most things in life exist in the unknown, and it&apos;s our compelling nature to bring 
             the unknown into the known…. Bit by Bit, Byte by Byte, little by little. 
             Bringing the unknown into the known creates a foundation of knowledge, and we all share 
             (to some degree) a foundation of knowledge. 
