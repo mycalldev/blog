@@ -72,11 +72,11 @@ export default function discoveringTheUnknown() {
 
         <div className={styles.contentMain}>
            This is Tier 1: The state of being aware of something 
-           (electricity) and knowing or understanding how to use it.
+           and knowing or understanding how to use it.
         </div>
 
         <div className={styles.contentMain}>
-            E.g. You our aware of the existence of electricity, and moreover hold the expertise knowledge in electricity to rewire a circuit. 
+            E.g. We are aware of the existence of electricity, and moreover hold the expertise knowledge in electricity to rewire a circuit. 
         </div>
 
         <div className={styles.containerImageFullWidth}>
@@ -92,7 +92,7 @@ export default function discoveringTheUnknown() {
 
         <div className={styles.contentMain}> 
             Imagine our awareness, and understanding of knowledge, as a circle 
-            (Infograpic above).... The more we are aware of and know or understand, the larger our circle! 
+            (Infographic above).... The more we are aware of and know or understand, the larger our circle! 
         </div>
 
         <div className={styles.headerSub}>
@@ -104,7 +104,7 @@ export default function discoveringTheUnknown() {
         </div>
 
         <div className={styles.contentMain}>
-            This is tier 2: the state of being aware of something (electricity) and 
+            This is tier 2: the state of being aware of something and 
             not knowing or understanding how to use it. 
         </div>
 
@@ -125,7 +125,7 @@ export default function discoveringTheUnknown() {
     
         <div className={styles.contentMain}>
             Now imagine this scenario of awareness and not knowing as a circle. 
-            This circle of awareness and NOT knowing is much, much larger compared to the circle of awareness and knowing as described in Tier 1. 
+            This circle of awareness and NOT knowing is considerably larger compared to the circle of awareness and knowing as described in Tier 1. 
             There is so much that exists that we are aware of and that we do not understand or have the knowledge to utilise. 
        </div>
         <div className={styles.contentMain}>
@@ -134,17 +134,10 @@ export default function discoveringTheUnknown() {
             of not knowing into a knowing, we make our &apos;circle of awareness and knowledge&apos; larger. 
             Thereby, forever adding to our foundation of knowledge! 
         </div>
-
-        <div className={styles.contentMain}>
-            The more time we spend in Tier 2:   
-        </div>
-
-        <div className={styles.contentMainThick}>
-            The Journey of Learning
-        </div>
         
         <div className={styles.contentMain}>
-            the more we grow intellectually and as a person. Tier 2 can be considered an uncomfortable placement 
+            The more time we spend in Tier 2: (The Journey of Learning)  
+            the more we grow intellectually as a person. Tier 2 can be considered an uncomfortable placement 
             as we are always being faced with new challanges that our minds have yet to overcome. And therefore, some individuals will only spend time in 
             Tier 2 until they have acquired enough knowledge to afford them the ability to pop back over into Tier 1 and become a practitioner of what they know. 
             Tier 1 is certainly a more comfortable place to be, cognitively speaking.   
@@ -161,7 +154,7 @@ export default function discoveringTheUnknown() {
 
         <div className={styles.contentMain}>
             It goes without saying, if you have no awareness of something then you are unware and not knowing. 
-            To help explain this scenario, try to think of or imagine a new colour. 
+            To help explain this concept, try to think of or imagine a new colour. 
         </div>
 
         <div className={styles.containerImageFullWidth}>
@@ -176,17 +169,17 @@ export default function discoveringTheUnknown() {
         </div>
 
         <div className={styles.contentMain}>
-            Your mind wonders into the unknown and returns with nothing. 
+            Your mind wanders into the unknown and returns with nothing. 
             This is because you have no awareness of such a colour.  
         </div>
 
         <div className={styles.contentMain}>
-            This is tier 3: the state of being unaware of something and therefore are without any form of 
+            This is tier 3: the state of being unaware of something and therefore being without any form of 
             knowing or understanding. 
         </div>
 
         <div className={styles.contentMain}>
-            E.g. lets stick with the electricity theme.... Postulate that there is more to the 
+            E.g. let&apos;s stick with the electricity theme.... Postulate that there is more to the 
             existence of electricity than we are currently aware of. This may well be true.... although, 
             how can we arrive at such discoveries?
         </div>
@@ -212,8 +205,8 @@ export default function discoveringTheUnknown() {
         </div>
 
         <div className={styles.contentMain}>
-            Most, if not all, discoveries are born out of challanging the mind. If you are that electrician, 
-            then you will be continuously working away at new experiments and testing theories. 
+            Most, if not all, discoveries are born out of challenging the mind. If you are that electrician, 
+            then you will be continuously working on new experiments and testing theories. 
             Pushing the envelope on all and everything that springs to mind. 
         </div>
 
@@ -231,7 +224,7 @@ export default function discoveringTheUnknown() {
         <div className={styles.contentMain}>
             By virtue, Tier 3&apos;s circle is empty in our minds for 99.99% recurring. 
             The moment the unaware becomes aware, 
-            it falls directly into Tier 2&apos;s circle.
+            it falls directly into the cirlce of Tier 2.
         </div>
 
         <div className={styles.contentMainThick}>
@@ -254,8 +247,8 @@ export default function discoveringTheUnknown() {
         </div>
 
         <div className={styles.contentMain}>
-            To grow, develop and evolve we should spend a shared amount of time between Tier 1 and Teir 2.
-            Spending time in Tier 1 is important for the practition and growth of what we know. 
+            To grow, develop and evolve we should spend a shared amount of time between Tier 1 and Tier 2.
+            Spending time in Tier 1 is important for the supplementation, growth and understanding of what we know. 
             If we don&apos;t use it we&apos;ll lose it!
         </div>
 
