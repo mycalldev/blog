@@ -257,8 +257,7 @@ export default function discoveringTheUnknown() {
             You are continuously populating Tier 1 with your newly acquired knowledge and moreover, 
             tapping into Tier 3 for those discoveries.
         </div>
-
-   
+        
     </div>
     </main>
   )
