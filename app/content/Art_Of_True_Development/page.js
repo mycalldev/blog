@@ -70,7 +70,7 @@ export default function ArtOfTrueDevelopment() {
 
         <div className={styles.contentMain}>
             Of course, If you are applying for a role in which a specific skill set is required 
-            then it&apos;s imperative to know suskich a ll set. Although, in today&apos;s world, 
+            then it&apos;s imperative to know such discipline. Although, in today&apos;s world, 
             every Tech company is utilising a varying array of technologies (Tech Stack) that all 
             compile to the same underlying principle…. &apos;Instructing the Computer&apos;.
             And if you&apos;ve been around the block a for a while, you could easily acquire the &apos;Need 
