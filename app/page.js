@@ -3,8 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
 
-
-
 export default function Home() {
   
   return (
@@ -35,37 +33,8 @@ export default function Home() {
         </div>
 
         <div className={styles.containerBlogMain}>
-        {Contents.map((content) => (
-                <div key={content._id} className={styles.containerBlog}>
-                        <h4 className={styles.contentMeta}>Published: {`${content.published}/${content.contentTag}`}</h4>
-                          <Link href={`/content/${content.contentTitleBackend}`} prefetch={true}>
-                            <div className={styles.imageBlogContanier}>
-                              <Image 
-                                  src={`/content/${content.imageThumbnail}/${content.imageThumbnail}.jpg`} 
-                                  width={1456} 
-                                  height={816} 
-                                  className={styles.image}
-                                  alt='thumbnail of image' 
-                                  quality={100} 
-                              />  
-                            </div>
-                          </Link>
-                          
-                        <div className={styles.titleBlog}>{content.contentTitleFrontend}</div>
-                           
-                        <Link href={`/content/${content.contentTitleBackend}`} className={styles.linkBTN} prefetch={true}>
-                            <div className={styles.contentCTA}>
-                              Take a Peek
-                            </div>
-                        </Link>
-                          
-                              
-                
-                </div>
-            ))}
+        
           </div>
-
-      
     </main>
   );
 }
