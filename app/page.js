@@ -3,22 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
 
-async function getContents() {
-    
-  const res = await fetch('https://www.mycalldevcp.co.uk/api/content', {
-      next: {
-          revalidate: 30
-      }
-  })
-  const data = await res.json()
-  
-  return data
-}
 
 
-export default async function Home() {
-
-  const Contents = await getContents()
+export default function Home() {
   
   return (
     <main>
