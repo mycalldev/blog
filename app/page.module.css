@@ -1,3 +1,8 @@
+.linkBTN {
+  text-decoration: none;
+  color: #fff;
+}
+
 .container {
   width: 100%;
   margin: auto;
@@ -22,16 +27,6 @@
   line-height: 1.5;
 }
 
-.titleCategory {
-  margin: 60px auto 20px auto;
-  text-align: center;
-}
-
-.linkBTN {
-  text-decoration: none;
-  color: #fff;
-}
-
 .imageDolphinContainer{
   width: 50%;
   margin: auto;
@@ -41,88 +36,31 @@
   width: 100%;
   height: auto;
 }
- 
-.imageLearning {
-  width: 100%;
+
+.contentTag {
+  margin: 20px;
+}
+
+.containerBanner {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center; 
+  background-color: rgb(91, 157, 30);
+  justify-content: center;
+}
+
+.imageIdeaIcon {
+  width: 80%;
   height: auto;
 }
 
-.latestCTA {
-  padding: 14px 20px;
-  font-size: 1.1rem;
-  font-weight: 700;
-  border-radius: 11px;
-  background: #56a4ec;
+.banner {
+  margin: 20px 0;
+  padding: 12px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
   color: #fff;
-  text-align: center;
-  cursor: pointer;
-}
-
-.contentCTA {
-  width: 50%;
-  margin: auto;
-  padding: 12px 20px;
-  font-size: 1.1rem;
-  font-weight: 500;
-  border-radius: 11px;
-  background: #209235;
-  color: #fff;
-  text-align: center;
-  cursor: pointer;
-}
-
-.imageBlogContanier {
-  padding: 10px 0px 0px 0px;
-}
-
-.containerBlog {
-  margin: 30px;
-}
-
-.image {
-  width: 100%;
-  height: auto;
-}
-
-.contentMeta {
-  text-align: center;
-  margin: 0px 10px;
-}
-
-.titleBlog {
-  margin: 10px 20px;
-  text-align: center;
-  font-weight: 600;
-}
-
-.techStackTitle {
-  position: absolute;
-  top: 82%;
-  left: 50%;
-  width: 100vw;
-  transform: translate(-50%, -50%);
-  text-shadow: 1px 1px 3px black;
-  z-index: 1000;
-  text-align: center;
-  line-height: 1.3;
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #fff;
-}
-
-.listItemsContainer {
-  margin: 40px 20px;
-}
-
-.listItem  {
-  list-style-type: none;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: .9rem;
-  margin: 15px 10px;
-  color: #717171;
 }
 
 @media(min-width: 768px) {
@@ -149,46 +87,11 @@
     font-size: 1.3rem;
   }
 
-  .contentMeta {
-    font-size: 1rem;
-  }
-
-  .latestCTA {
-    width: 30%;
-    margin: 0 auto 30px auto;
-    padding: 14px 20px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    border-radius: 11px;
-    background: #56a4ec;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .contentCTA {
-    width: 50%;
-    padding: 10 30px;
-    margin: 20px auto;
-    font-size: 1.3rem;
-  }
-
-  .tagSpotify {
-    font-size: 1.7rem;
-  }
-
   .imageCogsContainer {
     width: 70%;
     margin: auto;
   }
 
-  .techStackTitle {
-    font-size:2rem;
-  }
-
-  .listItem {
-    font-size: 1.7rem;
-  }
 }
 
 @media(min-width:768px) {

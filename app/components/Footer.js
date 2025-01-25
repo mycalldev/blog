@@ -17,7 +17,6 @@ export default function Footer() {
                   <Image src={'/linkedin_white.svg'} width={75} height={75} className={styles.linkedin} alt='linkedin social' quality={100} />
                 </Link>
               </div>
-              <div className={styles.emailContact}>info@mycalldev.com</div>
           </div>
           </div>
       
