@@ -33,9 +33,9 @@ export default function Navbar() {
           </Link>
 
           {/* TITLE */}
-          <Link href="/#" className={styles.link} prefetch={true}>
+          
             <h1 className={styles.titleMain}>MYCALL DEV</h1>
-          </Link>
+        
           
           {/* LOGO */}
           <div className={styles.containerLogo}>
@@ -55,7 +55,7 @@ export default function Navbar() {
                 <div className={styles.listItemContainer} onClick={() => handleToggle()}>
                   <p className={styles.info}>
                     Please feel free to help and assist me along my Journey, 
-                    insofar as adding too and correcting content, via the email below. 
+                    insofar as adding too and correcting content, via my Linkedin. 
                     I will be creating an updating Blogs and Guides alog the way.
                   </p>
                 </div>
