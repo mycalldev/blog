@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
      <h2 className={styles.titleHeader}>
-          A Developer, Creator, Breaker and Maker....
+          A Developer, Creator and Maker of all things....
       </h2>
       
       {/* HERO SECTION MOBILE */}
