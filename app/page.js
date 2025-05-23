@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <main>
      <h2 className={styles.titleHeader}>
-          A Developer, Creater, Breaker and Maker....
+          A Developer, Creator, Breaker and Maker....
       </h2>
       
       {/* HERO SECTION MOBILE */}
       <div className={styles.imageDolphinContainer}>
           <Image 
-            src={"/home/dolphin.png"} 
+            src={"/images/dolphin.jpg"} 
             className={styles.imageDolphin} 
             width={400} 
             height={400} 
@@ -30,10 +30,7 @@ export default function Home() {
       </ul>
   
 
-      <div className={styles.containerBanner}>
-        <div className={styles.banner}>Mentorship Academy</div>
-        <Image src={'/images/idea.png'} className={styles.imageIdeaIcon} width={128} height={128} quality={100} alt="idea icon" />
-      </div>
+     
        
     </main>
   );
